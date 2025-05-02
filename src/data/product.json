@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "picture": "assets/images/1.png",
+    "price": "detaylar",
+    "nav": "/ProductDetails",
+    "title": "Endüstriyel"
+  },
+  {
+    "id": "2",
+    "picture": "assets/images/2.png",
+    "price": "detaylar",
+    "nav": "/EndustriyelMutfak",
+    "title": "Tekstil ve Giyim"
+  },
+  {
+    "id": "3",
+    "picture": "assets/images/3.png",
+    "price": "detaylar",
+    "nav": "/EndustriyelKagit",
+    "title": "Etiket"
+  },
+  {
+    "id": "4",
+    "picture": "assets/images/4.png",
+    "price": "detaylar",
+    "nav": "/KozmetikUrunleri",
+    "title": "Broşür"
+  },
+  {
+    "id": "5",
+    "picture": "assets/images/5.png",
+    "price": "detaylar",
+    "nav": "/BitkiselUrunler",
+    "title": "Katalog"
+  },
+  {
+    "id": "6",
+    "picture": "assets/images/6.png",
+    "price": "detaylar",
+    "nav": "/Ambalaj",
+    "title": "Davetiye"
+  },
+  {
+    "id": "7",
+    "picture": "assets/images/7.png",
+    "price": "detaylar",
+    "nav": "/Gida",
+    "title": "içecek"
+  },
+  {
+    "id": "8",
+    "picture": "assets/images/8.png",
+    "price": "detaylar",
+    "nav": "/Gida",
+    "title": "Gıda"
+  }
+]
