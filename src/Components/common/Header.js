@@ -166,7 +166,7 @@ function Header() {
               <li><a onClick={() => handleLinkClick('/')}>{t("Anasayfa")}</a></li>
               <li><a onClick={() => handleLinkClick('/about')}>{t("Hakkımızda")}</a></li>
               <li className="dropdown">
-                <a href="/projects" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
+                <a href="/collections" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
                   {t("KOLEKSİYONLARIMIZ")}
                   <span className={`dropdown-btn fa fa-angle-right${isDropdownOpen ? ' open' : ''}`} style={{ marginLeft: 8 }}></span>
                 </a>
@@ -324,7 +324,7 @@ function Header() {
 										<li class="dropdown">
 											<a href="about.html">Hakkımızda</a>
 										</li>
-										<li class="dropdown"><a href="/projects">Koleksiyonlarımız</a>
+										<li class="dropdown"><a href="/collections">Koleksiyonlarımız</a>
 											<ul>
 												<li><a href="services.html">All Services</a></li>
 												<li><a href="services-2.html">Services Two</a></li>

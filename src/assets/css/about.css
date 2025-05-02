@@ -1,0 +1,26 @@
+.about-section-three__image {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-section-three__image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+  .about-section-three__image {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-section-three__image {
+    max-width: 400px;
+  }
+} 

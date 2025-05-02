@@ -99,7 +99,7 @@ return (
                 <Link to="/about" onClick={()=> handleLinkClick('/about')}>{t("Hakkımızda")}</Link>
               </li>
               <li>
-                <Link to="/projects" onClick={()=> handleLinkClick('/projects')}>{t("Koleksiyonlarımız")}</Link>
+                <Link to="/collections" onClick={()=> handleLinkClick('/collections')}>{t("Koleksiyonlarımız")}</Link>
               </li>
               <li>
                 <Link to="/contact" onClick={()=> handleLinkClick('/contact')}>{t("İletişim")}</Link>
