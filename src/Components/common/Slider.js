@@ -1,12 +1,19 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react';
+import React, { useState, useEffect } from "react";
 
 const Slider = () => {
+  const [showTitle, setShowTitle] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setShowTitle(false), 4000); // 3 saniye sonra kaybolur
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <section style={{
       position: 'relative',
       width: '100%',
-      height: '90vh',
+      height: '100vh',
       overflow: 'hidden',
       overflowX: 'hidden'
     }}>
@@ -52,14 +59,16 @@ const Slider = () => {
         justifyContent: 'center',
         textAlign: 'center'
       }}>
-        <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem' /* , color:'#fff' */ }}>
-          Neva Mobilya
-        </h1>
+        {showTitle && (
+          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem'}}>
+            Neva Mobilya
+          </h1>
+        )}
         <p style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
          {/*  Sitenize etkileyici bir giriş yapın! */}
         </p>
-        <a
-          href="#"
+        {/* <a
+          href="/projects"
           style={{
             background: '#fff',
             color: '#222',
@@ -72,7 +81,7 @@ const Slider = () => {
           }}
         >
           Koleksiyonlarımız
-        </a>
+        </a> */}
       </div>
     </section>
   );

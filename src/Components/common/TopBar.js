@@ -15,28 +15,27 @@ const TopBar = () => {
   return (
     <div
           className="topbar fixed-top sticky-top"
-          style={{ backgroundColor: "#1c3844", padding: "10px" }}
+          style={{ backgroundImage: "linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('/assets/images/background/breadcrumbs.png')", padding: "10px" }}
         >
           <Container>
-            <div className="d-flex justify-content-between align-items-center">
-              <div className="d-flex align-items-center">
-                <span className="topbar__wrapper">
-                  <ul className="list-unstyled topbar__list">
-                    <li>
-                      <span className="fas fa-envelope"></span>
-                      <a href="mailto:info@yenidunyaendustriyel.com">
-                        info@yenidunyaendustriyel.com
-                      </a>
-                    </li>
-                  </ul>
-                </span>
-              </div>
+            <div className="d-flex justify-content-center align-items-center">
               <div className="d-flex">
                 <Button
                   style={{
-                    backgroundColor: "#369159",
-                    padding: "3px 7px 3px 7px",
-                    fontSize: "13px",
+                    backgroundColor: "#fff",
+                    padding: "10px",
+                    border: 'none',
+                    color: '#000',
+                    fontSize: '14px',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    width: '40px',
+                    height: '40px',
+                    textAlign: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '50%',
+                    transition: 'all 0.3s ease',
+                    boxShadow: '0 4px 16px rgba(0,0,0,0.25)'
                   }}
                   onClick={() => changeLanguage("tr")}
                 >
@@ -45,9 +44,20 @@ const TopBar = () => {
                 &nbsp;
                 <Button
                   style={{
-                    backgroundColor: "#369159",
-                    padding: "3px 7px 3px 7px",
-                    fontSize: "13px",
+                    backgroundColor: "#fff",
+                    padding: "10px",
+                    border: 'none',
+                    color: '#000',
+                    fontSize: '14px',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    width: '40px',
+                    height: '40px',
+                    textAlign: 'center',
+                    justifyContent: 'center',
+                    borderRadius: '50%',
+                    transition: 'all 0.3s ease',
+                    boxShadow: '0 4px 16px rgba(0,0,0,0.25)'
                   }}
                   onClick={() => changeLanguage("en")}
                 >

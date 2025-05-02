@@ -94,64 +94,13 @@ function Header() {
 
   return (
     <>
-		<div class="side-menu__block">
-
-			<div class="side-menu__block-overlay custom-cursor__overlay">
-				<div class="cursor"></div>
-				<div class="cursor-follower"></div>
-			</div>
-			<div className="side-menu__block-inner">
-      <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '10px',
-            margin: '15px 0'
-          }}>
-            <button
-              type="button"
-              className="language-btn"
-              onClick={() => i18n.changeLanguage('tr')}
-              style={{
-                background: '#fff',
-                border: 'none',
-                color: '#000',
-                fontSize: '14px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
-                borderRadius: '50%',
-                transition: 'all 0.3s ease',
-                boxShadow: '0 2px 2px rgba(0,0,0,0.1)'
-              }}
-            >
-              TR
-            </button>
-            <button
-              type="button"
-              className="language-btn"
-              onClick={() => i18n.changeLanguage('en')}
-              style={{
-                background: '#fff',
-                border: 'none',
-                color: '#000',
-                fontSize: '14px',
-                fontWeight: '600',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
-                cursor: 'pointer',
-                borderRadius: '50%',
-                transition: 'all 0.3s ease',
-                boxShadow: '0 2px 2px rgba(0,0,0,0.1)'
-              }}
-            >
-              EN
-            </button>
-          </div>
+      {/* Mobile Menu */}
+      <div className={`side-menu__block ${isMenuOpen ? 'active' : ''}`}>
+        <div className={`side-menu__block-overlay custom-cursor__overlay ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <div className="cursor"></div>
+          <div className="cursor-follower"></div>
+        </div>
+        <div className="side-menu__block-inner">
           <div className="side-menu__top justify-content-between">
             <Link to="/">
               <img src="assets/images/logo-beyaz.png" width="270" alt="Web Center" loading="lazy" />
@@ -166,9 +115,9 @@ function Header() {
               <li><a onClick={() => handleLinkClick('/')}>{t("Anasayfa")}</a></li>
               <li><a onClick={() => handleLinkClick('/about')}>{t("Hakkımızda")}</a></li>
               <li className="dropdown">
-                <a href="#" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
+                <a href="#" onClick={handleDropdownClick}>
                   {t("KOLEKSİYONLARIMIZ")}
-                  <span className={`dropdown-btn fa fa-angle-right${isDropdownOpen ? ' open' : ''}`} style={{ marginLeft: 8 }}></span>
+                  <span className="dropdown-btn fa fa-angle-right"></span>
                 </a>
                 <ul className={`dropdown-menu ${isDropdownOpen ? 'show' : ''}`} style={{ 
                   display: isDropdownOpen ? 'block' : 'none',
@@ -232,51 +181,72 @@ function Header() {
             </div>
           </div>
         </div>
-		</div>
+      </div>
 
-		<div class="search-popup">
-			<div class="search-popup__overlay custom-cursor__overlay">
-				<div class="cursor"></div>
-				<div class="cursor-follower"></div>
-			</div>
-			<div class="search-popup__inner">
-				<form action="#" class="search-popup__form">
-					<input type="text" name="search" placeholder="Type here to Search...."/>
-					<button type="submit"><i class="fa fa-search"></i></button>
-				</form>
-			</div>
-		</div>
+      <header className="main-header header-style-thirteen">
+            {/* Header Upper */}
+            <div className="header-style-thirteen__main">
+				<div className="header-style-thirteen__main__shape"></div>
+				{/* Logo */}
+				<div className="logo-box">
+					<div className="logo">
+            <Link to="/">
+              <img src="assets/images/neva.webp" width="200" id="thm-logo" alt="Linoor" />
+            </Link>
+          </div>
+				</div>
+				<div className="nav-outer clearfix">
+					{/* Mobile Navigation Toggler */}
+					<div className="mobile-nav-toggler" onClick={toggleMenu}>
+            <span className="icon flaticon-menu-2"></span>
+            <span className="txt">Menu</span>
+          </div>
+					{/* Main Menu */}
+					<nav className="main-menu navbar-expand-md navbar-light ms-auto">
+						<div className="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
+							<ul className="navigation clearfix">
+              <li className="dropdown"><Link to="/">Anasayfa<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></Link></li>
+								<li className="dropdown">
+									<Link to="/about">Hakkımızda
+                    <div className="dropdown-btn">
+                      <span className="fa fa-angle-right"></span>
+                    </div>
+                  </Link>
+								</li>
+								<li className="dropdown"><Link to="/projects">Koleksiyonlarımız<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></Link>
+									<ul>
+										<li><Link to="/milas">Milas</Link></li>
+										<li><Link to="/services-2">Köşe Takımları</Link></li>
+										<li><Link to="/web-development">Berjerler</Link></li>
+										<li><Link to="/graphic-designing">Kanepeler</Link></li>
+									</ul>
+								</li>
 
-		<header id="banner" class="header-eleven">
-			<nav class="mainmenu-eleven main-header m-0">
-				<div class="auto-container">
-					<div class="nav-outer mainmenu-eleven__inner">
-						<div class="mainmenu-eleven__left">
-							<a href="/">
-								<img src="assets/images/neva.webp" width="250" alt="Neva Mobilya"/>
-							</a>
-
-              {/* <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '10px',
-            margin: '15px 0'
-          }}>
-            <button
-              type="button"
-              className="language-btn"
+								<li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></Link>
+								</li>
+								<li className="dropdown">
+									<Link to="/contact">İletişim<div className="dropdown-btn"><span className="fa fa-angle-right"></span></div></Link>
+								</li>
+							</ul>
+						</div>
+					</nav>
+					<div className="header-style-thirteen__btn clearfix">
+          <button 
+              type="button" 
+              className="language-btn" 
               onClick={() => i18n.changeLanguage('tr')}
-              style={{
-                background: '#fff',
-                border: 'none',
+              style={{ 
+                background: '#fff', 
+                border: 'none', 
                 color: '#000',
                 fontSize: '14px',
                 fontWeight: '600',
                 cursor: 'pointer',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
+                width:'40px',
+                height:'40px',
+                textAlign:'center',
+                justifyContent:'center',
+                marginRight: '10px',
                 borderRadius: '50%',
                 transition: 'all 0.3s ease',
                 boxShadow: '0 2px 2px rgba(0,0,0,0.1)'
@@ -284,20 +254,20 @@ function Header() {
             >
               TR
             </button>
-            <button
-              type="button"
-              className="language-btn"
+            <button 
+              type="button" 
+              className="language-btn" 
               onClick={() => i18n.changeLanguage('en')}
-              style={{
-                background: '#fff',
-                border: 'none',
+              style={{ 
+                background: '#fff', 
+                border: 'none', 
                 color: '#000',
                 fontSize: '14px',
                 fontWeight: '600',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
+                width:'40px',
+                height:'40px',
+                textAlign:'center',
+                justifyContent:'center',
                 cursor: 'pointer',
                 borderRadius: '50%',
                 transition: 'all 0.3s ease',
@@ -306,54 +276,37 @@ function Header() {
             >
               EN
             </button>
-          </div> */}
-
-							<div className="mobile-nav-toggler" onClick={toggleMenu}>
-								<span className="bar"></span>
-								<span className="bar"></span>
-								<span className="bar"></span>
-								<span className="txt">Menu</span>
-							</div>
-              
-
-						</div>
-						<div class="mainmenu-eleven__right">
-							<nav class="main-menu navbar-expand-md navbar-light">
-								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
-									<ul class="navigation clearfix">
-										<li class="dropdown">
-											<a href="about.html">Hakkımızda</a>
-										</li>
-										<li class="dropdown"><a href="services.html">Koleksiyonlarımız</a>
-											<ul>
-												<li><a href="services.html">All Services</a></li>
-												<li><a href="services-2.html">Services Two</a></li>
-												<li><a href="web-development.html">Website Development</a></li>
-												<li><a href="graphic-designing.html">Graphic Designing</a></li>
-											</ul>
-										</li>
-                    <li class="dropdown">
-											<a href="contact.html">Katalog</a>
-										</li>
-										<li class="dropdown">
-											<a href="contact.html">İletişim</a>
-										</li>
-									</ul>
-								</div>
-							</nav>
-						</div>
-					</div>
+            <a className="header-style-thirteen__call" href="tel:+902242672424">
+							<i className="flaticon-call"></i>
+							<span className="header-style-thirteen__call__text">Hemen Arayın !</span>
+							<span className="header-style-thirteen__call__number">0 224 267 2424</span>
+						</a>
+          </div>
+					<Link to="/contact" className="thm-btn-thirteen">Hızlı Teklif Alın!</Link>
 				</div>
-			</nav>
-		</header>
-
-  <a href="https://wa.me/905456136819" className="whatsapp-button" target="_blank" rel="noopener noreferrer"
-    alt="Whatsapp" aria-label="Whatsapp">
-    <i className="fab fa-whatsapp"></i>
-    <svg className="whatsapp-button__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
-    </svg>
-  </a>
+			</div>
+            {/* End Header Upper */}
+            <div className="topbar-thirteen">
+                <div className="container">
+					<div className="topbar-thirteen__wrapper">
+						<ul className="topbar-thirteen__info">
+							<li>
+                <span className="linoor-icon-three-location-pin-1"></span>
+                Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa
+              </li>
+							<li>
+                <span className="linoor-icon-three-email-1"></span>
+                <a href="mailto:neva@neva.com.tr">neva@neva.com.tr</a>
+              </li>
+						</ul>
+						<ul className="list-unstyled topbar-thirteen__social">
+							<li><a href="https://www.facebook.com/neva.koltuk.5" target="_blank" rel="noopener noreferrer"><span className="fab fa-facebook-f"></span></a></li>
+							<li><a href="https://www.instagram.com/nevasofa/" target="_blank" rel="noopener noreferrer"><span className="fab fa-instagram"></span></a></li>
+						</ul>
+					</div>
+                </div>
+            </div>
+        </header>
     </>
   );
 }

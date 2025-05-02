@@ -3,13 +3,17 @@ import About from "../Components/about/About";
 import PageHeader from "../Components/common/PageHeader";
 import { useTranslation } from "react-i18next";
 import PageHeader1 from "../Components/common/PageHeader1";
+import Footer from "../Components/common/Footer";
+import TopBar from "../Components/common/TopBar";
 
 function AboutPage() {
   const { t } = useTranslation();
   return (
     <>
-      <PageHeader1 title={t("HAKKIMIZDA")} backgroundImage={"/assets/images/background/breadcrumbs.png"}/>
+    {/* <TopBar style={{marginBottom:"30px"}}/> */}
+      <PageHeader1 title={t("HAKKIMIZDA")} backgroundImage={"/assets/images/background/breadcrumbs.png"} />
       <About />
+      <Footer />
     </>
   );
 }

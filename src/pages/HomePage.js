@@ -16,12 +16,6 @@ function HomePage() {
   return (
     <>
       <Slider />
-      {/* <ThreeBox/>
-      <About /> */}
-      <Projects/>
-      {/* <Comments/>
-      <Question/>*/}
-      <ContactWay />
     </>
   );
 }

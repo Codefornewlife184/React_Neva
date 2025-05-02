@@ -136,73 +136,117 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
             setShowModal(false);
           }
         }}>
-          <div
-            style={{
-              position: 'relative',
-              maxWidth: isMobile ? '95vw' : '90%',
-              maxHeight: isMobile ? '80vh' : '90vh',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center'
-            }}
-          >
-            {/* Sol ok */}
-            <button
-              onClick={(e)=> {
+          <div style={{ 
+            position: 'relative', 
+            maxWidth: isMobile ? '98vw' : '90%', 
+            maxHeight: isMobile ? '70vh' : '90%',
+            display: 'flex',
+            flexDirection: isMobile ? 'column' : 'row',
+            alignItems: 'center',
+            gap: isMobile ? '10px' : '20px',
+            justifyContent: 'center'
+          }}>
+            {isMobile && (
+              <button onClick={(e)=> {
                 e.stopPropagation();
                 setCurrentImageIndex(prev => (prev > 0 ? prev - 1 : productImages.length - 1));
               }}
               style={{
-                position: 'absolute',
-                left: 0,
-                top: '50%',
-                transform: 'translateY(-50%)',
-                zIndex: 2,
-                background: 'rgba(255,255,255,0.8)',
+                background: 'rgba(255,255,255,0.9)',
                 border: 'none',
                 color: '#333',
                 padding: '10px 16px',
                 borderRadius: '50%',
                 cursor: 'pointer',
                 fontSize: '22px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: '40px',
+                height: '40px',
+                transition: 'all 0.3s ease',
                 boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
               }}
-            >←</button>
-
-            {/* Görsel */}
+              >←</button>
+            )}
             <img
               src={process.env.PUBLIC_URL + '/' + productImages[currentImageIndex]}
               alt="Büyük görüntü"
               style={{
-                maxWidth: '100%',
+                maxWidth: isMobile ? '95vw' : '100%',
                 maxHeight: isMobile ? '80vh' : '90vh',
-                objectFit: 'contain',
-                display: 'block'
+                objectFit: 'contain'
               }}
             />
-
-            {/* Sağ ok */}
-            <button
-              onClick={(e)=> {
+            {isMobile && (
+              <button onClick={(e)=> {
                 e.stopPropagation();
                 setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0));
               }}
               style={{
-                position: 'absolute',
-                right: 0,
-                top: '50%',
-                transform: 'translateY(-50%)',
-                zIndex: 2,
-                background: 'rgba(255,255,255,0.8)',
+                background: 'rgba(255,255,255,0.9)',
                 border: 'none',
                 color: '#333',
                 padding: '10px 16px',
                 borderRadius: '50%',
                 cursor: 'pointer',
                 fontSize: '22px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                width: '40px',
+                height: '40px',
+                transition: 'all 0.3s ease',
                 boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
               }}
-            >→</button>
+              >→</button>
+            )}
+            {!isMobile && (
+              <>
+                <button onClick={(e)=> {
+                  e.stopPropagation();
+                  setCurrentImageIndex(prev => (prev > 0 ? prev - 1 : productImages.length - 1));
+                }}
+                style={{
+                  background: 'rgba(255,255,255,0.9)',
+                  border: 'none',
+                  color: '#333',
+                  padding: '15px 20px',
+                  borderRadius: '50%',
+                  cursor: 'pointer',
+                  fontSize: '24px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '50px',
+                  height: '50px',
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
+                }}
+                >←</button>
+                <button onClick={(e)=> {
+                  e.stopPropagation();
+                  setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0));
+                }}
+                style={{
+                  background: 'rgba(255,255,255,0.9)',
+                  border: 'none',
+                  color: '#333',
+                  padding: '15px 20px',
+                  borderRadius: '50%',
+                  cursor: 'pointer',
+                  fontSize: '24px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  width: '50px',
+                  height: '50px',
+                  transition: 'all 0.3s ease',
+                  boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
+                }}
+                >→</button>
+              </>
+            )}
           </div>
         </div>
       );

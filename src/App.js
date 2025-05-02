@@ -21,7 +21,6 @@ function App() {
       <BrowserRouter>
         <Header changeLanguage={changeLanguage} />
         <CustomRoutes />
-        <Footer />
       </BrowserRouter>
     </Suspense>
   );
