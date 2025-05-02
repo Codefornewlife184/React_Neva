@@ -166,7 +166,7 @@ function Header() {
               <li><a onClick={() => handleLinkClick('/')}>{t("Anasayfa")}</a></li>
               <li><a onClick={() => handleLinkClick('/about')}>{t("Hakkımızda")}</a></li>
               <li className="dropdown">
-                <a href="#" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
+                <a href="/projects" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
                   {t("KOLEKSİYONLARIMIZ")}
                   <span className={`dropdown-btn fa fa-angle-right${isDropdownOpen ? ' open' : ''}`} style={{ marginLeft: 8 }}></span>
                 </a>
@@ -186,7 +186,7 @@ function Header() {
                   <li>
                     <a href="/e-ticaret" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/e-ticaret');
+                      handleLinkClick('/milas');
                     }}>
                       {t("Köşe Takımları")}
                     </a>
@@ -194,7 +194,7 @@ function Header() {
                   <li>
                     <a href="/domain-hosting" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/domain-hosting');
+                      handleLinkClick('/milas');
                     }}>
                       {t("Berjerler")}
                     </a>
@@ -202,7 +202,7 @@ function Header() {
                   <li>
                     <a href="/hosting" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/hosting');
+                      handleLinkClick('/milas');
                     }}>
                       {t("Kanepeler")}
                     </a>
@@ -210,7 +210,7 @@ function Header() {
 
                 </ul>
               </li>
-              <li className=""><Link to="/catalog" target="_blank">Katalog<div className=""></div></Link>
+              <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
 								</li>
               <li><a onClick={() => handleLinkClick('/contact')}>{t("İLETİŞİM")}</a></li>
             </ul>
@@ -324,7 +324,7 @@ function Header() {
 										<li class="dropdown">
 											<a href="about.html">Hakkımızda</a>
 										</li>
-										<li class="dropdown"><a href="services.html">Koleksiyonlarımız</a>
+										<li class="dropdown"><a href="/projects">Koleksiyonlarımız</a>
 											<ul>
 												<li><a href="services.html">All Services</a></li>
 												<li><a href="services-2.html">Services Two</a></li>
@@ -332,9 +332,8 @@ function Header() {
 												<li><a href="graphic-designing.html">Graphic Designing</a></li>
 											</ul>
 										</li>
-                    <li class="dropdown">
-											<a href="contact.html">Katalog</a>
-										</li>
+                    <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
+								</li>
 										<li class="dropdown">
 											<a href="contact.html">İletişim</a>
 										</li>

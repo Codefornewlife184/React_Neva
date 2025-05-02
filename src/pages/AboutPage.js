@@ -11,7 +11,7 @@ function AboutPage() {
   return (
     <>
     {/* <TopBar style={{marginBottom:"30px"}}/> */}
-      <PageHeader1 title={t("HAKKIMIZDA")} backgroundImage={"/assets/images/background/breadcrumbs.png"} />
+      <PageHeader1 title={t("HAKKIMIZDA")} backgroundImage={"/assets/images/background/111.png"} />
       <About />
       <Footer />
     </>
