@@ -9,7 +9,7 @@ function CollectionsPage() {
   const { t } = useTranslation();
   return (
     <>
-      <PageHeader title={t("KOLEKSİYONLARIMIZ")} backgroundImage={"assets/images/background/111.png"} />
+      <PageHeader title={t("KOLEKSİYONLARIMIZ")} backgroundImage={"assets/images/background/3.png"} />
       <Collections />
       <Footer />
     </>

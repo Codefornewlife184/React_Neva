@@ -7,7 +7,7 @@ import Footer from "../Components/common/Footer";
 function ContactPage() {
   return (
     <>
-    <PageHeader1 title={t("İLETİŞİM")} backgroundImage={"/assets/images/background/111.png"}/>
+    <PageHeader1 title={t("İLETİŞİM")} backgroundImage={"/assets/images/background/9.png"}/>
       <Contact /> 
       <Footer /> 
     </>

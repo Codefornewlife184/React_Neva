@@ -51,7 +51,7 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                 }
               }}>
                 <h1 style={{ 
-                  color: '#231f20',
+                  color: '#fff',
                   textShadow: '2px 2px 4px rgba(0,0,0,0.5)',
                   marginBottom: '15px',
                   fontSize: 'clamp(24px, 5vw, 48px)',
@@ -82,9 +82,9 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                       gap: '8px'
                     }
                   }}>
-                    <li style={{ color: '#231f20' }}>
+                    <li style={{ color: '#fff' }}>
                       <Link to="/" style={{ 
-                        color: '#231f20',
+                        color: '#fff',
                         textDecoration: 'none',
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
                         fontWeight: 'bold'
@@ -92,10 +92,10 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                         Anasayfa
                       </Link>
                     </li>
-                    <li style={{ color: '#231f20' }}>›</li>
-                    <li style={{ color: '#231f20' }}>
+                    <li style={{ color: '#fff' }}>›</li>
+                    <li style={{ color: '#fff' }}>
                       <Link to="/projects" style={{ 
-                        color: '#231f20',
+                        color: '#fff',
                         textDecoration: 'none',
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
                         fontWeight: 'bold'
