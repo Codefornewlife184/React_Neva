@@ -33,7 +33,7 @@ const Slider = () => {
           zIndex: 1
         }}
       >
-        <source src="/assets/videos/Golf.mp4" type="video/mp4" />
+        <source src="/assets/videos/Nevaa.mp4" type="video/mp4" />
         Tarayıcınız video etiketini desteklemiyor.
       </video>
 
@@ -60,7 +60,7 @@ const Slider = () => {
         textAlign: 'center'
       }}>
         {showTitle && (
-          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', color:'#fff'}}>
+          <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', color:'#231f20'}}>
             Neva Mobilya
           </h1>
         )}
