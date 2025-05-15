@@ -94,7 +94,7 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                     </li>
                     <li style={{ color: '#fff' }}>›</li>
                     <li style={{ color: '#fff' }}>
-                      <Link to="/projects" style={{ 
+                      <Link to="/collections" style={{ 
                         color: '#fff',
                         textDecoration: 'none',
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',

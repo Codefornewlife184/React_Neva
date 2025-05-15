@@ -1,8 +1,25 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
 
+// Custom hook for detecting screen size
+const useScreenSize = () => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 768);
+    };
+
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  return isMobile;
+};
+
 const Slider = () => {
   const [showTitle, setShowTitle] = useState(true);
+  const isMobile = useScreenSize();
 
   useEffect(() => {
     const timer = setTimeout(() => setShowTitle(false), 4000); // 3 saniye sonra kaybolur
@@ -33,7 +50,10 @@ const Slider = () => {
           zIndex: 1
         }}
       >
-        <source src="/assets/videos/Nevaa.mp4" type="video/mp4" />
+        <source 
+          src={isMobile ? "/assets/videos/Neva-Mobile.mp4" : "/assets/videos/Neva.mp4"} 
+          type="video/mp4" 
+        />
         Tarayıcınız video etiketini desteklemiyor.
       </video>
 
@@ -61,7 +81,7 @@ const Slider = () => {
       }}>
         {showTitle && (
           <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', color:'#231f20'}}>
-            Neva Mobilya
+            
           </h1>
         )}
         <p style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>

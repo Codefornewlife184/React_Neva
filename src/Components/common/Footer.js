@@ -69,7 +69,7 @@ big: "assets/images/6.png",
 return (
 <>
   <section className="footer-twelev mt-1">
-    <div className="footer-twelev__bg" style={{ backgroundImage: "url(assets/images/products/uzun-3.webp)" }}></div>
+    <div className="footer-twelev__bg" style={{ backgroundImage: "url(assets/images/products/koltuk/footer.webp)" }}></div>
     <div className="container">
       <div className="row">
         <div className="col-lg-4 col-md-6">
@@ -77,13 +77,19 @@ return (
             <div className="logo-box">
               <div className="logo">
                 <Link to="/">
-                <img src="assets/images/logo-beyaz.png" width="270" alt="Web Center" loading="lazy" />
+                <img src="assets/images/logo-beyaz.png" width="400" alt="Web Center" loading="lazy" />
                 </Link>
               </div>
             </div>
-            <p className="footer-twelev__text">
-              {t("Ustalarımızın becerileri ile tasarımlar şekillenip soyut fikirlerden somut bir gerçekliğe dönüştürülürken çağdaş ve modern çizgilerde mükemmellik anlayışını NEVA Mobilya'da sizlere sunmaya çalışıyoruz…")}
-            </p>
+            <div className="footer-twelev__social">
+                <a href="https://www.facebook.com/neva.koltuk.5" target="_blank"
+                  rel="noopener noreferrer">
+                  <span className="fab fa-facebook-f"></span>
+                </a>
+                <a href="https://www.instagram.com/nevasofa/" target="_blank" rel="noopener noreferrer">
+                  <span className="fab fa-instagram"></span>
+                </a>
+              </div>
           </div>
         </div>
         <div className="col-lg-2 col-md-6">
@@ -114,17 +120,17 @@ return (
             </h6>
             <ul>
               <li>
-                <Link to="/milas" onClick={()=> handleLinkClick('/milas')}>{t("Koltuk Takımı")}</Link>
+                <Link to="/Koltuk" onClick={()=> handleLinkClick('/Koltuk')}>{t("Koltuk Takımı")}</Link>
               </li>
               <li>
-                <Link to="/milas" onClick={()=> handleLinkClick('/milas')}>{t("Köşe Takımları")}</Link>
+                <Link to="/Kose" onClick={()=> handleLinkClick('/Kose')}>{t("Köşe Takımı")}</Link>
               </li>
               <li>
-                <Link to="/milas" onClick={()=> handleLinkClick('/milas')}>{t("Berjerler")}
+                <Link to="/Berjerler" onClick={()=> handleLinkClick('/Berjerler')}>{t("Berjerler")}
                 </Link>
               </li>
               <li>
-                <Link to="/milas" onClick={()=> handleLinkClick('/milas')}>{t("Kanepeler")}</Link>
+                <Link to="/Kanepeler" onClick={()=> handleLinkClick('/Kanepeler')}>{t("Kanepeler")}</Link>
               </li>
               
             </ul>
@@ -136,7 +142,8 @@ return (
               {t("İLETİŞİM")}
             </h6>
             <div className="footer-twelev__info">
-              <p className="footer-twelev__text">{t("Davutkadı, Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa")}</p>
+              <p className="footer-twelev__text"><strong>Mağaza : </strong> {t("Davutkadı, Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa")}</p>
+              <p className="footer-twelev__text"><strong>Üretim : </strong> {t("Ankara Yolu Cd. No:801 Yıldırım/Bursa")}</p>
               <ul>
                 <li>
                   <span className="linoor-icon-three-telephone-1"></span>
@@ -147,15 +154,7 @@ return (
                   <a href="mailto:neva@neva.com.tr">neva@neva.com.tr</a>
                 </li>
               </ul>
-              <div className="footer-twelev__social">
-                <a href="https://www.facebook.com/neva.koltuk.5" target="_blank"
-                  rel="noopener noreferrer">
-                  <span className="fab fa-facebook-f"></span>
-                </a>
-                <a href="https://www.instagram.com/nevasofa/" target="_blank" rel="noopener noreferrer">
-                  <span className="fab fa-instagram"></span>
-                </a>
-              </div>
+              
             </div>
           </div>
         </div>
@@ -182,7 +181,7 @@ return (
       <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
     </svg>
   </a>
-  <a href="https://wa.me/905456136819" className="whatsapp-button" target="_blank" rel="noopener noreferrer"
+  <a href="https://wa.me/905326471674" className="whatsapp-button" target="_blank" rel="noopener noreferrer"
     alt="Whatsapp" aria-label="Whatsapp">
     <i className="fab fa-whatsapp"></i>
     <svg className="whatsapp-button__circle" width="100%" height="100%" viewBox="-1 -1 102 102">
