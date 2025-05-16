@@ -176,38 +176,37 @@ function Header() {
                   transition: 'right 0.3s ease-in-out'
                 }}>
                   <li>
-                    <a href="/milas" onClick={(e) => {
+                    <a href="/koltuk" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/milas');
+                      handleLinkClick('/koltuk');
                     }}>
-                      {t("Milas")}
+                      {t("Koltuk Takımı")}
                     </a>
                   </li>
                   <li>
-                    <a href="/e-ticaret" onClick={(e) => {
+                    <a href="/kose" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/milas');
+                      handleLinkClick('/kose');
                     }}>
-                      {t("Köşe Takımları")}
+                      {t("Köşe Takımı")}
                     </a>
                   </li>
                   <li>
-                    <a href="/domain-hosting" onClick={(e) => {
+                    <a href="/kanepeler" onClick={(e) => {
                       e.preventDefault();
-                      handleLinkClick('/milas');
-                    }}>
-                      {t("Berjerler")}
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/hosting" onClick={(e) => {
-                      e.preventDefault();
-                      handleLinkClick('/milas');
+                      handleLinkClick('/kanepeler');
                     }}>
                       {t("Kanepeler")}
                     </a>
                   </li>
-
+                  <li>
+                    <a href="/berjerler" onClick={(e) => {
+                      e.preventDefault();
+                      handleLinkClick('/berjerler');
+                    }}>
+                      {t("Berjerler")}
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
@@ -322,20 +321,21 @@ function Header() {
 								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
 										<li class="dropdown">
-											<a href="about.html">Hakkımızda</a>
+											<Link to="/about">Hakkımızda</Link>
 										</li>
-										<li class="dropdown"><a href="/collections">Koleksiyonlarımız</a>
+										<li class="dropdown">
+                      <Link to="/collections">Koleksiyonlarımız</Link>
 											<ul>
-												<li><a href="services.html">All Services</a></li>
-												<li><a href="services-2.html">Services Two</a></li>
-												<li><a href="web-development.html">Website Development</a></li>
-												<li><a href="graphic-designing.html">Graphic Designing</a></li>
+												<li><Link to="/koltuk">Koltuk Takımı</Link></li>
+												<li><Link to="/kose-takimi">Köşe Takımı</Link></li>
+												<li><Link to="/kanepeler">Kanepeler</Link></li>
+												<li><Link to="/berjerler">Berjerler</Link></li>
 											</ul>
 										</li>
                     <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
 								</li>
 										<li class="dropdown">
-											<a href="contact.html">İletişim</a>
+											<Link to="/contact">İletişim</Link>
 										</li>
 									</ul>
 								</div>

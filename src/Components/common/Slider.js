@@ -79,7 +79,7 @@ const Slider = () => {
         alignItems: 'center',
         justifyContent: 'flex-end',
         textAlign: 'center',
-        paddingBottom: '9vh'
+        paddingBottom: '10vh'
       }}>
         {showTitle && (
           <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', color:'#231f20'}}>
@@ -94,7 +94,7 @@ const Slider = () => {
           style={{
             background: 'rgba(35, 31, 32, 0.9)',
             color: '#fff',
-            padding: '1.2rem 3rem',
+            padding: '1rem 2rem',
             borderRadius: '5px 70px 5px 70px',
             fontWeight: '600',
             textDecoration: 'none',
