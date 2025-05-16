@@ -8,7 +8,7 @@ function BrahmaKanepePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BRAHMA KANEPE")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("BRAHMA KANEPE")} backgroundImage="assets/images/banner/9.webp" />
     <BrahmaKanepe />
     <Footer />
 </>

@@ -8,7 +8,7 @@ function PianoKanepePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("PIANO KANEPE")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("PIANO KANEPE")} backgroundImage="assets/images/banner/22.webp" />
     <PianoKanepe />
     <Footer />
 </>

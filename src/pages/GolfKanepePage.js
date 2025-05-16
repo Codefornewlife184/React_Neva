@@ -8,7 +8,7 @@ function GolfKanepePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("GOLF KANEPE")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("GOLF KANEPE")} backgroundImage="assets/images/banner/21.webp" />
     <GolfKanepe />
     <Footer />
 </>

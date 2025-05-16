@@ -82,27 +82,20 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Güçlü duruş, asil detaylar: BOSS Kanepe ile tanışın. </strong>
-                <br />Derin kahverengi tonların modern formlarla buluştuğu bu özel tasarım, yaşam alanlarına sofistike
-                bir hava katıyor. Konforu ve şıklığı bir arada sunan BOSS, adeta adının hakkını veriyor.</p>
+                <strong style={{color:'#000'}}>Neva Mobilya’nın zarif dokunuşuyla yaşam alanlarınıza stil ve konfor geliyor. BOSS Berjer ile tanışın. </strong>
+                <br />BOSS Berjer, modern çizgileri ve estetik detaylarıyla salonlarınıza prestij katıyor. Yumuşak dokulu kumaşı ve yüksek sırt desteği sayesinde günün yorgunluğunu keyifle üzerinizden atabileceğiniz bir alan sunar.</p>
               <p className="product-description__text">
-                Zengin dokulu kumaşı ve ahşap görünümlü detaylarıyla öne çıkan bu kanepe, sadece oturma değil, aynı
-                zamanda stil sahibi bir yaşam alanı yaratma aracı. Dikiş detayları ve destekleyici minder yapısıyla hem
-                estetik hem de ergonomik.</p>
+              Her ayrıntısı özenle tasarlanmış bu özel berjer, Neva Mobilya'nın kalite anlayışını ve şıklık vizyonunu yansıtır. Ahşap ayakları ve ergonomik yapısıyla hem estetik hem de işlevselliği bir araya getirir.</p>
               <p>
-                → Kadife görünümlü, kolay temizlenebilir özel kumaş
+                → Neva Mobilya kalitesiyle üretilmiştir.
                 <br />
-                → Modern çizgilerle bütünleşmiş zarif dikiş detayları
+                → Konforlu oturum alanı ve şık dikiş detayları
                 <br />
-                →Dayanıklı ve sağlam iskelet yapısı
+                → Doğal ahşap ayaklarla sağlam yapı
                 <br />
-                → Uzun ömürlü konfor
+                → Salon, ofis veya okuma köşeleri için ideal tercih
                 <br />
-                → Ahşap ayak tasarımıyla hem doğal hem modern bir duruş
-                <br />
-                <strong style={{color:'#000'}}>BOSS Kanepe, Neva Mobilya</strong> tarafından klasik şıklığı modern
-                yorumlarla sevenler için tasarlandı. Evinizde konforu ve zarafeti bir arada yaşamak istiyorsanız, BOSS
-                sizin için doğru tercih!
+                <strong style={{color:'#000'}}>BOSS Berjer</strong> ile tarzınızı yansıtın, yaşam alanlarınıza fark katın.
               </p>
             </div>
             <div className="product-details__buttons">

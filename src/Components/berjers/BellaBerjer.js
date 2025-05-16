@@ -82,28 +82,27 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Modern çizgilerle konforun buluştuğu zarif bir tasarım: BELLA Kanepe.
-                </strong> <br />Dikey dikiş detayları ve yumuşak krem tonlarıyla dikkat çeken BELLA, sade şıklığıyla
-                yaşam alanlarınıza zarafet katıyor.
+                <strong style={{color:'#000'}}>Konforun estetikle buluştuğu özel bir dokunuş: BELLA Berjer.
+                </strong> <br />Yumuşak hatları, zarif sırt kıvrımı ve retro tarzı destekleyen ahşap ayakları ile hem
+                klasik hem de modern dekorasyonlara mükemmel uyum sağlar.
               </p>
               <p className="product-description__text">
-                Hem estetik hem işlevsel yapısıyla öne çıkan bu kanepe, günümüz modern ev dekorasyon anlayışına mükemmel
-                uyum sağlar. Geniş oturum alanı ve ergonomik sırt yapısı sayesinde uzun süreli oturumlarda bile konfor
-                sunar.
+                Deri görünümlü döşemesiyle şıklığı ön plana çıkaran BELLA Berjer, yüksek sırt desteği ve geniş oturma
+                alanı sayesinde keyifli bir dinlenme deneyimi sunar. Kaliteli malzemesi ve işçiliğiyle uzun ömürlü
+                kullanım sağlar.
               </p>
 
               <p>
-                → Dikey kapitone dikiş detaylarıyla modern görünüm
+                → Yüksek konfor sunan ergonomik tasarım
                 <br />
-                → Yumuşak dokulu, dayanıklı kumaş yüzey
+                → Doğal ahşap ayaklar ile sağlam zemin tutuşu
                 <br />
-                → Ahşap ayaklar sayesinde yerden yüksek ve kolay temizlenebilir
+                → Estetik ve dayanıklı deri görünümlü döşeme
                 <br />
-                → Minimal tasarımıyla farklı dekorasyon tarzlarına uyumlu
+                → Modern-retro çizgileri bir araya getiren özgün form
                 <br />
-                <strong style={{color:'#000'}}>BELLA Kanepe,</strong> sade ama şık bir atmosfer oluşturmak isteyenler
-                için ideal bir tercihtir. Günün yorgunluğunu keyifle atacağınız bir alan arıyorsanız, BELLA tam size
-                göre!
+                Salonunuzda, yatak odanızda veya okuma köşenizde konforlu bir şıklık arıyorsanız, <strong
+                  style={{color:'#000'}}>NEVA Mobilya'dan BELLA Berjer</strong> sizin için ideal seçim.
               </p>
             </div>
             <div className="product-details__buttons">

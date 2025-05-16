@@ -8,7 +8,7 @@ function BerjerlerPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BERJERLER")} backgroundImage="assets/images/banner/16.webp" />
+    <PageHeader title={t("BERJERLER")} backgroundImage="assets/images/banner/22.webp" />
     <Berjerler />
     <Footer />
 </>
