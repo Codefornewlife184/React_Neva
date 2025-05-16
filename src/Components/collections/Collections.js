@@ -21,25 +21,25 @@ const Collections = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: "KOLTUK TAKIMI",
+			title: t("pages.armchairs"),
 			image: "assets/images/products/koltuk/zen-1.webp",
 			url: "/koltuk"
 		},
 		{
 			id: 2,
-			title: "KÖŞE TAKIMI",
+			title: t("pages.cornerSets"),
 			image: "assets/images/products/kose/casa-kose-1.webp",
 			url: "/kose"
 		},
 		{
 			id: 3,
-			title: "KANEPELER",
+			title: t("pages.sofas"),
 			image: "assets/images/products/kanepe/odessa-kanepe-1.webp",
 			url: "/kanepeler"
 		},
 		{
 			id: 4,
-			title: "BERJERLER",
+			title: t("pages.berjerler"),
 			image: "assets/images/products/berjer/berjer.webp",
 			url: "/berjerler"
 		}
@@ -52,9 +52,9 @@ const Collections = () => {
 				<div className="auto-container">
 					<div className="sec-title-twelev text-center">
 						<div className="sec-title-twelev__tagline" style={{ color: "#908f91" }}>
-							<span className="sec-title-twelev__tagline__bar"></span>{t("KOLEKSİYONLARIMIZ")}
+							<span className="sec-title-twelev__tagline__bar"></span>{t("pages.collections")}
 						</div>
-						<h2 className="sec-title-twelev__title">{t("KOLEKSİYONLARIMIZ")}</h2>
+						<h2 className="sec-title-twelev__title">{t("pages.collections")}</h2>
 					</div>
 					<div className="row clearfix">
 						{Projects.map((project) => (
@@ -94,7 +94,7 @@ const Collections = () => {
 												onClick={() => window.scrollTo(0, 0)}
 											>
 												<i className="btn-curve"></i>
-												<span className="btn-title">{t("Detaylar")}</span>
+												<span className="btn-title">{t("common.details")}</span>
 											</Link>
 										</div>
 									</div>

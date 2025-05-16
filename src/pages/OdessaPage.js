@@ -8,7 +8,7 @@ function OdessaPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("ODESSA KOLTUK TAKIMI")} backgroundImage="assets/images/banner/16.webp" />
+    <PageHeader title={t("pages.armchairs")} backgroundImage="assets/images/banner/16.webp" /> 
     <Odessa />
     <Footer />
 </>

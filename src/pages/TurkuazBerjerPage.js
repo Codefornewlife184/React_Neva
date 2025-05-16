@@ -8,7 +8,7 @@ function TurkuazBerjerPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("TURKUAZ BERJER")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("pages.bergere")} backgroundImage="assets/images/banner/19.webp" />   
     <TurkuazBerjer />
     <Footer />
 </>

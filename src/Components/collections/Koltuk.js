@@ -21,55 +21,55 @@ const Koltuk = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: "BELLA KOLTUK TAKIMI",
+			title: t("bellaKoltuk.title"),
 			image: "assets/images/products/koltuk/bella-1.webp",
 			url: "/bella"
 		},
 		{
 			id: 2,
-			title: "BOSS KOLTUK TAKIMI",
+			title: t("bossKoltuk.title"),
 			image: "assets/images/products/koltuk/boss-1.webp",
 			url: "/boss"
 		},
 		{
 			id: 3,
-			title: "BRAHMA KOLTUK TAKIMI",
+			title: t("brahmaKoltuk.title"),
 			image: "assets/images/products/koltuk/brahma-1.webp",
 			url: "/brahma"
 		},
 		{
 			id: 4,
-			title: "CASA KOLTUK TAKIMI",
+			title: t("casaKoltuk.title"),
 			image: "assets/images/products/koltuk/casa-1.webp",
 			url: "/casa"
 		},
 		{
 			id: 5,
-			title: "GOLF KOLTUK TAKIMI",
+			title: t("golfKoltuk.title"),
 			image: "assets/images/products/koltuk/golf-1.webp",
 			url: "/golf"
 		},
 		{
 			id: 6,
-			title: "ODESSA KOLTUK TAKIMI",
+			title: t("odessaKoltuk.title"),
 			image: "assets/images/products/koltuk/odessa-1.webp",
 			url: "/odessa"
 		},
 		{
 			id: 7,
-			title: "PİANO KOLTUK TAKIMI",
+			title: t("pianoKoltuk.title"),
 			image: "assets/images/products/koltuk/piano-1.webp",
 			url: "/piano"
 		},
 		{
 			id: 8,
-			title: "TURKUAZ KOLTUK TAKIMI",
+			title: t("turkuazKoltuk.title"),
 			image: "assets/images/products/koltuk/turkuaz-1.webp",
 			url: "/turkuaz"
 		},
 		{
 			id: 9,
-			title: "ZEN KOLTUK TAKIMI",
+			title: t("zenKoltuk.title"),
 			image: "assets/images/products/koltuk/zen-1.webp",
 			url: "/zen"
 		}
@@ -82,9 +82,9 @@ const Koltuk = () => {
 				<div className="auto-container">
 					<div className="sec-title-twelev text-center">
 						<div className="sec-title-twelev__tagline" style={{ color: "#908f91" }}>
-							<span className="sec-title-twelev__tagline__bar"></span>{t("KOLTUK TAKIMI")}
+							<span className="sec-title-twelev__tagline__bar"></span>{t("pages.armchairs")}
 						</div>
-						<h2 className="sec-title-twelev__title">{t("KOLTUK TAKIMI")}</h2>
+						<h2 className="sec-title-twelev__title">{t("pages.armchairs")}</h2>
 					</div>
 					<div className="row clearfix">
 						{Projects.map((project) => (
@@ -124,7 +124,7 @@ const Koltuk = () => {
 												onClick={() => window.scrollTo(0, 0)}
 											>
 												<i className="btn-curve"></i>
-												<span className="btn-title">{t("Detaylar")}</span>
+												<span className="btn-title">{t("common.details")}</span>
 											</Link>
 										</div>
 									</div>

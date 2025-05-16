@@ -8,7 +8,7 @@ function CasaRelaxKosePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("CASA RELAX KÖŞE TAKIMI")} backgroundImage="assets/images/banner/16.webp" /> 
+    <PageHeader title={t("pages.cornerSets")} backgroundImage="assets/images/banner/16.webp" />   
     <CasaRelaxKose />
     <Footer />
 </>

@@ -36,7 +36,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("casaBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -54,7 +54,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("casaBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -75,37 +75,36 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Casa Berjer
+                {t("casaBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("casaBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Modern çizgiler ve yalın estetik bir arada: CASA Kanepe.</strong>
-                <br />Açık renkli dokuma kumaşı, doğal ahşap ayakları ve sade formu ile yaşam alanınıza ferahlık ve
-                zarafet katıyor.</p>
+                <strong style={{color:'#000'}}>{t("casaBerjer.intro")}</strong>
+                <br />{t("casaBerjer.description")}
+              </p>
               <p className="product-description__text">
-                Rahat oturum yapısı ve minimal tasarımı sayesinde dar ya da geniş her mekâna kolayca uyum sağlar.
-                Fonksiyonel tasarımı ve şıklığı bir arada sunan CASA, modern ev dekorasyonunun vazgeçilmezi olmaya aday.
+                {t("casaBerjer.features.text")}
               </p>
               <p>
-                → Açık tonlu, yumuşak dokulu kumaş
+                → {t("casaBerjer.features.list.fabric")}
                 <br />
-                →Modern ve sade tasarım çizgileri
+                → {t("casaBerjer.features.list.comfort")}
                 <br />
-                → Kaliteli kumaş dokusu ve doğal ahşap ayaklar
+                → {t("casaBerjer.features.list.design")}
                 <br />
-                → Uzun ömürlü konfor
+                → {t("casaBerjer.features.list.structure")}
                 <br />
-                → Geniş salonlara estetik ve fonksiyonel katkı
+                → {t("casaBerjer.features.list.style")}
                 <br />
-                <strong style={{color:'#000'}}>CASA Kanepe,</strong> ile sadelikten gelen şıklığı evinizde hissedin.
+                {t("casaBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("casaBerjer.contact")}</span>
               </a>
             </div>
           </div>

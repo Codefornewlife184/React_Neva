@@ -37,7 +37,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("bellaBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -55,7 +55,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("bellaBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -76,39 +76,35 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Bella Berjer
+                {t("bellaBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("bellaBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Konforun estetikle buluştuğu özel bir dokunuş: BELLA Berjer.
-                </strong> <br />Yumuşak hatları, zarif sırt kıvrımı ve retro tarzı destekleyen ahşap ayakları ile hem
-                klasik hem de modern dekorasyonlara mükemmel uyum sağlar.
+                <strong style={{color:'#000'}}>{t("bellaBerjer.intro")}</strong>
+                <br />{t("bellaBerjer.description")}
               </p>
               <p className="product-description__text">
-                Deri görünümlü döşemesiyle şıklığı ön plana çıkaran BELLA Berjer, yüksek sırt desteği ve geniş oturma
-                alanı sayesinde keyifli bir dinlenme deneyimi sunar. Kaliteli malzemesi ve işçiliğiyle uzun ömürlü
-                kullanım sağlar.
+                {t("bellaBerjer.features.text")}
               </p>
 
               <p>
-                → Yüksek konfor sunan ergonomik tasarım
+                → {t("bellaBerjer.features.list.comfort")}
                 <br />
-                → Doğal ahşap ayaklar ile sağlam zemin tutuşu
+                → {t("bellaBerjer.features.list.wood")}
                 <br />
-                → Estetik ve dayanıklı deri görünümlü döşeme
+                → {t("bellaBerjer.features.list.fabric")}
                 <br />
-                → Modern-retro çizgileri bir araya getiren özgün form
+                → {t("bellaBerjer.features.list.design")}
                 <br />
-                Salonunuzda, yatak odanızda veya okuma köşenizde konforlu bir şıklık arıyorsanız, <strong
-                  style={{color:'#000'}}>NEVA Mobilya'dan BELLA Berjer</strong> sizin için ideal seçim.
+                {t("bellaBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("bellaBerjer.contact")}</span>
               </a>
             </div>
           </div>

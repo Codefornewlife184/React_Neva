@@ -8,7 +8,10 @@ function BellaPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BELLA KOLTUK TAKIMI")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader 
+        title={t("bella.title")} 
+        backgroundImage="assets/images/banner/19.webp" 
+    />
     <Bella />
     <Footer />
 </>

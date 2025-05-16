@@ -8,7 +8,7 @@ function CasaPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("CASA KOLTUK TAKIMI")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("pages.armchairs")} backgroundImage="assets/images/banner/19.webp" />
     <Casa />
     <Footer />
 </>

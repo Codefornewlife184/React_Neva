@@ -44,6 +44,8 @@ import OdessaBerjerPage from "../pages/OdessaBerjerPage";
 import PianoBerjerPage from "../pages/PianoberjerPage";
 import TurkuazBerjerPage from "../pages/TurkuazBerjerPage";
 import BellaBerjerPage from "../pages/BellaBerjerPage";
+import ZenBerjerPage from "../pages/ZenBerjerPage";
+import ZenKanepePage from "../pages/ZenKanepePage";
 
 const CustomRoutes = () => {
   return (
@@ -57,6 +59,7 @@ const CustomRoutes = () => {
       <Route exact path="/odessa-berjer" element={<OdessaBerjerPage />} />
       <Route exact path="/piano-berjer" element={<PianoBerjerPage />} />
       <Route exact path="/turkuaz-berjer" element={<TurkuazBerjerPage />} />
+      <Route exact path="/zen-berjer" element={<ZenBerjerPage />} />
       <Route exact path="/casa-kanepe" element={<CasaKanepePage />} />
       <Route exact path="/boss-kanepe" element={<BossKanepePage />} />
       <Route exact path="/brahma-kanepe" element={<BrahmaKanepePage />} />
@@ -65,6 +68,7 @@ const CustomRoutes = () => {
       <Route exact path="/odessa-kanepe" element={<OdessaKanepePage />} />
       <Route exact path="/piano-kanepe" element={<PianoKanepePage />} />
       <Route exact path="/turkuaz-kanepe" element={<TurkuazKanepePage />} />
+      <Route exact path="/zen-kanepe" element={<ZenKanepePage />} />
       <Route exact path="/casa-relax-kose" element={<CasaRelaxKosePage />} />
       <Route exact path="/brahma-kose" element={<BrahmaKosePage />} />
       <Route exact path="/golf-kose" element={<GolfKosePage />} />

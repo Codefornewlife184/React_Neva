@@ -36,7 +36,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("odessaBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -54,7 +54,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("odessaBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -75,39 +75,36 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Odessa Berjer
+                {t("odessaBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("odessaBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Zarif sadelik ve doğal şıklık: ODESSA Kanepe.</strong>
-                <br />Yaşam alanınıza dinginlik getirmek için tasarlandı. Yuvarlatılmış hatları ve sade duruşuyla modern
-                dekorasyon anlayışının temsilcisi olan Odessa, yeşil tonlu kırlent detaylarıyla doğadan ilham alıyor.
+                <strong style={{color:'#000'}}>{t("odessaBerjer.intro")}</strong>
+                <br />{t("odessaBerjer.description")}
               </p>
               <p className="product-description__text">
-                Ahşap ayakları ve açık tonlardaki kumaşıyla ferah bir atmosfer yaratan bu kanepe, hem estetik hem konfor
-                arayanlara hitap ediyor.
+                {t("odessaBerjer.features.text")}
               </p>
               <p>
-                → Organik formlar ve yumuşak hatlar
+                → {t("odessaBerjer.features.list.fabric")}
                 <br />
-                → Kadifemsi dokuya sahip rahat oturum alanları
+                → {t("odessaBerjer.features.list.comfort")}
                 <br />
-                → Doğal dokulu açık ton kumaş
+                → {t("odessaBerjer.features.list.design")}
                 <br />
-                → Dekoratif yeşil ve desenli kırlentler
+                → {t("odessaBerjer.features.list.accessories")}
                 <br />
-                → İnce işçilikli ceviz tonlarında ayak tasarımı
+                → {t("odessaBerjer.features.list.structure")}
                 <br />
-                <strong style={{color:'#000'}}>ODESSA Kanepe,</strong> minimalizmi doğallıkla buluşturur; sadeliğin
-                içindeki zarafeti evinize taşır.
+                {t("odessaBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("odessaBerjer.contact")}</span>
               </a>
             </div>
           </div>

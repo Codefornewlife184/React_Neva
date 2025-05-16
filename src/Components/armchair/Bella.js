@@ -40,7 +40,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("bella.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -58,7 +58,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("bella.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -79,44 +79,31 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Bella Koltuk Takımı
+                {t("bella.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("bella.price")}</p>
             </div>
             <div className="product-details__content">
-              <p>
-                <strong style={{color:'#000'}}>Zarafet, konfor ve şıklığın kusursuz birleşimi: Bella Koltuk Takımı.
-                </strong> <br />Neva Mobilya'nın özgün tasarımı ve
-                kaliteli işçiliğiyle yaşam alanlarınıza estetik bir dokunuş katıyor.
+              <p className="product-description__text">
+                {t("bella.material")}
               </p>
               <p className="product-description__text">
-                Kendi üretimimiz olan Bella Koltuk Takımı, modern çizgileriyle dikkat çekerken, kadife dokulu kumaşı
-                sayesinde yumuşak ve konforlu bir oturum sunar. Sırt destekli ergonomik yapısı, hem estetik hem de
-                rahatlığı bir araya getirerek keyifli oturma deneyimleri yaşatır.
+                {t("bella.comfort")}
               </p>
-              <p className="product-description__text">
-                Ahşap ayak detayları ve zarif dikiş işçiliğiyle zamansız bir stil vadeden bu takım, salonlarınıza sıcak
-                ve sofistike bir atmosfer kazandırmak için tasarlandı.
-              </p>
+              <ul>
+                <li>→ {t("bella.durability")}</li>
+                <li>→ {t("bella.design")}</li>
+                <li>→ {t("bella.fabric")}</li>
+                <li>→ {t("bella.accessories")}</li>
+              </ul>
               <p>
-                → Yüksek kaliteli yerli üretim
-                <br />
-                → Dayanıklı iskelet ve konforlu sünger yapısı
-                <br />
-                → Modern çizgilerle klasik uyum
-                <br />
-                → Kadife dokulu silinebilir kumaş
-                <br />
-                → Renk uyumlu berjer ve dekoratif yastıklar
-                <br />
-                <strong style={{color:'#000'}}>Neva Mobilya</strong> olarak tüm ürünlerimizi kendi tesislerimizde
-                titizlikle üretiyor, sizlere uzun ömürlü ve şık çözümler sunuyoruz.
+                <strong style={{color:'#000'}}>{t("bella.company")}</strong> {t("bella.production")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("bella.contact")}</span>
               </a>
             </div>
           </div>
@@ -125,25 +112,27 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
     </section>
 
     {showModal && (
-    (() => {
-    const isMobile = window.innerWidth <= 600; return ( <div style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundColor: 'rgba(0,0,0,0.9)',
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          zIndex: 9999,
-          cursor: 'pointer'
-        }} onClick={(e)=> {
-      if (e.target === e.currentTarget) {
-      setShowModal(false);
-      }
-      }}>
-      <div style={{
+      (() => {
+        const isMobile = window.innerWidth <= 600;
+        return (
+          <div style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0,0,0,0.9)',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            zIndex: 9999,
+            cursor: 'pointer'
+          }} onClick={(e) => {
+            if (e.target === e.currentTarget) {
+              setShowModal(false);
+            }
+          }}>
+            <div style={{
               position: 'relative',
               maxWidth: isMobile ? '95vw' : '90%',
               maxHeight: isMobile ? '80vh' : '90vh',
@@ -151,12 +140,10 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
               alignItems: 'center',
               justifyContent: 'center'
             }}>
-        {/* Sol ok */}
-        <button onClick={(e)=> {
-          e.stopPropagation();
-          setCurrentImageIndex(prev => (prev > 0 ? prev - 1 : productImages.length - 1));
-          }}
-          style={{
+              <button onClick={(e) => {
+                e.stopPropagation();
+                setCurrentImageIndex(prev => (prev > 0 ? prev - 1 : productImages.length - 1));
+              }} style={{
                 position: 'absolute',
                 left: 0,
                 top: '50%',
@@ -170,21 +157,19 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 cursor: 'pointer',
                 fontSize: '22px',
                 boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
-              }}
-          >←</button>
+              }}>←</button>
 
-        {/* Görsel */}
-        <img src={process.env.PUBLIC_URL + '/' + productImages[currentImageIndex]} alt="Büyük görüntü" style={{
+              <img src={process.env.PUBLIC_URL + '/' + productImages[currentImageIndex]} alt={t("bella.title")} style={{
                 maxWidth: '100%',
                 maxHeight: isMobile ? '80vh' : '90vh',
                 objectFit: 'contain',
                 display: 'block'
               }} />
 
-        {/* Sağ ok */}
-        <button onClick={(e)=> {
-          e.stopPropagation();
-          setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); }} style={{
+              <button onClick={(e) => {
+                e.stopPropagation();
+                setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0));
+              }} style={{
                 position: 'absolute',
                 right: 0,
                 top: '50%',
@@ -199,11 +184,11 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 fontSize: '22px',
                 boxShadow: '0 2px 5px rgba(0,0,0,0.2)'
               }}>→</button>
-      </div>
-      </div>
-      );
+            </div>
+          </div>
+        );
       })()
-      )}
+    )}
   </>
   );
   }

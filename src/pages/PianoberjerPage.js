@@ -8,7 +8,7 @@ function PianoBerjerPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("PIANO BERJER")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("pages.bergere")} backgroundImage="assets/images/banner/19.webp" /> 
     <PianoBerjer />
     <Footer />
 </>

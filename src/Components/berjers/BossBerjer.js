@@ -37,7 +37,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("bossBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -55,7 +55,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("bossBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -76,32 +76,34 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Boss Berjer
+                {t("bossBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("bossBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Neva Mobilya’nın zarif dokunuşuyla yaşam alanlarınıza stil ve konfor geliyor. BOSS Berjer ile tanışın. </strong>
-                <br />BOSS Berjer, modern çizgileri ve estetik detaylarıyla salonlarınıza prestij katıyor. Yumuşak dokulu kumaşı ve yüksek sırt desteği sayesinde günün yorgunluğunu keyifle üzerinizden atabileceğiniz bir alan sunar.</p>
+                <strong style={{color:'#000'}}>{t("bossBerjer.intro")}</strong>
+                <br />{t("bossBerjer.description")}
+              </p>
               <p className="product-description__text">
-              Her ayrıntısı özenle tasarlanmış bu özel berjer, Neva Mobilya'nın kalite anlayışını ve şıklık vizyonunu yansıtır. Ahşap ayakları ve ergonomik yapısıyla hem estetik hem de işlevselliği bir araya getirir.</p>
+                {t("bossBerjer.features.text")}
+              </p>
               <p>
-                → Neva Mobilya kalitesiyle üretilmiştir.
+                → {t("bossBerjer.features.list.quality")}
                 <br />
-                → Konforlu oturum alanı ve şık dikiş detayları
+                → {t("bossBerjer.features.list.comfort")}
                 <br />
-                → Doğal ahşap ayaklarla sağlam yapı
+                → {t("bossBerjer.features.list.structure")}
                 <br />
-                → Salon, ofis veya okuma köşeleri için ideal tercih
+                → {t("bossBerjer.features.list.usage")}
                 <br />
-                <strong style={{color:'#000'}}>BOSS Berjer</strong> ile tarzınızı yansıtın, yaşam alanlarınıza fark katın.
+                {t("bossBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("bossBerjer.contact")}</span>
               </a>
             </div>
           </div>

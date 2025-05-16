@@ -36,7 +36,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("golfBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -54,7 +54,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("golfBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -75,38 +75,36 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Golf Berjer
+                {t("golfBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("golfBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Klasik detaylar ve modern çizgilerin mükemmel buluşması: GOLF
-                  Kanepe.</strong>
-                <br />Zarif kapitone kol tasarımı, doğal ahşap ayakları ve sıcak bej tonlarıyla hem konforu hem de
-                estetiği yaşam alanınıza taşıyor.</p>
+                <strong style={{color:'#000'}}>{t("golfBerjer.intro")}</strong>
+                <br />{t("golfBerjer.description")}
+              </p>
               <p className="product-description__text">
-                Geometrik desenli kırlentleri ve yumuşak dokuya sahip kumaşı ile hem göze hitap eder hem de rahat bir
-                oturum sunar. GOLF Kanepe, hem geleneksel hem de modern dekorasyon stillerine mükemmel uyum sağlar.
+                {t("golfBerjer.features.text")}
               </p>
               <p>
-                → Şık kapitone kol detayları
+                → {t("golfBerjer.features.list.design")}
                 <br />
-                → Geometrik desenli dekoratif yastıklar
+                → {t("golfBerjer.features.list.comfort")}
                 <br />
-                → Ceviz rengi ahşap baza ve ayaklar
+                → {t("golfBerjer.features.list.structure")}
                 <br />
-                → Uzun ömürlü konfor
+                → {t("golfBerjer.features.list.accessories")}
                 <br />
-                → Rahat ve destekleyici oturum alanı
+                → {t("golfBerjer.features.list.style")}
                 <br />
-                <strong style={{color:'#000'}}>GOLF Kanepe,</strong> ile yaşam alanınızda sofistike bir şıklık yaratın.
+                {t("golfBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("golfBerjer.contact")}</span>
               </a>
             </div>
           </div>

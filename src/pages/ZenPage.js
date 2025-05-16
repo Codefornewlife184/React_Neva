@@ -8,7 +8,7 @@ function ZenPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("ZEN KOLTUK TAKIMI")} backgroundImage="assets/images/banner/16.webp" />
+    <PageHeader title={t("pages.armchairs")} backgroundImage="assets/images/banner/16.webp" />
     <Zen />
     <Footer />
 </>

@@ -45,26 +45,26 @@ const ContactForm = () => {
                 console.log('Parsed response:', result);
             } catch (error) {
                 console.error('JSON parse error:', error);
-                throw new Error(t('Sunucudan geçersiz yanıt alındı'));
+                throw new Error(t('contactForm.invalidResponse'));
             }
             
             if (result.status === 'success') {
                 setFormStatus({
                     status: 'success',
-                    message: result.message || t('Mesajınız başarıyla gönderildi')
+                    message: result.message || t('contactForm.success')
                 });
                 e.target.reset();
             } else {
                 setFormStatus({
                     status: 'error',
-                    message: result.message || t('Bir hata oluştu')
+                    message: result.message || t('contactForm.error')
                 });
             }
         } catch (error) {
             console.error('Submission error:', error);
             setFormStatus({
                 status: 'error',
-                message: t('Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.')
+                message: t('contactForm.errorTryAgain')
             });
         }
     };
@@ -79,11 +79,11 @@ const ContactForm = () => {
                                 <div className="sec-title-twelev">
                                     <div className="sec-title-twelev__tagline">
                                         <span className="sec-title-twelev__tagline__bar"></span>
-                                        {t("İLETİŞİM BİLGİLERİ")}
+                                        {t("contactForm.contactInfo")}
                                     </div>
-                                    <h2 className="sec-title-twelev__title">{t("Neva MobİLYA: BİZİMLE İLETİŞİME GEÇİNİZ!")}</h2>
+                                    <h2 className="sec-title-twelev__title">{t("contactForm.title")}</h2>
                                 </div>
-                                <p className="contact-two__text">{t("Soru, görüş, öneri ve istekleriniz için aşağıdaki bilgiler aracılığıyla bize 7/24 ulaşabilirsiniz.")}</p>
+                                <p className="contact-two__text">{t("contactForm.infoText")}</p>
                                 <div className="footer-twelev__socials">
                                     <a href="https://www.facebook.com/profile.php?id=61569515864445" target="_blank">
                                         <span className="fab fa-facebook-f"></span>
@@ -106,28 +106,28 @@ const ContactForm = () => {
                                         <div className="row clearfix">
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <div className="field-inner">
-                                                    <input type="text" name="name" placeholder={t("Adınız Soyadınız")} required
+                                                    <input type="text" name="name" placeholder={t("contactForm.name")} required
                                                         minLength="2" maxLength="50"/>
                                                 </div>
                                             </div>
 
                                             <div className="form-group col-lg-6 col-md-6 col-sm-12">
                                                 <div className="field-inner">
-                                                    <input type="email" name="email" placeholder={t("E-posta Adresiniz")}
+                                                    <input type="email" name="email" placeholder={t("contactForm.email")}
                                                         required/>
                                                 </div>
                                             </div>
 
                                             <div className="form-group col-lg-12 col-md-6 col-sm-12">
                                                 <div className="field-inner">
-                                                    <input type="text" name="subject" placeholder={t("Konu")} required
+                                                    <input type="text" name="subject" placeholder={t("contactForm.subject")} required
                                                         minLength="3" maxLength="100"/>
                                                 </div>
                                             </div>
 
                                             <div className="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <div className="field-inner">
-                                                    <textarea name="message" placeholder={t("Mesajınız")} required minLength="10"
+                                                    <textarea name="message" placeholder={t("contactForm.message")} required minLength="10"
                                                         maxLength="1000"></textarea>
                                                 </div>
                                             </div>
@@ -135,7 +135,7 @@ const ContactForm = () => {
                                             <div className="form-group col-lg-12 col-md-12 col-sm-12">
                                                 <button type="submit" className="theme-btn btn-style-one">
                                                     <i className="btn-curve"></i>
-                                                    <span className="btn-title text-white">{t("GÖNDER")}</span>
+                                                    <span className="btn-title text-white">{t("contactForm.send")}</span>
                                                 </button>
                                             </div>
                                         </div>

@@ -34,7 +34,7 @@ const phoneNumber = "905465341963"; // Hedef telefon numarası
 
 const openWhatsApp = () => {
 const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
-t("Merhaba, size bir mesaj gönderiyorum!")
+t("footer.whatsappMessage")
 )}`;
 window.open(whatsappURL, "_blank");
 };
@@ -95,20 +95,20 @@ return (
         <div className="col-lg-2 col-md-6">
           <div className="footer-twelev__widget text-white">
             <h6 className="footer-twelev__title" style={{ color: "#10adad", borderBottom: '1px solid #fff', paddingBottom: '10px', marginBottom: '15px' }}>
-              {t("Kurumsal")}
+              {t("footer.corporate")}
             </h6>
             <ul>
               <li>
-                <Link to="/" onClick={()=> handleLinkClick('/')}>{t("Anasayfa")}</Link>
+                <Link to="/" onClick={()=> handleLinkClick('/')}>{t("footer.home")}</Link>
               </li>
               <li>
-                <Link to="/about" onClick={()=> handleLinkClick('/about')}>{t("Hakkımızda")}</Link>
+                <Link to="/about" onClick={()=> handleLinkClick('/about')}>{t("footer.about")}</Link>
               </li>
               <li>
-                <Link to="/collections" onClick={()=> handleLinkClick('/collections')}>{t("Koleksiyonlarımız")}</Link>
+                <Link to="/collections" onClick={()=> handleLinkClick('/collections')}>{t("footer.collections")}</Link>
               </li>
               <li>
-                <Link to="/contact" onClick={()=> handleLinkClick('/contact')}>{t("İletişim")}</Link>
+                <Link to="/contact" onClick={()=> handleLinkClick('/contact')}>{t("footer.contact")}</Link>
               </li>
             </ul>
           </div>
@@ -116,21 +116,20 @@ return (
         <div className="col-lg-3 col-md-6">
           <div className="footer-twelev__widget text-white">
             <h6 className="footer-twelev__title" style={{ color: "#10adad", borderBottom: '1px solid #fff', paddingBottom: '10px', marginBottom: '15px' }}>
-              {t("KOLEKSİYONLARIMIZ")}
+              {t("footer.collectionsTitle")}
             </h6>
             <ul>
               <li>
-                <Link to="/Koltuk" onClick={()=> handleLinkClick('/Koltuk')}>{t("Koltuk Takımı")}</Link>
+                <Link to="/Koltuk" onClick={()=> handleLinkClick('/Koltuk')}>{t("footer.armchairSet")}</Link>
               </li>
               <li>
-                <Link to="/Kose" onClick={()=> handleLinkClick('/Kose')}>{t("Köşe Takımı")}</Link>
+                <Link to="/Kose" onClick={()=> handleLinkClick('/Kose')}>{t("footer.cornerSet")}</Link>
               </li>
               <li>
-                <Link to="/Berjerler" onClick={()=> handleLinkClick('/Berjerler')}>{t("Berjerler")}
-                </Link>
+                <Link to="/Berjerler" onClick={()=> handleLinkClick('/Berjerler')}>{t("footer.bergere")}</Link>
               </li>
               <li>
-                <Link to="/Kanepeler" onClick={()=> handleLinkClick('/Kanepeler')}>{t("Kanepeler")}</Link>
+                <Link to="/Kanepeler" onClick={()=> handleLinkClick('/Kanepeler')}>{t("footer.sofas")}</Link>
               </li>
               
             </ul>
@@ -139,11 +138,11 @@ return (
         <div className="col-lg-3 col-md-6">
           <div className="footer-twelev__widget text-white">
             <h6 className="footer-twelev__title" style={{ color: "#10adad", borderBottom: '1px solid #fff', paddingBottom: '10px', marginBottom: '15px' }}>
-              {t("İLETİŞİM")}
+              {t("footer.contactTitle")}
             </h6>
             <div className="footer-twelev__info">
-              <p className="footer-twelev__text"><strong>Mağaza : </strong> {t("Davutkadı, Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa")}</p>
-              <p className="footer-twelev__text"><strong>Üretim : </strong> {t("Ankara Yolu Cd. No:801 Yıldırım/Bursa")}</p>
+              <p className="footer-twelev__text"><strong>{t("footer.store")} : </strong> {t("footer.storeAddress")}</p>
+              <p className="footer-twelev__text"><strong>{t("footer.production")} : </strong> {t("footer.productionAddress")}</p>
               <ul>
                 <li>
                   <span className="linoor-icon-three-telephone-1"></span>
@@ -162,7 +161,7 @@ return (
       
     </div>
     
-    <div className="footer-twelev__copyright">{t("© 2025 NEVA MOBİLYA")} <br /> {t("Tüm Hakları Saklıdır.")} <br />
+    <div className="footer-twelev__copyright">{t("footer.copyright")} <br /> {t("footer.rights")} <br />
       <a
         href="https://www.webcenter.com.tr" 
         target="_blank" 
@@ -170,7 +169,7 @@ return (
         style={{ color: '#fff', textDecoration: 'none', transition: 'color 0.3s ease' }}
         onMouseOver={(e) => e.target.style.color = '#10adad'}
         onMouseOut={(e) => e.target.style.color = '#fff'}>
-        Web Dizayn : Web Center
+        {t("footer.webDesign")}
       </a>
     </div>
   </section>

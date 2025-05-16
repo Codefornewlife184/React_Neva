@@ -1,333 +1,676 @@
 {
-  "Web Center": "Web Center",
-  "Web Center: DİJİTAL Dünyaya Açılan Kapınız": "Web Center: Your Gateway to the DIGITAL World",
-  "olarak, işletmelerin dijital varlıklarını güçlendirmek ve etkili bir çevrimiçi görünürlük kazanmalarını sağlamak için hizmet veriyoruz. Hedefimiz, sadece bir web sitesi oluşturmak değil; markanızın dijital dünyadaki potansiyelini en üst düzeye çıkaracak çözümler sunmaktır.": "We provide services to strengthen businesses' digital presence and help them gain effective online visibility. Our goal is not just to create a website; it's to provide solutions that maximize your brand's potential in the digital world.",
-  "Kuruluşumuzdan bu yana yenilikçi, estetik ve kullanıcı odaklı web tasarımlarıyla müşterilerimizin ihtiyaçlarını karşılıyoruz. Sadece tasarım hizmeti sunmakla kalmıyor, aynı zamanda SEO, kullanıcı deneyimi optimizasyonu ile web sitenizin gerçek bir başarı hikayesine dönüşmesine yardımcı oluyoruz.": "Since our establishment, we have been meeting our customers' needs with innovative, aesthetic, and user-focused web designs. We not only provide design services but also help your website become a real success story through SEO and user experience optimization.",
-  "olarak, her projemizde müşterilerimizle yakın iş birliği yapmayı önemsiyor ve firmanıza özel çözümler sunuyoruz. Dijital dönüşüm yolculuğunuzda size rehberlik etmek ve işletmenizin başarılarına katkıda bulunmak için buradayız.": "We value close collaboration with our clients in every project and provide customized solutions for your company. We are here to guide you through your digital transformation journey and contribute to your business's success.",
-  "ile geleceğinizi bugünden inşa edin!": "Build your future today!",
-  "Yorumlar": "Comments",
-  "HİZMET SUNDUĞUMUZ FİRMALARIN YORUMLARI": "COMMENTS FROM COMPANIES WE SERVE",
-  "Hazırlanıyor": "In Preparation",
-  "YENİDÜNYA ENDÜSTRİYEL": "YENİDÜNYA<br />ENDÜSTRİYEL",
-  "SETA LİFTİNG": "SETA<br />LIFTING",
-  "BKB AMBALAJ": "BKB<br />AMBALAJ",
-  "İNDİZAYN MATBAA": "İNDİZAYN<br />MATBAA",
-  "EMEL BEAUTY": "EMEL<br />BEAUTY",
-  "ŞEKİR YAPI": "ŞEKİR<br />YAPI",
-  "ESMİ WATER": "ESMİ<br />WATER",
-  "PRUSA TEKSTİL": "PRUSA<br />TEKSTİL",
-  "KARDOĞAN GROUP": "KARDOĞAN<br />GROUP",
-  "DOĞU BATI PROJE": "DOĞU BATI<br />PROJE",
-  "MOCA MERMER": "MOCA<br />MERMER",
-  "EVER PLASTICS": "EVER<br />PLASTICS",
-  "AYPİN AUTOMAT": "AYPIN<br />AUTOMAT",
-  "BADEMLİ ANAOKULU": "BADEMLİ<br />ANAOKULU",
-  "TUĞÇELİK METAL": "TUĞÇELİK<br />METAL",
-  "BURSA BAKIR": "BURSA<br />BAKIR",
-  "FASULYELİ LOKANTASI": "FASULYELİ<br />LOKANTASI",
-  "BKB SOLAR": "BKB<br />SOLAR",
-  "KURUMSAL E-POSTA": "CORPORATE EMAIL",
-  "Web Center: KURUMSAL E-POSTA": "Web Center: CORPORATE EMAIL",
-  "Kurumsal e-posta adresleri, işletmenizin prestijini artırırken güvenilirliğini de pekiştirir.": "Corporate email addresses enhance your business's prestige while strengthening its reliability.",
-  "olarak, işletmenize özel kurumsal e-posta çözümleri sunuyoruz. Profesyonel e-posta altyapısıyla iletişiminizi güçlendirin ve iş süreçlerinizi daha verimli hale getirin.": "We offer customized corporate email solutions for your business. Strengthen your communication with professional email infrastructure and make your business processes more efficient.",
-  "Kurumsal E-Posta Nedir?": "What is Corporate Email?",
-  "Kurumsal e-posta, işletmenizin alan adını (örneğin: adiniz@webcenter.com) içeren özel e-posta adresleridir. Gmail, Yahoo gibi genel e-posta adresleri yerine kendi alan adınızı kullanmanız, markanızın profesyonelliğini ve kimliğini yansıtır.": "Corporate email consists of special email addresses that include your business's domain name (e.g., yourname@webcenter.com). Using your own domain name instead of general email addresses like Gmail or Yahoo reflects your brand's professionalism and identity.",
-  "Web Center: Kurumsal E-Postanın Avantajları": "Web Center: Advantages of Corporate Email",
-  "Profesyonel Görünüm": "Professional Appearance",
-  "Müşterileriniz, iş ortaklarınız ve çalışanlarınız nezdinde kurumsal bir imaj yaratır. Örneğin: info@webcenter.com veya destek@webcenter.com gibi adresler, işletmenizin ciddiyetini gösterir.": "Creates a corporate image in the eyes of your customers, business partners, and employees. Addresses like info@webcenter.com or support@webcenter.com demonstrate your business's seriousness.",
-  "Güvenilirlik ve Marka Gücü": "Reliability and Brand Power",
-  "Özel bir alan adı kullanımı, işletmenizin güvenilirliğini artırır. Kurumsal e-posta adresleri, spam ve dolandırıcılık riskini azaltır.": "Using a custom domain name increases your business's reliability. Corporate email addresses reduce the risk of spam and fraud.",
-  "Kolay Yönetim": "Easy Management",
-  "Tüm çalışanlarınız için farklı e-posta hesapları oluşturabilirsiniz. E-posta hesaplarının yönetimi, belirli yetkilere göre düzenlenebilir.": "You can create different email accounts for all your employees. Email account management can be organized according to specific permissions.",
-  "Daha Fazla Depolama Alanı": "More Storage Space",
-  "Genel e-posta sağlayıcılarına göre daha geniş depolama kapasitesi sunar. Önemli iş dosyalarını ve yazışmaları güvenle saklayabilirsiniz.": "Offers larger storage capacity compared to general email providers. You can safely store important business files and correspondence.",
-  "Reklamsız ve Kapsamlı Özellikler": "Ad-Free and Comprehensive Features",
-  "Genel e-posta servislerinden farklı olarak reklamsız bir deneyim sağlar. Paylaşılabilir takvimler, görev yönetimi ve iş birliği araçları gibi ek özelliklerle iş süreçlerinizi destekler.": "Provides an ad-free experience unlike general email services. Supports your business processes with additional features like shareable calendars, task management, and collaboration tools.",
-  "Web Center'ın Kurumsal E-Posta HİZMETLERİ": "Web Center's Corporate Email Services",
-  "Alan Adınıza Özel E-Posta Kurulumu": "Custom Email Setup for Your Domain",
-  "İşletmenizin alan adına bağlı e-posta hesaplarını hızlı ve kolay bir şekilde oluşturuyoruz. İstediğiniz kadar kullanıcı hesabı ekleyebilir ve yönetebilirsiniz.": "We quickly and easily create email accounts linked to your business's domain. You can add and manage as many user accounts as you need.",
-  "Güçlü Güvenlik Önlemleri": "Strong Security Measures",
-  "SSL ve spam koruma gibi güvenlik önlemleriyle e-postalarınızı koruyoruz. Virüs taraması ve veri şifreleme özellikleri sayesinde bilgileriniz güvende.": "We protect your emails with security measures like SSL and spam protection. Your information is secure thanks to virus scanning and data encryption features.",
-  "Mobil ve Masaüstü Uyumlu": "Mobile and Desktop Compatible",
-  "E-postalarınıza dilediğiniz cihazdan erişebilirsiniz. Outlook, Gmail veya mobil cihazlar üzerinden kolay entegrasyon sağlanır.": "You can access your emails from any device you want. Easy integration is provided through Outlook, Gmail, or mobile devices.",
-  "Teknik Destek ve Yönetim": "Technical Support and Management",
-  "Sorunlarınızın çözümü için 7/24 destek sunuyoruz. E-posta sisteminizi yedekliyor ve gerektiğinde kurtarma hizmeti sağlıyoruz.": "We provide 24/7 support for solving your problems. We back up your email system and provide recovery services when needed.",
-  "olarak, işletmenize değer katan ve iletişimde güven sağlayan kurumsal e-posta çözümleriyle iş süreçlerinizi destekliyoruz.": "We support your business processes with corporate email solutions that add value to your business and ensure secure communication.",
-  "Hemen bizimle iletişime geçin ve işletmenize özel kurumsal e-posta hizmetimizden yararlanın!": "Contact us now and take advantage of our customized corporate email service for your business!",
-  "ile geleceğinizi bugünden inşa edin!": "Build your future today!",
-  "İş dünyasındaki harika şeyler asla tek bir kişi tarafından yapılmaz. Güçlü bir ekibe ihtiyaç vardır.": "Great things in business are never done by one person. They're done by a team of people.",
-  "Kurumsal": "Corporate",
-  "Anasayfa": "Home",
-  "Hakkımızda": "About Us",
-  "Projelerimiz": "Our Projects",
-  "Sıkça Sorulan Sorular": "FAQ",
-  "İletişim": "Contact",
-  "HİZMETLERİMİZ": "OUR SERVICES",
-  "Web Tasarım": "Web Design",
-  "E-Ticaret Siteleri": "E-Commerce Sites",
-  "Domain & Hosting": "Domain & Hosting",
-  "Hosting Paketleri": "Hosting Packages",
-  "SSL Sertifikası": "SSL Certificate",
-  "Kurumsal E-Posta": "Corporate Email",
-  "Seo": "SEO",
-  "Logo Çalışması": "Logo Design",
-  "İşletme Profili": "Business Profile",
-  "Harita Kayıt": "Map Registration",
-  "İLETİŞİM": "CONTACT",
-  "Çamlıca Mah. Nilüfer / BURSA": "Çamlıca Mah. Nilüfer / BURSA",
-  "© 2024 WEB CENTER Tüm Hakları Saklıdır.": "© 2024 WEB CENTER All Rights Reserved.",
-  "Merhaba, size bir mesaj gönderiyorum!": "Hello, I'm sending you a message!",
-  "Menu": "Menu",
-  "HIZLI TEKLİF ALIN!": "GET A QUICK QUOTE!",
-  "TR": "TR",
-  "EN": "EN",
-  "WEB TASARIM": "WEB DESIGN",
-  "E-TİCARET": "E-COMMERCE",
-  "DOMAIN & HOSTING": "DOMAIN & HOSTING",
-  "HOSTING PAKETLERİ": "HOSTING PACKAGES",
-  "SSL SERTİFİKASI": "SSL CERTIFICATE",
-  "SEO": "SEO",
-  "LOGO ÇALIŞMASI": "LOGO DESIGN",
-  "İŞLETME PROFİLİ": "BUSINESS PROFILE",
-  "Web Center: İŞLETME PROFİLİ": "Web Center: BUSINESS PROFILE",
-  "Profesyonel bir işletme profili, müşterilerinizle kuracağınız güvenin temel taşını oluşturur.": "A professional business profile forms the cornerstone of trust you will build with your customers.",
-  "olarak, işletmenizin kimliğini en iyi şekilde yansıtan profesyonel işletme profilleri oluşturuyoruz. Bu hizmet kapsamında:": "We create professional business profiles that best reflect your company's identity. Within the scope of this service:",
-  "İşletmenizin misyon ve vizyonunu tanımlıyor": "We define your company's mission and vision",
-  "Faaliyet alanlarınızı detaylı bir şekilde açıklıyor": "We explain your areas of activity in detail",
-  "Hedef kitlenizi etkileyecek güçlü ve etkileyici bir anlatım dili kullanıyoruz": "We use a strong and impressive narrative language that will influence your target audience",
-  "Hazırladığımız işletme profilleri, web sitenizde, sosyal medya hesaplarınızda veya iş ortaklarınızla paylaşabileceğiniz profesyonel bir imaj sunar.": "The business profiles we prepare provide a professional image that you can share on your website, social media accounts, or with your business partners.",
-  "GOOGLE MAPS": "GOOGLE MAPS",
-  "PROJELERİMİZ": "OUR PROJECTS",
-  "İŞLETMENİZİ": "YOUR BUSINESS",
-  "DİJİTAL OLARAK": "DIGITALLY",
-  "BÜYÜTMEK": "GROW",
-  "İSTİYORSANIZ": "IF YOU WANT",
-  "HIZLI": "QUICK",
-  "TEKLİF": "QUOTE",
-  "ALIN": "GET",
-  "ÜCRETSİZ DESTEK": "FREE SUPPORT",
-  "ÜCRETSİZ": "FREE",
-  "DESTEK": "SUPPORT",
-  "Müşteri memnuniyetini ön planda tutarak, ihtiyaç duyduğunuz her an yanınızda olan ücretsiz destek hizmeti sağlıyoruz.": "We provide free support service that is always by your side whenever you need it, keeping customer satisfaction at the forefront.",
-  "HIZLI SERVİS": "FAST SERVICE",
-  "SERVİS": "SERVICE",
-  "Zamana değer veren profesyonel yaklaşımımızla, tüm projelerinizi hızlı, eksiksiz ve kaliteli bir şekilde teslim ediyoruz.": "With our professional approach that values time, we deliver all your projects quickly, completely, and with quality.",
-  "PROJENİZİ BAŞLATMAK İSTERSENİZ!": "IF YOU WANT TO START YOUR PROJECT!",
-  "CONTACT US": "CONTACT US",
-  "Endüstriyel Ted. Firması İçin Hazırlanan Sitemiz": "Website Prepared for Industrial Supply Company",
-  "İş Makineleri Firması İçin Hazırlanan Sitemiz": "Website Prepared for Construction Equip. C.",
-  "PVC Cam Balkon Firması İçin Hazırlanan Sitemiz": "Website Prepared for PVC Glass Balcony C.",
-  "Ambalaj Firması İçin Hazırlanan Sitemiz": "Website Prepared for Packaging Company",
-  "Matbaa Firması İçin Hazırlanan Sitemiz": "Website Prepared for Printing Company",
-  "Perde Firması İçin Hazırlanan Sitemiz": "Website Prepared for Curtain Company",
-  "Arıtma Firması İçin Hazırlanan Sitemiz": "Website Prepared for Water Treatment C.",
-  "Güzellik Merkezi İçin Hazırlanan Sitemiz": "Website Prepared for Beauty Center",
-  "Mimari Projeler İçin Hazırlanan Sitemiz": "Website Prepared for Architectural Projects",
-  "Anaokulu İçin Hazırlanan Sitemiz": "Website Prepared for Kindergarten",
-  "Taş Ocağı Firması İçin Hazırlanan Sitemiz": "Website Prepared for Quarry Company",
-  "Bursa Bakır Firması İçin Hazırlanan Sitemiz": "Website Prepared for Bursa Copper Company",
-  "Metal Firması İçin Hazırlanan Sitemiz": "Website Prepared for Metal Company",
-  "Lokanta Firması İçin Hazırlanan Sitemiz": "Website Prepared for Restaurant",
-  "Detaylar": "Details",
-  "merak edilenler": "wondered",
-  "SIKÇA SORULAN SORULAR": "FREQUENTLY ASKED QUESTIONS",
-  "Kurumsal Web Tasarım NEDİR?": "What is CORPORATE WEB DESIGN?",
-  "Kurumsal web tasarım, işletmelerin profesyonel kimliğini yansıtan, modern, kullanıcı dostu ve mobil uyumlu web sitelerinin hazırlanmasıdır. Bu tür tasarımlar, markanızın dijital ortamdaki yüzü olarak güvenilirlik ve profesyonellik sağlar.": "Corporate web design is the preparation of modern, user-friendly, and mobile-compatible websites that reflect the professional identity of businesses. These designs provide reliability and professionalism as the face of your brand in the digital environment.",
-  "Web Tasarım Ajansı NEDİR ve Neden ÖNEMLİDİR?": "What is a WEB DESIGN AGENCY and Why is it IMPORTANT?",
-  "Web tasarım ajansları, kullanıcı deneyimini ön planda tutarak, işletmelerin hedeflerine uygun web siteleri tasarlayan profesyonel firmalardır. Doğru bir ajansla çalışmak, markanızın dijital dünyada fark edilmesini sağlar.": "Web design agencies are professional companies that design websites suitable for businesses' goals by prioritizing user experience. Working with the right agency ensures your brand is noticed in the digital world.",
-  "Web Tasarım FİYATLARI Ne Kadar?": "How Much Do WEB DESIGN PRICES Cost?",
-  "Web tasarım fiyatları; sitenin özellikleri, tasarımın karmaşıklığı, sayfa sayısı ve ek hizmetlere (SEO, içerik yönetimi, entegrasyonlar) göre değişiklik gösterir. Web Center, her bütçeye uygun özel çözümler sunar.": "Web design prices vary depending on the site's features, design complexity, number of pages, and additional services (SEO, content management, integrations). Web Center offers special solutions suitable for every budget.",
-  "En İYİ Web Tasarım Firması Nasıl SEÇİLİR?": "How to Choose the BEST WEB DESIGN Company?",
-  "En iyi web tasarım firmasını seçerken şunlara dikkat etmelisiniz:\nPortföy ve referanslar\nKullanıcı dostu ve yenilikçi tasarımlar\nTeknik destek ve garanti hizmetleri\nProje teslim süresi ve müşteri memnuniyeti\nWeb Center olarak bu kriterlerin tamamını karşılıyoruz.": "When choosing the best web design company, you should pay attention to:\nPortfolio and references\nUser-friendly and innovative designs\nTechnical support and warranty services\nProject delivery time and customer satisfaction\nAs Web Center, we meet all these criteria.",
-  "Web Tasarım ŞİRKETİ İLE Çalışmanın Avantajları NELERDİR?": "What are the ADVANTAGES of Working with a WEB DESIGN COMPANY?",
-  "Profesyonel bir web tasarım şirketiyle çalışmak:\n\nİşletmenizin dijital ortamdaki imajını güçlendirir.\nArama motorlarında üst sıralarda yer almanızı sağlar.\nMobil uyumluluk ve kullanıcı dostu tasarımlar sunar.": "Working with a professional web design company:\n\nStrengthens your business's image in the digital environment.\nHelps you rank higher in search engines.\nProvides mobile compatibility and user-friendly designs.",
-  "Neden Web Center Fİrması?": "Why Web Center COMPANY?",
-  "Web Center olarak sunduğumuz ayrıcalıklar:\n\nTecrübe ve Güven: Yıllardır sektörde hizmet veren bir firma olarak müşteri memnuniyetine önem veriyoruz.\nÖzelleştirilmiş Çözümler: İşletmenizin ihtiyaçlarına özel web tasarımları hazırlıyoruz.\n7/24 Destek: Proje öncesi ve sonrasında tam destek sağlıyoruz.\nYenilikçi Yaklaşım: Son teknolojileri kullanarak trendleri yakalayan, modern tasarımlar sunuyoruz.\nUygun Fiyatlar: Kaliteli hizmeti erişilebilir fiyatlarla sunuyoruz.": "The privileges we offer as Web Center:\n\nExperience and Trust: As a company serving in the sector for years, we value customer satisfaction.\nCustomized Solutions: We prepare web designs specific to your business needs.\n24/7 Support: We provide full support before and after the project.\nInnovative Approach: We offer modern designs that catch trends using the latest technologies.\nAffordable Prices: We offer quality service at accessible prices.",
-  "DOMAIN HİZMETLERİMİZ": "OUR DOMAIN SERVICES",
-  "Kusursuz Marka Kimliği": "Flawless Brand Identity",
-  "İşletmenize özel, kolay hatırlanabilir ve etkileyici alan adlarıyla çevrimiçi dünyada fark yaratmanızı sağlıyoruz.": "We help you stand out in the online world with custom, memorable, and impactful domain names for your business.",
-  "Hızlı Tescil İşlemleri": "Quick Registration Process",
-  "Alan adı seçiminizden tescil sürecine kadar tüm işlemleri hızlı ve sorunsuz bir şekilde tamamlıyoruz.": "We complete all processes quickly and smoothly, from your domain name selection to the registration process.",
-  "Güçlü Alan Adı Yönetimi": "Strong Domain Management",
-  "DNS ayarları, yenileme ve transfer gibi tüm süreçlerde teknik destek sağlıyoruz.": "We provide technical support for all processes including DNS settings, renewal, and transfers.",
-  "HOSTING HİZMETLERİMİZ": "OUR HOSTING SERVICES",
-  "Hızlı ve Güvenilir Sunucular": "Fast and Reliable Servers",
-  "Web sitenizin her zaman hızlı ve kesintisiz çalışması için üst düzey sunucu altyapıları kullanan firmalarla çalışıyoruz.": "We work with companies that use high-level server infrastructure to ensure your website always runs fast and uninterrupted.",
-  "Esnek Hosting Paketleri": "Flexible Hosting Packages",
-  "İhtiyacınıza uygun ekonomik ve performans odaklı hosting seçenekleri sunuyoruz.": "We offer economic and performance-focused hosting options suitable for your needs.",
-  "Tam Teknik Destek": "Full Technical Support",
-  "Web sitenizin bakım, güvenlik ve optimizasyon süreçlerinde yanınızdayız.": "We are with you in the maintenance, security, and optimization processes of your website.",
-  "Neden Web Center ?": "Why Web Center?",
-  "7/24 Destek": "24/7 Support",
-  "Her an ulaşabileceğiniz bir müşteri hizmetleri anlayışıyla hareket ediyoruz.": "We operate with a customer service approach that you can reach at any time.",
-  "Müşteri Memnuniyeti": "Customer Satisfaction",
-  "Başarılarımızı, müşterilerimizin memnuniyeti ve sadakatiyle ölçüyoruz.": "We measure our success through our customers' satisfaction and loyalty.",
-  "Kalite Anlayışı": "Quality Approach",
-  "Kalite Anlayışı ile sizin ihtiyaçlarınıza özel çözümler sunuyoruz.": "We offer customized solutions for your needs with our Quality Approach.",
-  "Web Center olarak, dijital dünyada yerinizi sağlamlaştırmanız için ihtiyaç duyduğunuz domain (alan adı) ve hosting (barındırma) hizmetlerini sizlere profesyonel bir yaklaşımla sunuyoruz. İşletmenizin çevrimiçi dünyada güçlü bir şekilde temsil edilmesini sağlayacak en uygun çözümleri üretiyoruz.": "As Web Center, we provide you with domain and hosting services that you need to strengthen your position in the digital world with a professional approach. We produce the most suitable solutions to ensure your business is strongly represented in the online world.",
-  "Domain & .com": "Domain & .com",
-  "Domain & .com.tr": "Domain & .com.tr",
-  "SSL Güvenlik Sertifikası": "SSL Security Certificate",
-  "www.siteadi.com": "www.yoursite.com",
-  "www.siteadi.com.tr": "www.yoursite.com.tr",
-  "https://www.siteadi.com": "https://www.yoursite.com",
-  "/ yıllık": "/ year",
-  "HIZLI TEKLİF ALIN !": "GET A QUICK QUOTE!",
-  "E TİCARET SİTELERİ": "E-COMMERCE SITES",
-  "Web Center: E TİCARET SİTELERİ": "Web Center: E-COMMERCE SITES",
-  "Dijital çağda başarılı bir işletme için e-ticaret, vazgeçilmez bir unsurdur.": "In the digital age, e-commerce is an essential element for a successful business.",
-  "olarak, kullanıcı dostu ve güvenli e-ticaret platformları tasarlayarak işletmelerin online dünyada daha geniş kitlelere ulaşmasını sağlıyoruz.": "As Web Center, we design user-friendly and secure e-commerce platforms that help businesses reach wider audiences in the online world.",
-  "E-ticaret": "E-commerce",
-  "ürün veya hizmetlerin internet üzerinden satışa sunulmasıdır. Online alışveriş, günümüz tüketici alışkanlıklarının merkezinde yer alıyor.": "is the sale of products or services over the internet. Online shopping is at the center of today's consumer habits.",
-  "Daha Geniş Bir Kitleye Ulaşım": "Reach a Wider Audience",
-  "Mağazanızın fiziksel sınırlarını aşarak global müşterilere ulaşabilirsiniz.": "You can reach global customers by overcoming the physical boundaries of your store.",
-  "7/24 Açık Mağaza": "24/7 Open Store",
-  "Online mağazanız her zaman açık olur; müşteriler istediği zaman alışveriş yapabilir.": "Your online store is always open; customers can shop whenever they want.",
-  "Düşük Maliyet": "Low Cost",
-  "Fiziksel mağazalara kıyasla daha düşük işletme maliyetleriyle satış yapabilirsiniz.": "You can sell with lower operating costs compared to physical stores.",
-  "Web Center: E-TİCARET HİZMETLERİ": "Web Center: E-COMMERCE SERVICES",
-  "Profesyonel E-Ticaret Tasarımı": "Professional E-Commerce Design",
-  "Markanızın kimliğini yansıtan şık ve modern tasarımlar hazırlıyoruz. Kullanıcı deneyimi (UX) odaklı tasarımlarımız, müşterilerinizin siteyi kolayca kullanmasını sağlar.": "We prepare elegant and modern designs that reflect your brand identity. Our user experience (UX) focused designs ensure your customers can easily use the site.",
-  "Ürün ve Stok Yönetimi": "Product and Inventory Management",
-  "Sitenize kolayca ürün ekleyebilir, stoklarınızı takip edebilirsiniz. Otomasyon sistemleriyle süreçlerinizi hızlandırıyoruz.": "You can easily add products to your site and track your inventory. We speed up your processes with automation systems.",
-  "Ödeme Sistemleri Entegrasyonu": "Payment Systems Integration",
-  "Kredi kartı, banka havalesi, kapıda ödeme ve dijital cüzdan gibi çeşitli ödeme yöntemlerini sitenize entegre ediyoruz.": "We integrate various payment methods such as credit card, bank transfer, cash on delivery, and digital wallet into your site.",
-  "Mobil Uyumlu (Responsive) Tasarım": "Mobile-Friendly (Responsive) Design",
-  "Müşterilerinizin mobil cihazlardan da sorunsuz alışveriş yapmasını sağlıyoruz.": "We ensure your customers can shop seamlessly from mobile devices.",
-  "SEO ve Pazarlama Desteği": "SEO and Marketing Support",
-  "Sitenizin arama motorlarında üst sıralarda yer alması için SEO uyumlu altyapı sunuyoruz. Ayrıca dijital pazarlama entegrasyonlarıyla satışlarınızı artırmanıza yardımcı oluyoruz.": "We provide SEO-compatible infrastructure to rank your site higher in search engines. We also help increase your sales with digital marketing integrations.",
-  "Hızlı ve Güvenli Altyapı": "Fast and Secure Infrastructure",
-  "SSL sertifikası, güvenli ödeme sistemleri ve hızlı yükleme süreleriyle hem müşterilerinizin güvenini kazanıyor hem de daha iyi bir kullanıcı deneyimi sunuyoruz.": "With SSL certificates, secure payment systems, and fast loading times, we both gain your customers' trust and provide a better user experience.",
-  "Analitik ve Raporlama Araçları": "Analytics and Reporting Tools",
-  "Satışlarınızı, ziyaretçi trafiğinizi ve performansınızı analiz ederek işinizi büyütmenize yardımcı olacak veriler sağlıyoruz.": "We provide data that will help grow your business by analyzing your sales, visitor traffic, and performance.",
-  "Web Center: E-TİCARET SİTELERİMİZİN AVANTAJLARI": "Web Center: ADVANTAGES OF OUR E-COMMERCE SITES",
-  "Kolay Kullanım": "Easy to Use",
-  "Yönetim paneli sayesinde teknik bilgi gerektirmeden sitenizi yönetebilirsiniz.": "You can manage your site without requiring technical knowledge thanks to the admin panel.",
-  "Esneklik": "Flexibility",
-  "Küçük işletmelerden büyük markalara kadar her ölçek için uygun çözümler sunarız.": "We offer suitable solutions for every scale, from small businesses to large brands.",
-  "Hızlı Başlangıç": "Quick Start",
-  "E-ticaret sitenizi kısa sürede yayına alarak satış yapmaya başlayabilirsiniz.": "You can start selling by launching your e-commerce site in a short time.",
-  "Müşteri Memnuniyeti": "Customer Satisfaction",
-  "Hızlı ve kolay alışveriş deneyimi sunarak müşteri sadakatini artırabilirsiniz.": "You can increase customer loyalty by providing a fast and easy shopping experience.",
-  "olarak, e-ticaret sitenizi hayata geçirmek için baştan sona tüm süreçlerde sizin yanınızdayız. Sitenizin tasarımından teknik altyapısına, pazarlama stratejilerinden güvenlik önlemlerine kadar her detayı titizlikle ele alıyoruz.": "As Web Center, we are with you throughout all processes to bring your e-commerce site to life. We meticulously handle every detail, from your site's design to its technical infrastructure, from marketing strategies to security measures.",
-  "ile geleceğinizi bugünden inşa edin!": "Build your future today!",
-  "GOOGLE HARİTA KAYDI": "GOOGLE MAPS REGISTRATION",
-  "Web Center: GOOGLE HARİTA KAYDI": "Web Center: GOOGLE MAPS REGISTRATION",
-  "Yerel müşterilere ulaşmak ve işletmenizin fiziksel varlığını güçlendirmek için harita kayıt hizmetimizden faydalanabilirsiniz.": "You can benefit from our map registration service to reach local customers and strengthen your business's physical presence.",
-  "olarak, Google My Business gibi platformlara işletme bilgilerinizi doğru ve eksiksiz bir şekilde kaydediyoruz. Bu hizmetle:": "As Web Center, we register your business information accurately and completely on platforms like Google My Business. With this service:",
-  "İşletme adresinizi, iletişim bilgilerinizi ve çalışma saatlerinizi ekliyoruz.": "We add your business address, contact information, and working hours.",
-  "Müşteri yorumlarını yönetmenizi kolaylaştırıyoruz.": "We make it easier for you to manage customer reviews.",
-  "Harita üzerinde görünebilirliğinizi artırarak müşterilerinizin size ulaşmasını kolaylaştırıyoruz.": "We increase your visibility on the map, making it easier for your customers to reach you.",
-  "Böylece hem yerel pazarda daha güçlü bir konum elde ediyor hem de müşterilerinizin sizi bulma sürecini basitleştiriyoruz.": "Thus, we help you gain a stronger position in the local market while simplifying the process of customers finding you.",
-  "En Uygun": "Most Affordable",
-  "Başlangıç": "Starter",
-  "Uzman": "Expert",
-  "Profosyonel": "Professional",
-  "Ultra": "Ultra",
-  "En Avantajlı": "Most Advantageous",
-  "Site Barındırma": "Site Hosting",
-  "Disk Alanı": "Disk Space",
-  "Trafik": "Traffic",
-  "E-Posta": "Email",
-  "CPU": "CPU",
-  "Ram": "RAM",
-  "SINIRSIZ": "UNLIMITED",
-  "1 Site": "1 Site",
-  "3 Site": "3 Sites",
-  "10 GB": "10 GB",
-  "50 GB": "50 GB",
-  "10 Adet": "10 Accounts",
-  "30 Adet": "30 Accounts",
-  "1 Core": "1 Core",
-  "2 Core": "2 Cores",
-  "4 Core": "4 Cores",
-  "512 MB": "512 MB",
-  "1024 MB": "1024 MB",
-  "2048 MB": "2048 MB",
-  "4096 MB": "4096 MB",
-  "cPanel": "cPanel",
-  "Litespeed": "Litespeed",
-  "Litespeed Cache": "Litespeed Cache",
-  "Ücretsiz .com.tr Domain": "Free .com.tr Domain",
-  "Ücretsiz SSL": "Free SSL",
-  "Ücretsiz SSL + Özel IP": "Free SSL + Dedicated IP",
-  "HIZLI TEKLİF ALIN !": "GET A QUICK QUOTE!",
-  "LOGO TASARIMI": "LOGO DESIGN",
-  "Web Center: LOGO TASARIMI": "Web Center: LOGO DESIGN",
-  "Marka kimliğinizin en önemli parçası olan logonuz, müşterilerinizle kurduğunuz ilk bağdır.": "Your logo, as the most important part of your brand identity, is the first connection you establish with your customers.",
-  "Web Center": "Web Center",
-  "olarak, işletmenizin vizyonunu ve değerlerini en iyi şekilde yansıtan, yaratıcı ve profesyonel logo tasarımları sunuyoruz. Tasarım sürecimizde:": "As Web Center, we offer creative and professional logo designs that best reflect your business's vision and values. In our design process:",
-  "Sektör analizleri yapıyor": "We conduct industry analyses",
-  "Markanızı farklılaştıracak özgün fikirler geliştiriyor": "We develop unique ideas to differentiate your brand",
-  "Renk ve tipografi seçimleriyle mesajınızı görselleştiriyoruz": "We visualize your message through color and typography choices",
-  "Sonuç olarak, işletmenizin unutulmaz bir kimliğe sahip olmasını sağlıyoruz. Sizinle birlikte çalışarak, markanızın hikayesini güçlü bir şekilde anlatan bir logo tasarlıyoruz.": "As a result, we ensure your business has a memorable identity. By working with you, we design a logo that powerfully tells your brand's story.",
-  "ile geleceğinizi bugünden inşa edin!": "Build your future today!",
-  "SEO OPTİMİZASYONU": "SEO OPTIMIZATION",
-  "Web Center: SEO OPTİMİZASYONU": "Web Center: SEO OPTIMIZATION",
-  "Dijital dünyada görünür olmak artık her işletme için hayati öneme sahip.": "Being visible in the digital world is now vital for every business.",
-  "olarak, web sitenizin arama motorlarında üst sıralarda yer almasını sağlamak için kapsamlı SEO hizmetleri sunuyoruz. Hizmetlerimiz arasında:": "We provide comprehensive SEO services to ensure your website ranks high in search engines. Our services include:",
-  "Hedef kitlenizin arama alışkanlıklarına uygun stratejik anahtar kelimeler belirliyoruz.": "We identify strategic keywords that match your target audience's search habits.",
-  "Web sitenizdeki metinleri, görselleri ve videoları arama motorlarına uyumlu hale getiriyoruz.": "We optimize your website's text, images, and videos for search engines.",
-  "Sayfa hızını artırıyor, mobil uyumluluğunuzu geliştiriyor ve web sitenizin teknik performansını optimize ediyoruz.": "We increase page speed, improve mobile compatibility, and optimize your website's technical performance.",
-  "Amacımız, işletmenizin dijital dünyada daha fazla trafik almasını ve müşteri kitlenizi büyütmesini sağlamaktır.": "Our goal is to help your business get more traffic in the digital world and grow your customer base.",
-  "Web Center: Modern ve Profesyonel Web Tasarım HİZMETLERİ": "Web Center: Modern and Professional Web Design SERVICES",
-  "Günümüzde bir işletmenin veya markanın dijital dünyadaki varlığı, başarısının en kritik unsurlarından biridir.": "Today, a business or brand's presence in the digital world is one of the most critical elements of its success.",
-  "olarak, yenilikçi, kullanıcı dostu ve estetik web tasarımlarıyla müşterilerimizin online hedeflerine ulaşmalarını sağlıyoruz.": "We help our clients achieve their online goals with innovative, user-friendly, and aesthetic web designs.",
-  "Web Tasarımı Nedİr ve Neden ÖnemlİDİr?": "What is Web Design and Why is it Important?",
-  "Web tasarımı, bir web sitesinin görsel estetiği, kullanıcı deneyimi (UX) ve teknik altyapısının bir araya getirilmesidir.": "Web design is the combination of a website's visual aesthetics, user experience (UX), and technical infrastructure.",
-  "Kullanıcı Deneyimi": "User Experience",
-  "Ziyaretçilerin web sitenizi kolayca kullanmasını ve ihtiyaçlarına hızla ulaşmasını sağlar.": "Ensures visitors can easily use your website and quickly access their needs.",
-  "Marka Kimliği": "Brand Identity",
-  "İşletmenizin profesyonel bir imaj çizmesine yardımcı olur.": "Helps your business project a professional image.",
-  "Mobil Uyumluluk": "Mobile Compatibility",
-  "Günümüzde trafiğin büyük kısmı mobil cihazlardan gelir; bu nedenle responsive (mobil uyumlu) tasarım şarttır.": "Today, most traffic comes from mobile devices; therefore, responsive (mobile-friendly) design is essential.",
-  "Web Center'ın Sağladığı Web Tasarım HİZMETLERİ": "Web Design SERVICES Provided by Web Center",
-  "Kurumsal Web Siteleri": "Corporate Websites",
-  "İşletmenizin prestijini artıracak, şık ve profesyonel tasarımlarla donatılmış web siteleri tasarlıyoruz.": "We design websites equipped with elegant and professional designs that will enhance your business's prestige.",
-  "E-Ticaret Web Siteleri": "E-Commerce Websites",
-  "Online satış yapmanız için gerekli tüm özelliklerle donatılmış, kullanıcı dostu ve güvenli e-ticaret platformları oluşturuyoruz.": "We create user-friendly and secure e-commerce platforms equipped with all necessary features for your online sales.",
-  "Kişisel Web Siteleri": "Personal Websites",
-  "Sanatçılar, freelancerlar veya bireysel portföy ihtiyaçları için kişisel web tasarımları sunuyoruz.": "We offer personal web designs for artists, freelancers, or individual portfolio needs.",
-  "Blog ve İçerik Siteleri": "Blog and Content Sites",
-  "İlgi çekici ve kolayca yönetilebilen blog platformları tasarlıyoruz.": "We design engaging and easily manageable blog platforms.",
-  "SEO Uyumlu Tasarım": "SEO-Friendly Design",
-  "Tasarım aşamasında SEO kriterlerini göz önünde bulundurarak, web sitenizin arama motorlarında daha görünür olmasını sağlıyoruz.": "By considering SEO criteria during the design phase, we ensure your website is more visible in search engines.",
-  "Mobil Uyumlu (Responsive) Tasarım": "Mobile-Friendly (Responsive) Design",
-  "Her cihazda sorunsuz çalışan web siteleriyle ziyaretçilerinizin deneyimini kusursuz hale getiriyoruz.": "We perfect your visitors' experience with websites that work flawlessly on every device.",
-  "Web Tasarım SÜRECİMİZ": "Our Web Design PROCESS",
-  "Analiz ve Strateji": "Analysis and Strategy",
-  "İşletmenizin ihtiyaçlarını ve hedeflerini anlamak için detaylı bir analiz yapıyoruz.": "We conduct a detailed analysis to understand your business needs and goals.",
-  "Tasarım": "Design",
-  "Markanıza uygun modern ve etkileyici bir tasarım hazırlıyoruz.": "We prepare a modern and impressive design suitable for your brand.",
-  "Geliştirme": "Development",
-  "Web sitenizi, en son teknolojilerle güvenli ve hızlı bir şekilde kodluyoruz.": "We code your website securely and quickly using the latest technologies.",
-  "Test ve Yayınlama": "Testing and Publishing",
-  "Yayın öncesinde tüm testleri yaparak sorunsuz bir kullanıcı deneyimi sunuyoruz.": "We provide a flawless user experience by conducting all tests before publishing.",
-  "Destek ve Güncelleme": "Support and Updates",
-  "Yayınlandıktan sonra da teknik destek ve gerektiğinde güncelleme hizmeti sağlıyoruz.": "We provide technical support and update services after publishing when needed.",
-  "Neden Web Center?": "Why Web Center?",
-  "Profesyonellik": "Professionalism",
-  "Her projede uzman ekibimizle kaliteli işler sunarız.": "We deliver quality work with our expert team in every project.",
-  "Müşteri Odaklılık": "Customer Focus",
-  "Taleplerinize uygun kişiselleştirilmiş çözümler üretiriz.": "We produce personalized solutions according to your requirements.",
-  "Güvenilirlik": "Reliability",
-  "Web sitenizin güvenliği ve performansı bizim için önceliklidir.": "Your website's security and performance are our priority.",
-  "Yenilikçi Yaklaşım": "Innovative Approach",
-  "En son trendleri takip ederek tasarımlarımızı sürekli geliştiririz.": "We continuously improve our designs by following the latest trends.",
-  "olarak, işletmenizi dijital dünyada bir adım öne taşıyacak çözümler sunmaktan mutluluk duyarız.": "We are happy to provide solutions that will take your business one step ahead in the digital world.",
-  "İLETİŞİM": "CONTACT",
-  "HAKKIMIZDA": "ABOUT US",
-  "İLETİŞİM BİLGİLERİ": "CONTACT INFORMATION",
-  "Web Center: BİZİMLE İLETİŞİME GEÇİNİZ!": "Web Center: CONTACT US!",
-  "Soru, görüş, öneri ve istekleriniz için aşağıdaki bilgiler aracılığıyla bize 7/24 ulaşabilirsiniz.": "You can reach us 24/7 through the information below for your questions, opinions, suggestions and requests.",
-  "Adınız Soyadınız": "Your Name and Surname",
-  "E-posta Adresiniz": "Your Email Address",
-  "Konu": "Subject",
-  "Mesajınız": "Your Message",
-  "GÖNDER": "SEND",
-  "Sunucudan geçersiz yanıt alındı": "Invalid response received from server",
-  "Mesajınız başarıyla gönderildi": "Your message has been sent successfully",
-  "Bir hata oluştu": "An error occurred",
-  "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.": "An error occurred. Please try again later.",
-  "BİZİMLE İLETİŞİME GEÇİNİZ!": "CONTACT US!"
-}
+  "BELLA KOLTUK TAKIMI": "BELLA ARMCHAIR SET",
+  "bella": {
+    "title": "BELLA ARMCHAIR SET",
+    "description": "The perfect combination of elegance, comfort and style: Bella Armchair Set. With Neva Furniture's unique design and quality craftsmanship, it adds an aesthetic touch to your living spaces.",
+    "price": "Special Price",
+    "material": "Our own production, the Bella Armchair Set attracts attention with its modern lines while offering a soft and comfortable seating experience with its velvet textured fabric. Its back-supported ergonomic structure combines both aesthetics and comfort to provide enjoyable seating experiences.",
+    "comfort": "With its wooden leg details and elegant stitching, this set is designed to add a warm and sophisticated atmosphere to your living rooms with its timeless style.",
+    "design": "Modern lines with classic harmony",
+    "durability": "High quality local production",
+    "fabric": "Velvet textured washable fabric",
+    "accessories": "Color coordinated armchair and decorative pillows",
+    "company": "Neva Furniture",
+    "production": "As Neva Furniture, we meticulously produce all our products in our own facilities, offering you long-lasting and stylish solutions.",
+    "contact": "QUICK CONTACT" 
+  },
+  "boss": {
+    "title": "BOSS ARMCHAIR SET",
+    "description": "The choice of those who want to add elegance and charisma to modern living spaces: BOSS Armchair Set. This set, a unique design by Neva Furniture, offers a sophisticated look with its elegant stitching details and wood-paneled side panels. Its structure, which can adapt to both classic and contemporary decoration styles, will change the atmosphere of your home.",
+    "price": "Special Price",
+    "material": "With its soft textured upholstery fabric, comfortable seating areas, and back-supported cushions, it offers an ideal space to relieve the fatigue of the day. Moreover, thanks to its large interior volume, you can host your guests in the best way.",
+    "comfort": "",
+    "quality": "Quality material",
+    "handmade": "Handcrafted details",
+    "design": "Modern lines with classic harmony",
+    "durability": "Long-lasting comfort",
+    "look": "Striking design",
+    "company": "The BOSS Armchair Set is waiting to take its place in your home with Neva Furniture's production assurance and aesthetic understanding. Take your style one step further now!",
+    "contact": "QUICK CONTACT"
+  },
+  "brahma": {
+    "title": "BRAHMA ARMCHAIR SET",
+    "description": "Where simple elegance meets warm textures: BRAHMA Armchair Set. This special set, brought to life with Neva Furniture's elegant design approach, brings a peaceful atmosphere to your living space with its natural tones and modern lines.",
+    "price": "Special Price",
+    "material": "With its wide seating areas prioritizing comfort, soft back cushions, and quality upholstery, it offers both aesthetics and functionality together. The wooden leg and frame details complete durability with elegance. The harmonious combination of different color tones makes BRAHMA a model that perfectly fits both classic and contemporary styles.",
+    "comfort": "",
+    "natural": "Natural and timeless design",
+    "ergonomic": "Maximum comfort with ergonomic structure",
+    "handmade": "Quality craftsmanship",
+    "durability": "Long-lasting comfort",
+    "production": "Domestic production with Neva Furniture assurance",
+    "company": "BRAHMA Armchair Set will be indispensable for those who want a simple yet impressive decoration. Now is the time to make a difference in your home!",
+    "contact": "QUICK CONTACT"
+  },
+  "casa": {
+    "title": "CASA ARMCHAIR SET",
+    "description": "Where naturalness meets elegance: CASA Armchair Set. With its modern lines, soft textured fabric, and natural wood details, CASA is designed to add a simple yet impressive atmosphere to your living space.",
+    "price": "Special Price",
+    "material": "The stylish harmony of light gray and brown tones adds both warmth and tranquility to the decor. Its soft seating structure, large cushions, and supportive back design provide maximum comfort even during long sittings. CASA adapts to every style of interior with its balanced blend of classic and modern style.",
+    "comfort": "",
+    "modern": "Modern and simple design lines",
+    "soft": "Soft seating areas offering high comfort",
+    "quality": "Quality fabric texture and natural wooden legs",
+    "durability": "Long-lasting comfort",
+    "salon": "Aesthetic and functional contribution to large living rooms",
+    "company": "CASA Armchair Set is a new favorite for those who want to combine elegance and comfort in their home. Simple elegance, strong character.",
+    "contact": "QUICK CONTACT"
+  },
+  "golf": {
+    "title": "GOLF ARMCHAIR SET",
+    "description": "The point where elegance meets luxury: GOLF Armchair Set. This set, which reinterprets the classic Chester style with modern lines, brings a sophisticated touch to your living spaces.",
+    "price": "Special Price",
+    "material": "The fabric structure used in different textures and tones combines with the quilted workmanship on the armrests to offer a rich visuality. Ideal for those seeking both comfort and aesthetics, GOLF also provides ease of cleaning thanks to its high leg design.",
+    "comfort": "",
+    "chester": "Modern quilted arm details in Chester style",
+    "velvet": "Comfortable seating areas with a velvety texture",
+    "wood": "Warm and natural look with wooden legs",
+    "durability": "Long-lasting comfort",
+    "combination": "Unique decorative options with two color combinations",
+    "company": "GOLF Armchair Set is the choice of those who want to experience both elegance and comfort at the same time. This special design, which will change the atmosphere of your home, makes a difference at first glance.",
+    "contact": "QUICK CONTACT"
+  },
+  "odessa": {
+    "title": "ODESSA ARMCHAIR SET",
+    "description": "Modern elegance meets the inspiring colors of nature: ODESSA Armchair Set. Its design with soft lines and the harmony of pastel green and cream tones offers a peaceful living space.",
+    "price": "Special Price",
+    "material": "Standing out with its minimalist lines and aesthetic details, ODESSA is an ideal option for those who adopt a simple yet stylish decoration approach. The wooden leg structure combines natural texture with modern furniture design.",
+    "comfort": "",
+    "soft": "Comfortable seating areas with soft texture",
+    "velvet": "Comfortable seating areas with a velvety texture",
+    "pastel": "Modern color harmony in pastel tones",
+    "minimal": "Elegant design with minimal lines",
+    "cleaning": "High legs that offer easy cleaning",
+    "company": "ODESSA Armchair Set is designed to add freshness and naturalness to your home. If you are after simple elegance, this collection is just for you!",
+    "contact": "QUICK CONTACT"
+  },
+  "piano": {
+    "title": "PIANO ARMCHAIR SET",
+    "description": "Meet the modern interpretation of timeless elegance: PIANO Armchair Set. The striking harmony of deep navy blue and elegant cream tones adds a sophisticated atmosphere to your living spaces.",
+    "price": "Special Price",
+    "material": "Its design enriched with simple lines, metal leg details, and quality upholstery offers both aesthetics and comfort. With its vertical stitching details and velvet-textured surface, PIANO interprets luxury in a minimal language and is a candidate to be the indispensable piece of modern home decoration.",
+    "comfort": "",
+    "contrast": "Contemporary look with contrasting colors",
+    "soft": "Wide seating areas offering high comfort",
+    "metal": "Modern details with metal legs",
+    "cleaning": "Elevated structure for easy cleaning",
+    "company": "PIANO Armchair Set is a perfect choice for those who adopt an elegant yet assertive decoration approach. Bring life to your home with the perfect balance of aesthetics and comfort.",
+    "contact": "QUICK CONTACT"
+  },
+  "turkuaz": {
+    "title": "TURKUAZ ARMCHAIR SET",
+    "description": "The warmth of nature meets classic elegance: TURKUAZ Armchair Set. The soothing softness of beige tones, brown pillow details, and elegant stitching patterns combine to add simple elegance to your living space.",
+    "price": "Special Price",
+    "material": "Curved arm structure, retro-inspired wooden legs, and finely crafted back details promise an experience inspired by traditional style but offering modern comfort. With its wide seating area and soft cushions, it provides both aesthetics and ease of use.",
+    "comfort": "",
+    "classic": "Modern harmony with classic lines",
+    "natural": "Natural colors and warm textures",
+    "ergonomic": "Top-level comfort with ergonomic design",
+    "cleaning": "Elevated structure for easy cleaning",
+    "company": "TURKUAZ Armchair Set is ideal for those seeking a warm, sincere, and timeless decoration style. You can create a peaceful atmosphere in your home with a nostalgic touch.",
+    "contact": "QUICK CONTACT"
+  },
+  "zen": {
+    "title": "ZEN ARMCHAIR SET",
+    "descriptionStrong": "The warmth of nature meets classic elegance: ZEN Armchair Set.",
+    "description": "The nobility of gray tones is enriched with quilted details, adding a sophisticated atmosphere to your living room.",
+    "price": "Special Price",
+    "material": "With its elegant curves, stylish stitching, and comfort-oriented design, ZEN has both traditional touches and a contemporary stance. Its high-legged structure offers easy cleaning, while its rich fabric texture takes comfort to the next level.",
+    "chesterfield": "Chesterfield style quilted details",
+    "colors": "Modern color palette in gray and anthracite tones",
+    "ergonomic": "Soft-filled, ergonomic seating area",
+    "woodenLegs": "Natural elegance with wooden legs",
+    "companyStrong": "ZEN Armchair Set,",
+    "company": "is a stylish choice for those who want to create elegant living spaces. This set, which brings luxury and tranquility together, will be the star of your home.",
+    "contact": "QUICK CONTACT"
+  },
+    "bellaBerjer": {
+      "title": "Bella Bergere",
+      "price": "Special Price",
+      "intro": "A special touch where comfort meets aesthetics: BELLA Bergere.",
+      "description": "With its soft lines, elegant back curve, and wooden feet supporting the retro style, it perfectly adapts to both classic and modern decorations.",
+      "features": {
+        "text": "BELLA Bergere, which stands out with its leather-look upholstery, offers a pleasant relaxation experience thanks to its high back support and wide seating area. It provides long-lasting use with its quality material and craftsmanship.",
+        "list": {
+          "comfort": "Ergonomic design offering high comfort",
+          "wood": "Solid ground grip with natural wooden feet",
+          "fabric": "Aesthetic and durable leather-look upholstery",
+          "design": "Unique form combining modern-retro lines"
+        }
+      },
+      "conclusion": "If you're looking for comfortable elegance in your living room, bedroom, or reading corner, BELLA Bergere from NEVA Furniture is the ideal choice for you.",
+      "contact": "QUICK CONTACT"
+    },
+    "bossBerjer": {
+      "title": "Boss Bergere",
+      "price": "Special Price",
+      "intro": "Style and comfort come to your living spaces with Neva Furniture's elegant touch. Meet the BOSS Bergere.",
+      "description": "BOSS Bergere adds prestige to your living rooms with its modern lines and aesthetic details. With its soft-textured fabric and high back support, it offers a space where you can enjoyably relieve the fatigue of the day.",
+      "features": {
+        "text": "This special bergere, meticulously designed in every detail, reflects Neva Furniture's quality understanding and elegance vision. It combines aesthetics and functionality with its wooden feet and ergonomic structure.",
+        "list": {
+          "quality": "Manufactured with Neva Furniture quality",
+          "comfort": "Comfortable seating area and elegant stitching details",
+          "structure": "Solid structure with natural wooden feet",
+          "usage": "Ideal choice for living rooms, offices, or reading corners"
+        }
+      },
+      "conclusion": "Reflect your style with BOSS Bergere, make a difference in your living spaces.",
+      "contact": "QUICK CONTACT"
+    },
+    "brahmaBerjer": {
+      "title": "Brahma Bergere",
+      "price": "Special Price",
+      "intro": "A special piece where timeless design meets modern touch: Brahma Bergere.",
+      "description": "This Bergere, produced with Neva Furniture quality, offers both comfort and aesthetics with its soft-textured bouclé fabric and curved form. It adapts to every style with its minimalist lines and simple structure.",
+      "features": {
+        "text": "Brahma Bergere is an eye-catching complement especially in relaxation areas, reading corners, and living room decorations. It creates a warm and inviting atmosphere with its natural wooden feet and wide seating area.",
+        "list": {
+          "fabric": "Soft-textured boucle fabric",
+          "comfort": "Comfortable back and seating design",
+          "design": "Elegant and modern appearance",
+          "structure": "Solid structure with wooden foot details",
+          "style": "Ideal for minimalist and contemporary decorations"
+        }
+      },
+      "conclusion": "Add value to your style with Neva Furniture, make your living spaces unique.",
+      "contact": "QUICK CONTACT"
+    },
+    "casaBerjer": {
+      "title": "Casa Bergere",
+      "price": "Special Price",
+      "intro": "An elegant and powerful stance where comfort blends with aesthetics: Casa Bergere.",
+      "description": "This special Bergere bearing the Neva Furniture signature adds depth to living spaces with its warm brown tones while elevating comfort to the highest level with its curved form and soft-textured fabric. It adapts to every environment with its timeless design and modern details.",
+      "features": {
+        "text": "Casa Bergere is an eye-catching complement in every area from reading corners to living room decorations. Thanks to its wooden feet, it both exhibits a natural stance and offers durability. It is ideal for long-term use with its wide seating and ergonomic structure.",
+        "list": {
+          "fabric": "Soft-textured fabric surface",
+          "comfort": "Wide and ergonomic seating design",
+          "design": "Modern appearance with curved lines",
+          "structure": "Natural wooden feet",
+          "style": "Adapts to different decorations with its timeless design"
+        }
+      },
+      "conclusion": "Add style to your living spaces with Neva Furniture, enjoy every moment with Casa Bergere.",
+      "contact": "QUICK CONTACT"
+    },
+    "golfBerjer": {
+      "title": "Golf Bergere",
+      "price": "Special Price",
+      "intro": "Golf Bergere, designed to add an elegant touch to your living spaces, combines classic elegance with modern details.",
+      "description": "With its elegant quilted arm design, natural wooden feet, and warm beige tones, it brings both comfort and aesthetics to your living space.",
+      "features": {
+        "text": "Golf Bergere, which stands out with its high back structure and button quilted details, combines comfort and aesthetics. The decorative pillow that comes with it offers both support and elegance.",
+        "list": {
+          "design": "High back and button quilted design",
+          "comfort": "Soft, comfortable seating area",
+          "structure": "Natural appearance with wooden feet",
+          "accessories": "Includes decorative pillow",
+          "style": "Elegant and functional design"
+        }
+      },
+      "conclusion": "Change the atmosphere of your home with GOLF Bergere, experience comfort with elegance. With the difference of Neva Furniture…",
+      "contact": "QUICK CONTACT"
+    },
+    "odessaBerjer": {
+      "title": "Odessa Bergere",
+      "price": "Special Price",
+      "intro": "A unique design where elegant simplicity meets contemporary comfort: Odessa Bergere.",
+      "description": "Produced with Neva Furniture guarantee, Odessa combines both comfort and elegance with its soft-textured fabric and organic form. It inspires modern living spaces with its flowing lines, simple structure, and innate elegance.",
+      "features": {
+        "text": "Odessa Bergere provides a distinctive touch in many spaces from reading corners to relaxation areas. While offering comfortable seating with its slightly angled back structure and supportive cushion detail, its elegant wooden feet exhibit a natural stance.",
+        "list": {
+          "fabric": "Soft-textured and durable fabric",
+          "comfort": "Wide and comfortable seating area",
+          "design": "Modern design with curved and flowing lines",
+          "accessories": "Supportive back cushion",
+          "structure": "Aesthetic and sturdy wooden foot structure"
+        }
+      },
+      "conclusion": "Create peaceful living spaces that reflect your style with Neva Furniture, feel the comfort of Odessa Bergere at every moment.",
+      "contact": "QUICK CONTACT"
+    },
+    "pianoBerjer": {
+      "title": "Piano Bergere",
+      "price": "Special Price",
+      "intro": "A powerful interpretation of elegance: Sophisticated details are brought to your living spaces with Piano Bergere.",
+      "description": "Designed with Neva Furniture quality, Piano Bergere offers premium comfort with its velvety texture and high back design, while drawing attention with its vertical stitching details and modern lines. Its wide seating area and elegant curves combine aesthetics with comfort.",
+      "features": {
+        "text": "Piano Bergere is an ideal choice for those who want to create an elegant atmosphere in stylish living rooms, reading areas, or hotel lobbies. It provides a bold and contemporary look with its patterned cushion detail and dark color tone.",
+        "list": {
+          "fabric": "Velvet-textured, soft fabric surface",
+          "comfort": "High back and comfortable seating area",
+          "design": "Modern design with vertical stitching details",
+          "accessories": "Patterned decorative cushion",
+          "structure": "Elegant and sturdy wooden feet"
+        }
+      },
+      "conclusion": "You are invited to moments where comfort meets elegance with Neva Furniture. Add character to your space with Piano Bergere.",
+      "contact": "QUICK CONTACT"
+    },
+    "turkuazBerjer": {
+      "title": "Turkuaz Bergere",
+      "price": "Special Price",
+      "intro": "Turkuaz Bergere, where modern elegance blends with classic lines, is poised to become the new favorite of stylish living spaces.",
+      "description": "With its curved arms featuring fine lines, high back support, and contrasting cushion, it offers an ideal design for those seeking both comfort and aesthetics.",
+      "features": {
+        "text": "Turkuaz Bergere creates a warm atmosphere in every environment with its natural wooden feet and soft-textured upholstery. With its minimalist structure, it perfectly adapts to both modern and classic decorations.",
+        "list": {
+          "design": "Design with simple and elegant lines",
+          "accessories": "Special lumbar support cushion",
+          "structure": "Sturdy structure with wooden feet",
+          "comfort": "Wide and comfortable seating area",
+          "style": "Comfortable stance with curved arm structure"
+        }
+      },
+      "conclusion": "Add style and comfort to your living spaces with TURKUAZ Bergere. Feel the difference with Neva Furniture quality.",
+      "contact": "QUICK CONTACT"
+    },
+    "zenBerjer": {
+      "title": "Zen Bergere",
+      "price": "Special Price",
+      "intro": "Where comfort meets timeless elegance: Zen Bergere.",
+      "description": "Zen Bergere, bearing the Neva Furniture signature, masterfully blends classic touches with modern lines. It offers both aesthetic and ergonomic experience with its deep seating structure, soft-filled back area, and elegant quilted details.",
+      "features": {
+        "text": "Completed with the elegance and durability of its metal feet, Zen Bergere is an ideal complement especially for living rooms, office corners, or classic-modern decoration styles.",
+        "list": {
+          "fabric": "Soft-textured, stain-resistant fabric",
+          "design": "Elegant back design with quilted stitching details",
+          "structure": "Modernly designed metal feet",
+          "comfort": "Wide and comfortable seating area",
+          "style": "Compatible with classic and contemporary decorations"
+        }
+      },
+      "conclusion": "Enjoy peace and elegance with Zen Bergere, crafted with Neva Furniture's meticulous workmanship.",
+      "contact": "QUICK CONTACT"
+    },
+    "brahmaKose": {
+      "title": "BRAHMA CORNER SET",
+      "price": "Contact us for price",
+      "intro": "The Brahma Corner Set is a special collection that combines modern design and comfort.",
+      "description": "This special design will add elegance and comfort to every corner of your home. The Brahma Corner Set, produced with high-quality materials and careful craftsmanship, is designed for long-term use.",
+      "features": {
+        "text": "Featured Properties:",
+        "list": {
+          "fabric": "High-quality, durable, and easy-to-clean fabric",
+          "design": "Modern and elegant design",
+          "structure": "Strong and durable frame structure",
+          "style": "Versatile style that adapts to every taste"
+        }
+      },
+      "conclusion": "Add value to your home with the Brahma Corner Set and make your living spaces more comfortable.",
+      "contact": "CONTACT US"
+    },
+    "casaKose": {
+      "title": "CASA CORNER SET",
+      "price": "Special Price",
+      "intro": "A special design where modern elegance meets simple lines: CASA Corner Set.",
+      "description": "Its soft-textured cream-colored fabric, completed with natural wooden details, creates a warm and inviting atmosphere.",
+      "features": {
+        "text": "CASA, enriched with its ergonomic structure that prioritizes comfort and decorative cushions, appeals to those seeking both aesthetics and functionality. This set, designed with minimal lines, brings timeless elegance to your home.",
+        "list": {
+          "design": "Spacious design in light tones",
+          "accessories": "Enhanced appearance with modern-geometric patterned cushions",
+          "structure": "High foot structure facilitating easy cleaning",
+          "comfort": "Durable fabric and comfortable seating area"
+        }
+      },
+      "conclusion": "CASA Corner Set is an eye-catching option that completes your living space by offering simple elegance and modern comfort together.",
+      "contact": "QUICK CONTACT"
+    },
+    "casaRelaxKose": {
+      "title": "CASA RELAX CORNER SET",
+      "price": "Special Price",
+      "intro": "A special design where modern life meets comfort: CASA RELAX Corner Set.",
+      "description": "It adapts to the rhythm of urban life with its simple lines, soft-textured gray fabric, and functional structure.",
+      "features": {
+        "text": "While enjoying the comfort of the day with its wide seating area and comfortable back cushions, natural wooden details and leather-look cushions add a warm touch to the design. CASA RELAX offers both aesthetic and functional solutions in your living space.",
+        "list": {
+          "design": "Modern and simple design approach",
+          "accessories": "Aesthetic contrast with leather-look cushions",
+          "structure": "Natural warmth with wooden feet",
+          "comfort": "Wide seating area and high comfort"
+        }
+      },
+      "conclusion": "CASA RELAX Corner Set is an inspiring choice for those who want to complete simple elegance with elegant details.",
+      "contact": "QUICK CONTACT"
+    },
+    "golfKose": {
+      "title": "GOLF CORNER SET",
+      "price": "Special Price",
+      "intro": "A sophisticated design where elegant details meet modern lines: GOLF Corner Set.",
+      "description": "It offers timeless elegance with its classic Chester arm details, upholstery in natural tones, and walnut wooden feet.",
+      "features": {
+        "text": "It creates both an aesthetic and functional living space with its simple form and high comfort. While GOLF brings a nostalgic touch to today's modern homes, it also prioritizes comfort.",
+        "list": {
+          "design": "Chester detailed arm design",
+          "fabric": "Upholstery in neutral and calm tones",
+          "comfort": "Back supports providing high comfort",
+          "structure": "Natural walnut wooden feet"
+        }
+      },
+      "conclusion": "If you want both elegance and comfort in your living room, GOLF Corner Set is just right for you.",
+      "contact": "QUICK CONTACT"
+    },
+    "bellaKanepe": {
+      "title": "Bella Sofa",
+      "price": "Special Price",
+      "intro": "An elegant design where modern lines meet comfort: BELLA Sofa.",
+      "description": "BELLA, which stands out with its vertical stitching details and soft cream tones, adds elegance to your living spaces with its simple elegance.",
+      "features": {
+        "text": "This sofa, which stands out with both its aesthetic and functional structure, perfectly adapts to today's modern home decoration understanding. It offers comfort even during long sittings thanks to its wide seating area and ergonomic back structure.",
+        "list": {
+          "design": "Modern appearance with vertical quilted stitching details",
+          "fabric": "Soft-textured, durable fabric surface",
+          "structure": "High from the ground and easy to clean with wooden feet",
+          "style": "Compatible with different decoration styles with its minimal design"
+        }
+      },
+      "conclusion": "BELLA Sofa is an ideal choice for those who want to create a simple but elegant atmosphere. If you're looking for a space where you can enjoyably relieve the fatigue of the day, BELLA is just right for you!",
+      "contact": "QUICK CONTACT"
+    },
+    "bossKanepe": {
+      "title": "Boss Sofa",
+      "price": "Special Price",
+      "intro": "Strong stance, noble details: Meet the BOSS Sofa.",
+      "description": "This special design, where deep brown tones meet modern forms, adds a sophisticated atmosphere to living spaces. BOSS, offering both comfort and elegance, truly lives up to its name.",
+      "features": {
+        "text": "This sofa, which stands out with its rich textured fabric and wood-look details, is not just for sitting but also a tool for creating a stylish living space. It is both aesthetic and ergonomic with its stitching details and supportive cushion structure.",
+        "list": {
+          "fabric": "Velvet-look, easy-to-clean special fabric",
+          "design": "Elegant stitching details integrated with modern lines",
+          "structure": "Durable and sturdy frame structure",
+          "comfort": "Long-lasting comfort",
+          "style": "Both natural and modern stance with wooden foot design"
+        }
+      },
+      "conclusion": "BOSS Sofa is designed by Neva Furniture for those who love classic elegance with modern interpretations. If you want to experience comfort and elegance together in your home, BOSS is the right choice for you!",
+      "contact": "QUICK CONTACT"
+    },
+    "brahmaKanepe": {
+      "title": "Brahma Sofa",
+      "price": "Special Price",
+      "intro": "Where natural simplicity meets elegant beauty: BRAHMA Sofa.",
+      "description": "This special sofa, designed with modern lines, brings tranquility to your living space with its simple form and natural textured fabric.",
+      "features": {
+        "text": "While offering spaciousness with its soft-textured cream-colored upholstery, it highlights aesthetic details with geometric patterned cushions and walnut-toned foot structure. An ideal choice for those seeking a simple yet characterful stance.",
+        "list": {
+          "design": "Minimalist design, modern lines",
+          "structure": "Elegant wooden feet in walnut tones",
+          "fabric": "Cream fabric with soft texture",
+          "accessories": "Geometric patterned cushions completing comfort",
+          "production": "Domestic production with Neva Furniture guarantee"
+        }
+      },
+      "conclusion": "BRAHMA Sofa brings living spaces together with a simple yet impressive style by offering tranquility and elegance in the same line.",
+      "contact": "QUICK CONTACT"
+    },
+    "casaKanepe": {
+      "title": "Casa Sofa",
+      "price": "Special Price",
+      "intro": "Modern lines and simple aesthetics together: CASA Sofa.",
+      "description": "With its light-colored woven fabric, natural wooden feet, and simple form, it adds spaciousness and elegance to your living space.",
+      "features": {
+        "text": "Thanks to its comfortable seating structure and minimal design, it easily adapts to both small and large spaces. CASA, offering both functional design and elegance, is poised to become an indispensable part of modern home decoration.",
+        "list": {
+          "fabric": "Light-toned, soft-textured fabric",
+          "design": "Modern and simple design lines",
+          "structure": "Quality fabric texture and natural wooden feet",
+          "comfort": "Long-lasting comfort",
+          "style": "Aesthetic and functional contribution to large living rooms"
+        }
+      },
+      "conclusion": "Experience the elegance that comes from simplicity with CASA Sofa in your home.",
+      "contact": "QUICK CONTACT"
+    },
+    "golfKanepe": {
+      "title": "Golf Sofa",
+      "price": "Special Price",
+      "intro": "The perfect meeting of classic details and modern lines: GOLF Sofa.",
+      "description": "With its elegant quilted arm design, natural wooden feet, and warm beige tones, it brings both comfort and aesthetics to your living space.",
+      "features": {
+        "text": "With its geometrically patterned cushions and soft-textured fabric, it both appeals to the eye and offers comfortable seating. GOLF Sofa perfectly adapts to both traditional and modern decoration styles.",
+        "list": {
+          "design": "Elegant quilted arm details",
+          "accessories": "Geometrically patterned decorative cushions",
+          "structure": "Walnut-colored wooden base and feet",
+          "comfort": "Long-lasting comfort",
+          "style": "Comfortable and supportive seating area"
+        }
+      },
+      "conclusion": "Create sophisticated elegance in your living space with GOLF Sofa.",
+      "contact": "QUICK CONTACT"
+    },
+    "odessaKanepe": {
+      "title": "Odessa Sofa",
+      "price": "Special Price",
+      "intro": "Elegant simplicity and natural beauty: ODESSA Sofa.",
+      "description": "Designed to bring tranquility to your living space. Odessa, with its rounded lines and simple stance, represents modern decoration understanding and draws inspiration from nature with its green-toned cushion details.",
+      "features": {
+        "text": "This sofa, which creates a spacious atmosphere with its wooden feet and light-toned fabric, appeals to those seeking both aesthetics and comfort.",
+        "list": {
+          "design": "Organic forms and soft lines",
+          "comfort": "Comfortable seating areas with velvety texture",
+          "fabric": "Light-toned fabric with natural texture",
+          "accessories": "Decorative green and patterned cushions",
+          "structure": "Finely crafted foot design in walnut tones"
+        }
+      },
+      "conclusion": "ODESSA Sofa combines minimalism with naturalness; brings the elegance within simplicity to your home.",
+      "contact": "QUICK CONTACT"
+    },
+    "pianoKanepe": {
+      "title": "Piano Sofa",
+      "price": "Special Price",
+      "intro": "Modern interpretation of timeless elegance: PIANO Sofa",
+      "description": "This special design, enriched with minimal lines and metallic details, adds elegance to your living spaces. It exhibits an eye-catching stance with the nobility of gray tones and vertical quilted craftsmanship.",
+      "features": {
+        "text": "Ideal for those who want to create both modern and comfortable living spaces with its fine edge lines, high metal feet, and textured fabric. With its elegant yet powerful design, PIANO takes center stage in decoration.",
+        "list": {
+          "design": "Elegant silhouette with modern lines",
+          "fabric": "Easy to clean, high-quality fabric surface",
+          "comfort": "Structure supporting comfort with vertical stitched back area",
+          "structure": "Modern stance with high metal feet",
+          "style": "Nobility of gray tones and vertical quilted craftsmanship"
+        }
+      },
+      "conclusion": "PIANO Sofa perfectly combines aesthetics with comfort for stylish living spaces. This sofa, one of the most elegant complements of modern decoration, adds value to your home.",
+      "contact": "QUICK CONTACT"
+    },
+    "turkuazKanepe": {
+      "title": "Turkuaz Sofa",
+      "price": "Special Price",
+      "intro": "Timeless lines, strong stance. TURKUAZ Sofa.",
+      "description": "It brings aesthetics and comfort to modern living spaces with its classic form. While the curved arm structure and decorative stitching details add a sophisticated atmosphere to the seating area, it gains depth with dark-colored cushions.",
+      "features": {
+        "text": "Thanks to its durable fabric texture and walnut-toned foot structure, it offers both long-lasting use and dazzles with its elegance. TURKUAZ Sofa will be the favorite of those seeking a simple yet impressive style.",
+        "list": {
+          "design": "Classic form with rounded arm design",
+          "structure": "Elegant back detail with cross stitching",
+          "style": "Elegant appearance with wooden base",
+          "comfort": "Soft and comfortable seating"
+        }
+      },
+      "conclusion": "Create a warm, inviting, and balanced atmosphere in your living room with TURKUAZ Sofa.",
+      "contact": "QUICK CONTACT"
+    },
+    "zenKanepe": {
+      "title": "Zen Sofa",
+      "price": "Special Price",
+      "intro": "Simple lines integrated with elegant details…",
+      "description": "Zen Sofa brings elegance and balance to your living spaces with its peaceful design.",
+      "features": {
+        "text": "Zen Sofa, which blends modern minimalism with comfort, impresses with its soft-textured special fabric, wide seating area, and functional structure. The timeless elegance of the gray tone adds a calm yet powerful atmosphere to the space.",
+        "list": {
+          "comfort": "Maximum comfort with high-density foam structure",
+          "design": "Specially designed back and arm details",
+          "structure": "Modern chrome-look feet",
+          "fabric": "Easy to clean, durable fabric",
+          "style": "Simple design that adapts to different decoration styles"
+        }
+      },
+      "conclusion": "Zen Sofa is an indispensable choice for those who favor simplicity in home decoration... Combine comfort with aesthetics with Neva Furniture.",
+      "contact": "QUICK CONTACT"
+    },
+  "pages": {
+    "about": "ABOUT US",
+    "contact": "CONTACT",
+    "products": "OUR PRODUCTS",
+    "home": "HOME",
+    "sofas": "SOFAS",
+    "armchairs": "ARMCHAIRS",
+    "bergere": "BERGERE",
+    "cornerSets": "CORNER SETS",
+    "berjerler": "BERJERLER"
+  },
+  "common": {
+    "details": "DETAILS"
+  },
+  "bellaKoltuk": {
+    "title": "BELLA ARMCHAIR SET"
+  },
+  "bossKoltuk": {
+    "title": "BOSS ARMCHAIR SET"
+  },
+  "brahmaKoltuk": {
+    "title": "BRAHMA ARMCHAIR SET"
+  },
+  "casaKoltuk": {
+    "title": "CASA ARMCHAIR SET"
+  },
+  "golfKoltuk": {
+    "title": "GOLF ARMCHAIR SET"
+  },
+  "odessaKoltuk": {
+    "title": "ODESSA ARMCHAIR SET"
+  },
+  "pianoKoltuk": {
+    "title": "PIANO ARMCHAIR SET"
+  },
+  "turkuazKoltuk": {
+    "title": "TURKUAZ ARMCHAIR SET"
+  },
+  "zenKoltuk": {
+    "title": "ZEN ARMCHAIR SET"
+  },
+  "casaKose": {
+    "title": "CASA CORNER SET",
+    "price": "Special Price",
+    "intro": "A special design where modern elegance meets simple lines: CASA Corner Set.",
+    "description": "Its soft-textured cream-colored fabric, completed with natural wooden details, creates a warm and inviting atmosphere.",
+    "features": {
+      "text": "CASA, enriched with its ergonomic structure that prioritizes comfort and decorative cushions, appeals to those seeking both aesthetics and functionality. This set, designed with minimal lines, brings timeless elegance to your home.",
+      "list": {
+        "design": "Spacious design in light tones",
+        "accessories": "Enhanced appearance with modern-geometric patterned cushions",
+        "structure": "High foot structure facilitating easy cleaning",
+        "comfort": "Durable fabric and comfortable seating area"
+      }
+    },
+    "conclusion": "CASA Corner Set is an eye-catching option that completes your living space by offering simple elegance and modern comfort together.",
+    "contact": "QUICK CONTACT"
+  },
+  "golfKose": {
+    "title": "GOLF CORNER SET",
+    "price": "Special Price",
+    "intro": "A sophisticated design where elegant details meet modern lines: GOLF Corner Set.",
+    "description": "It offers timeless elegance with its classic Chester arm details, upholstery in natural tones, and walnut wooden feet.",
+    "features": {
+      "text": "It creates both an aesthetic and functional living space with its simple form and high comfort. While GOLF brings a nostalgic touch to today's modern homes, it also prioritizes comfort.",
+      "list": {
+        "design": "Chester detailed arm design",
+        "fabric": "Upholstery in neutral and calm tones",
+        "comfort": "Back supports providing high comfort",
+        "structure": "Natural walnut wooden feet"
+      }
+    },
+    "conclusion": "If you want both elegance and comfort in your living room, GOLF Corner Set is just right for you.",
+    "contact": "QUICK CONTACT"
+  },
+  "about": {
+    "title": "NEVA FURNITURE",
+    "companyName": "Neva Furniture",
+    "intro": "Our first memory as Neva Furniture, our first experience of expressing ourselves, our first excitement, is the upholstery fabric and sofa mixed store we opened in 1990.",
+    "intro2": "This small beginning made in the name of experience and expertise has remained as a pleasant memory in minds by giving way to 'NEVA' in the following years.",
+    "styleTitle": "STYLE REQUIRES MASTERY!",
+    "styleText": "Style requires mastery. It shows itself in every detail of the design, from the chosen materials to the fabric, from the stitches to the finest lines. Style is bringing trends together with accumulation. Even directing them. Because everyone follows fashion... But what's important is to be followed.",
+    "styleText2": "Style is both keeping up with the world and creating your own world. It's winking at tomorrow while catching today.",
+    "designTitle": "MORE THAN DESIGN...",
+    "designText": "Expectations, needs, and preferences change... But the power of style doesn't change. Because style attracts attention, influences, and inspires admiration. Style is much more than a beautiful design.",
+    "designText2": "Style cannot be defined with words, but everyone who sees it recognizes it instantly. If you want to see it more closely; the address is our nearest store. Because...",
+    "designText3": "The home fashion that progressed with its unique simplicity in the 90s gave way to modern lines in the following years, and the Turkish furniture industry managed to reach its deserved place in world markets.",
+    "whyUsTitle": "WHY US?",
+    "whyUsText": "Our consumers can be informed about our products through our regularly published catalogs and organized fabric cards each year, and benefit from their ideas and experiences.",
+    "whyUsText2": "With a quarter-century of knowledge, experience, and effectiveness in the sector; NEVA works with the general principles of aesthetic perspective, ergonomic use, and new trends, keeping up with every development required by the age."
+  },
+  "catalog": {
+    "download": "DOWNLOAD AS PDF"
+  },
+  "footer": {
+    "corporate": "CORPORATE",
+    "home": "HOME",
+    "about": "ABOUT US",
+    "collections": "OUR COLLECTIONS",
+    "contact": "CONTACT",
+    "collectionsTitle": "OUR COLLECTIONS",
+    "armchairSet": "ARMCHAIR SET",
+    "cornerSet": "CORNER SET",
+    "bergere": "BERGERES",
+    "sofas": "SOFAS",
+    "contactTitle": "CONTACT",
+    "store": "Store",
+    "storeAddress": "Davutkadi, Teyyareci Mehmet Ali St. No:1 Yildirim/Bursa",
+    "production": "Production",
+    "productionAddress": "Ankara Road St. No:801 Yildirim/Bursa",
+    "copyright": "© 2025 NEVA FURNITURE",
+    "rights": "All Rights Reserved.",
+    "webDesign": "Web Design : Web Center",
+    "whatsappMessage": "Hello, I'm sending you a message!"
+  },
+  "header": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "collections": "OUR COLLECTIONS",
+    "armchairSet": "ARMCHAIR SET",
+    "cornerSet": "CORNER SET",
+    "sofas": "SOFAS",
+    "bergere": "BERGERE",
+    "catalog": "CATALOG",
+    "contact": "CONTACT",
+    "menu": "MENU",
+    "search": "Type here to Search..."
+  },
+  "pageHeader": {
+    "home": "HOME",
+    "collections": "OUR COLLECTIONS"
+  },
+  "slider": {
+    "collections": "OUR COLLECTIONS"
+  },
+  "contactForm": {
+    "contactInfo": "CONTACT INFORMATION",
+    "title": "Neva Furniture: CONTACT US!",
+    "infoText": "For your questions, opinions, suggestions, and requests, you can reach us 24/7 via the information below.",
+    "name": "Your Name and Surname",
+    "email": "Your Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "SEND",
+    "success": "Your message has been sent successfully",
+    "error": "An error occurred",
+    "errorTryAgain": "An error occurred. Please try again later.",
+    "invalidResponse": "Invalid response received from the server"
+  },
+  "pages": {
+    "armchairs": "ARMCHAIR SET",
+    "cornerSets": "CORNER SET",
+    "sofas": "SOFAS",
+    "bergere": "BERGERES",
+    "collections": "OUR COLLECTIONS",
+    "about":"ABOUT US",
+    "contact":"CONTACT US"
+  },
+  "common": {
+    "details": "DETAILS"
+  }
+} 

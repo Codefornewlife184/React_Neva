@@ -89,7 +89,7 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
                         fontWeight: 'bold'
                       }}>
-                        Anasayfa
+                        {t("pageHeader.home")}
                       </Link>
                     </li>
                     <li style={{ color: '#fff' }}>›</li>
@@ -100,7 +100,7 @@ function PageHeader1({ title, subtitle, backgroundImage, children }) {
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)',
                         fontWeight: 'bold'
                       }}>
-                        Koleksiyonlarımız
+                        {t("pageHeader.collections")}
                       </Link>
                     </li>
                   </ul>

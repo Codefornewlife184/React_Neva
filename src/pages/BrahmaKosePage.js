@@ -8,7 +8,7 @@ function BrahmaKosePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BRAHMA KÖŞE TAKIMI")} backgroundImage="assets/images/banner/16.webp" />
+    <PageHeader title={t("pages.cornerSets")} backgroundImage="assets/images/banner/16.webp" />   
     <BrahmaKose />
     <Footer />
 </>

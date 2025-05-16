@@ -1,0 +1,142 @@
+{
+  "bellaKoltuk": {
+    "title": "BELLA ARMCHAIR SET"
+  },
+  "bossKoltuk": {
+    "title": "BOSS ARMCHAIR SET"
+  },
+  "brahmaKoltuk": {
+    "title": "BRAHMA ARMCHAIR SET"
+  },
+  "casaKoltuk": {
+    "title": "CASA ARMCHAIR SET"
+  },
+  "golfKoltuk": {
+    "title": "GOLF ARMCHAIR SET"
+  },
+  "odessaKoltuk": {
+    "title": "ODESSA ARMCHAIR SET"
+  },
+  "pianoKoltuk": {
+    "title": "PIANO ARMCHAIR SET"
+  },
+  "turkuazKoltuk": {
+    "title": "TURKUAZ ARMCHAIR SET"
+  },
+  "zenKoltuk": {
+    "title": "ZEN ARMCHAIR SET"
+  },
+  "brahmaKose": {
+    "title": "BRAHMA CORNER SET",
+    "price": "Contact us for price",
+    "intro": "The Brahma Corner Set is a special collection that combines modern design and comfort.",
+    "description": "This special design will add elegance and comfort to every corner of your home. The Brahma Corner Set, produced with high-quality materials and careful craftsmanship, is designed for long-term use.",
+    "features": {
+      "text": "Featured Properties:",
+      "list": {
+        "fabric": "High-quality, durable, and easy-to-clean fabric",
+        "design": "Modern and elegant design",
+        "structure": "Strong and durable frame structure",
+        "style": "Versatile style that adapts to every taste"
+      }
+    },
+    "conclusion": "Add value to your home with the Brahma Corner Set and make your living spaces more comfortable.",
+    "contact": "CONTACT US"
+  },
+  "casaKose": {
+    "title": "CASA CORNER SET"
+  },
+  "casaRelaxKose": {
+    "title": "CASA RELAX CORNER SET"
+  },
+  "golfKose": {
+    "title": "GOLF CORNER SET"
+  },
+  "about": {
+    "title": "NEVA FURNITURE",
+    "companyName": "Neva Furniture",
+    "intro": "Our first memory as Neva Furniture, our first experience of expressing ourselves, our first excitement, is the upholstery fabric and sofa mixed store we opened in 1990.",
+    "intro2": "This small beginning made in the name of experience and expertise has remained as a pleasant memory in minds by giving way to 'NEVA' in the following years.",
+    "styleTitle": "STYLE REQUIRES MASTERY!",
+    "styleText": "Style requires mastery. It shows itself in every detail of the design, from the chosen materials to the fabric, from the stitches to the finest lines. Style is bringing trends together with accumulation. Even directing them. Because everyone follows fashion... But what's important is to be followed.",
+    "styleText2": "Style is both keeping up with the world and creating your own world. It's winking at tomorrow while catching today.",
+    "designTitle": "MORE THAN DESIGN...",
+    "designText": "Expectations, needs, and preferences change... But the power of style doesn't change. Because style attracts attention, influences, and inspires admiration. Style is much more than a beautiful design.",
+    "designText2": "Style cannot be defined with words, but everyone who sees it recognizes it instantly. If you want to see it more closely; the address is our nearest store. Because...",
+    "designText3": "The home fashion that progressed with its unique simplicity in the 90s gave way to modern lines in the following years, and the Turkish furniture industry managed to reach its deserved place in world markets.",
+    "whyUsTitle": "WHY US?",
+    "whyUsText": "Our consumers can be informed about our products through our regularly published catalogs and organized fabric cards each year, and benefit from their ideas and experiences.",
+    "whyUsText2": "With a quarter-century of knowledge, experience, and effectiveness in the sector; NEVA works with the general principles of aesthetic perspective, ergonomic use, and new trends, keeping up with every development required by the age."
+  },
+  "catalog": {
+    "download": "DOWNLOAD AS PDF"
+  },
+  "footer": {
+    "corporate": "CORPORATE",
+    "home": "HOME",
+    "about": "ABOUT US",
+    "collections": "OUR COLLECTIONS",
+    "contact": "CONTACT",
+    "collectionsTitle": "OUR COLLECTIONS",
+    "armchairSet": "ARMCHAIR SET",
+    "cornerSet": "CORNER SET",
+    "bergere": "BERGERE",
+    "sofas": "SOFAS",
+    "contactTitle": "CONTACT",
+    "store": "Store",
+    "storeAddress": "Davutkadi, Teyyareci Mehmet Ali St. No:1 Yildirim/Bursa",
+    "production": "Production",
+    "productionAddress": "Ankara Road St. No:801 Yildirim/Bursa",
+    "copyright": "© 2025 NEVA FURNITURE",
+    "rights": "All Rights Reserved.",
+    "webDesign": "Web Design : Web Center",
+    "whatsappMessage": "Hello, I'm sending you a message!"
+  },
+  "header": {
+    "home": "HOME",
+    "about": "ABOUT US",
+    "collections": "OUR COLLECTIONS",
+    "armchairSet": "ARMCHAIR SET",
+    "cornerSet": "CORNER SET",
+    "sofas": "SOFAS",
+    "bergere": "BERGERE",
+    "catalog": "CATALOG",
+    "contact": "CONTACT",
+    "menu": "MENU",
+    "search": "Type here to Search..."
+  },
+  "pageHeader": {
+    "home": "HOME",
+    "collections": "OUR COLLECTIONS"
+  },
+  "slider": {
+    "title": "NEVA FURNITURE",
+    "subtitle": "Make an impressive entrance to your site!",
+    "collections": "OUR COLLECTIONS",
+    "videoNotSupported": "Your browser does not support the video tag."
+  },
+  "contactForm": {
+    "contactInfo": "CONTACT INFORMATION",
+    "title": "Neva Furniture: CONTACT US!",
+    "infoText": "For your questions, opinions, suggestions, and requests, you can reach us 24/7 via the information below.",
+    "name": "Your Name and Surname",
+    "email": "Your Email Address",
+    "subject": "Subject",
+    "message": "Your Message",
+    "send": "SEND",
+    "success": "Your message has been sent successfully",
+    "error": "An error occurred",
+    "errorTryAgain": "An error occurred. Please try again later.",
+    "invalidResponse": "Invalid response received from the server"
+  },
+  "pages": {
+    "armchairs": "ARMCHAIR SETS",
+    "cornerSets": "CORNER SETS",
+    "sofas": "SOFAS",
+    "berjerler": "BERGERE",
+    "products": "OUR PRODUCTS"
+  },
+  "common": {
+    "details": "DETAILS"
+  }
+} 

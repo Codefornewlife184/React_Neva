@@ -1,0 +1,142 @@
+{
+  "bellaKoltuk": {
+    "title": "BELLA KOLTUK TAKIMI"
+  },
+  "bossKoltuk": {
+    "title": "BOSS KOLTUK TAKIMI"
+  },
+  "brahmaKoltuk": {
+    "title": "BRAHMA KOLTUK TAKIMI"
+  },
+  "casaKoltuk": {
+    "title": "CASA KOLTUK TAKIMI"
+  },
+  "golfKoltuk": {
+    "title": "GOLF KOLTUK TAKIMI"
+  },
+  "odessaKoltuk": {
+    "title": "ODESSA KOLTUK TAKIMI"
+  },
+  "pianoKoltuk": {
+    "title": "PİANO KOLTUK TAKIMI"
+  },
+  "turkuazKoltuk": {
+    "title": "TURKUAZ KOLTUK TAKIMI"
+  },
+  "zenKoltuk": {
+    "title": "ZEN KOLTUK TAKIMI"
+  },
+  "brahmaKose": {
+    "title": "BRAHMA KÖŞE TAKIMI",
+    "price": "Fiyat için iletişime geçiniz",
+    "intro": "Brahma Köşe Takımı, modern tasarımı ve konforu bir araya getiren özel bir koleksiyondur.",
+    "description": "Bu özel tasarım, evinizin her köşesine şıklık ve rahatlık katacak. Yüksek kaliteli malzemeler ve özenli işçilik ile üretilen Brahma Köşe Takımı, uzun yıllar kullanım için tasarlanmıştır.",
+    "features": {
+      "text": "Öne Çıkan Özellikler:",
+      "list": {
+        "fabric": "Yüksek kaliteli, dayanıklı ve kolay temizlenebilir kumaş",
+        "design": "Modern ve şık tasarım",
+        "structure": "Sağlam ve dayanıklı iskelet yapısı",
+        "style": "Her tarza uyum sağlayan çok yönlü stil"
+      }
+    },
+    "conclusion": "Brahma Köşe Takımı ile evinize değer katın ve yaşam alanlarınızı daha konforlu hale getirin.",
+    "contact": "İLETİŞİME GEÇİN"
+  },
+  "casaKose": {
+    "title": "CASA KÖŞE TAKIMI"
+  },
+  "casaRelaxKose": {
+    "title": "CASA RELAX KÖŞE TAKIMI"
+  },
+  "golfKose": {
+    "title": "GOLF KÖŞE TAKIMI"
+  },
+  "about": {
+    "title": "NEVA MOBİLYA",
+    "companyName": "Neva Mobilya",
+    "intro": "olarak ilk anımız, kendimizi ifade ettiğimiz ilk tecrübe, ilk heyecan, 1990 yılında açtığımız döşemelik kumaş ve koltuk karma mağazasıdır.",
+    "intro2": "Tecrübe ve deneyim adına yapılan bu küçük başlangıç, sonraki yıllarda yerini 'NEVA' ya bırakmak suretiyle akıllarda hoş bir anı olarak kalmıştır.",
+    "styleTitle": "TARZ USTALIK İSTER!",
+    "styleText": "Tarz ustalık ister. Seçilen malzemelerden kumaşa,dikişlerden en ince çizgilere kadar tasarımın her detayında kendini gösterir. Trendleri birikimle buluşturmaktır tarz. Hatta onlara yön vermektir. Çünkü modayı herkes takip eder… Ama önemli olan takip edilmektir.",
+    "styleText2": "Hem dünyaya ayak uydurmak, hem de kendi dünyanı kurmaktır tarz. Bugünü yakalarken, yarına göz kırpmaktır.",
+    "designTitle": "TASARIMDAN DAHA FAZLASI...",
+    "designText": "Beklentiler, ihtiyaçlar ve beğeniler değişir… Ama tarzın gücü değişmez. Çünkü tarz dikkat çeker, etkiler, hayranlık uyandırır. Tarz, güzel bir tasarımdan çok daha fazlasıdır.",
+    "designText2": "Tarz, kelimelerle tanımlanamaz ama gören herkes onu anında tanır. Daha yakından görmek isterseniz; adres size en yakın mağazamız. Çünkü…",
+    "designText3": "90'lı yıllarda kendine özgü sadelikle seyreden ev modası, sonraki yıllarda yerini modern çizgilere bırakmış ve Türk mobilya sektörü dünya piyasalarında hak ettiği yere gelmeyi başarmıştır.",
+    "whyUsTitle": "NEDEN BİZ ?",
+    "whyUsText": "Ürünlerimiz hakkında tüketicilerimiz her yıl düzenli olarak basılan kataloglarımız düzenlenen kumaş kartelalarımız aracılığı ile bilgilendirilip fikir ve tecrübelerinden istifade edebilmektedir.",
+    "whyUsText2": "Çeyrek asırlık bilgi birikimi, deneyimi ve sektördeki etkinliği ile; NEVA, çağın gerektirdiği her gelişime ayak uydurarak, estetik bakış, ergonomik kullanım, yeni trendler genel ilkeleriyle çalışmaktadır."
+  },
+  "catalog": {
+    "download": "PDF OLARAK İNDİR"
+  },
+  "footer": {
+    "corporate": "KURUMSAL",
+    "home": "ANASAYFA",
+    "about": "HAKKIMIZDA",
+    "collections": "KOLEKSİYONLARIMIZ",
+    "contact": "İLETİŞİM",
+    "collectionsTitle": "KOLEKSİYONLARIMIZ",
+    "armchairSet": "KOLTUK TAKIMI",
+    "cornerSet": "KÖŞE TAKIMI",
+    "bergere": "BERJERLER",
+    "sofas": "KANEPELER",
+    "contactTitle": "İLETİŞİM",
+    "store": "Mağaza",
+    "storeAddress": "Davutkadı, Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa",
+    "production": "Üretim",
+    "productionAddress": "Ankara Yolu Cd. No:801 Yıldırım/Bursa",
+    "copyright": "© 2025 NEVA MOBİLYA",
+    "rights": "Tüm Hakları Saklıdır.",
+    "webDesign": "Web Dizayn : Web Center",
+    "whatsappMessage": "Merhaba, size bir mesaj gönderiyorum!"
+  },
+  "header": {
+    "home": "ANASAYFA",
+    "about": "HAKKIMIZDA",
+    "collections": "KOLEKSİYONLARIMIZ",
+    "armchairSet": "KOLTUK TAKIMI",
+    "cornerSet": "KÖŞE TAKIMI",
+    "sofas": "KANEPELER",
+    "bergere": "BERJERLER",
+    "catalog": "KATALOG",
+    "contact": "İLETİŞİM",
+    "menu": "MENÜ",
+    "search": "Arama yapmak için yazın..."
+  },
+  "pageHeader": {
+    "home": "ANASAYFA",
+    "collections": "KOLEKSİYONLARIMIZ"
+  },
+  "slider": {
+    "title": "NEVA MOBİLYA",
+    "subtitle": "Sitenize etkileyici bir giriş yapın!",
+    "collections": "KOLEKSİYONLARIMIZ",
+    "videoNotSupported": "Tarayıcınız video etiketini desteklemiyor."
+  },
+  "contactForm": {
+    "contactInfo": "İLETİŞİM BİLGİLERİ",
+    "title": "Neva MobİLYA: BİZİMLE İLETİŞİME GEÇİNİZ!",
+    "infoText": "Soru, görüş, öneri ve istekleriniz için aşağıdaki bilgiler aracılığıyla bize 7/24 ulaşabilirsiniz.",
+    "name": "Adınız Soyadınız",
+    "email": "E-posta Adresiniz",
+    "subject": "Konu",
+    "message": "Mesajınız",
+    "send": "GÖNDER",
+    "success": "Mesajınız başarıyla gönderildi",
+    "error": "Bir hata oluştu",
+    "errorTryAgain": "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",
+    "invalidResponse": "Sunucudan geçersiz yanıt alındı"
+  },
+  "pages": {
+    "armchairs": "KOLTUK TAKIMLARI",
+    "cornerSets": "KÖŞE TAKIMLARI",
+    "sofas": "KANEPELER",
+    "berjerler": "BERJERLER",
+    "products": "ÜRÜNLERİMİZ"
+  },
+  "common": {
+    "details": "DETAYLAR"
+  }
+} 

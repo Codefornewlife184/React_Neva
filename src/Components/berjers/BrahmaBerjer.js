@@ -36,7 +36,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("brahmaBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -54,7 +54,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("brahmaBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -75,38 +75,36 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Brahma Berjer
+                {t("brahmaBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("brahmaBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Doğallığın yalın şıklıkla buluştuğu noktada: BRAHMA Kanepe. </strong>
-                <br />Modern çizgilerle tasarlanmış bu özel kanepe, sade formu ve doğal dokulu kumaşıyla yaşam alanınıza
-                huzur katıyor.</p>
+                <strong style={{color:'#000'}}>{t("brahmaBerjer.intro")}</strong>
+                <br />{t("brahmaBerjer.description")}
+              </p>
               <p className="product-description__text">
-                Yumuşak dokulu krem rengi döşemesiyle ferahlık sunarken, geometrik desenli yastıklar ve ceviz tonundaki
-                ayak yapısı ile estetik detayları öne çıkarıyor. Yalın ama karakterli bir duruş arayanlar için ideal bir
-                tercih.</p>
+                {t("brahmaBerjer.features.text")}
+              </p>
               <p>
-                → Minimalist tasarım, modern hatlar
+                → {t("brahmaBerjer.features.list.fabric")}
                 <br />
-                → Ceviz tonlarında zarif ahşap ayaklar
+                → {t("brahmaBerjer.features.list.comfort")}
                 <br />
-                → Yumuşak dokuya sahip krem kumaş
+                → {t("brahmaBerjer.features.list.design")}
                 <br />
-                → Konforu tamamlayan geometrik desenli kırlentler
+                → {t("brahmaBerjer.features.list.structure")}
                 <br />
-                → Neva Mobilya güvencesiyle yerli üretim
+                → {t("brahmaBerjer.features.list.style")}
                 <br />
-                <strong style={{color:'#000'}}>BRAHMA Kanepe,</strong> dinginlik ve zarafeti aynı çizgide sunarak yaşam
-                alanlarını sade ama etkileyici bir stille buluşturur.
+                {t("brahmaBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("brahmaBerjer.contact")}</span>
               </a>
             </div>
           </div>

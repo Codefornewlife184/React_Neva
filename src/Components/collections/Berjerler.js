@@ -21,51 +21,57 @@ const Berjerler = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: "BELLA BERJER",
+			title: t("bellaBerjer.title"),
 			image: "assets/images/products/berjer/bella-berjer-1.webp",
 			url: "/bella-berjer"
 		},
 		{
 			id: 2,
-			title: "BOSS BERJER",
+			title: t("bossBerjer.title"),
 			image: "assets/images/products/berjer/boss-berjer-1.webp",
 			url: "/boss-berjer"
 		},
 		{
 			id: 3,
-			title: "BRAHMA BERJER",
+			title: t("brahmaBerjer.title"),
 			image: "assets/images/products/berjer/brahma-berjer-1.webp",
 			url: "/brahma-berjer"
 		},
 		{
 			id: 4,
-			title: "CASA BERJER",
+			title: t("casaBerjer.title"),
 			image: "assets/images/products/berjer/casa-berjer-1.webp",
 			url: "/casa-berjer"
 		},
 		{
 			id: 5,
-			title: "GOLF BERJER",
+			title: t("golfBerjer.title"),
 			image: "assets/images/products/berjer/golf-berjer-1.webp",
 			url: "/golf-berjer"
 		},
 		{
 			id: 6,
-			title: "ODESSA BERJER",
+			title: t("odessaBerjer.title"),
 			image: "assets/images/products/berjer/odessa-berjer-1.webp",
 			url: "/odessa-berjer"
 		},
 		{
 			id: 7,
-			title: "PİANO BERJER",
+			title: t("pianoBerjer.title"),
 			image: "assets/images/products/berjer/piano-berjer-1.webp",
 			url: "/piano-berjer"
 		},
 		{
 			id: 8,
-			title: "TURKUAZ BERJER",
+			title: t("turkuazBerjer.title"),
 			image: "assets/images/products/berjer/turkuaz-berjer-1.webp",
 			url: "/turkuaz-berjer"
+		},
+		{
+			id: 9,
+			title: t("zenBerjer.title"),
+			image: "assets/images/products/berjer/zen-berjer-1.webp",
+			url: "/zen-berjer"
 		}
 	];
 
@@ -76,9 +82,9 @@ const Berjerler = () => {
 				<div className="auto-container">
 					<div className="sec-title-twelev text-center">
 						<div className="sec-title-twelev__tagline" style={{ color: "#908f91" }}>
-							<span className="sec-title-twelev__tagline__bar"></span>{t("BERJERLER")}
+							<span className="sec-title-twelev__tagline__bar"></span>{t("pages.bergere")}
 						</div>
-						<h2 className="sec-title-twelev__title">{t("BERJERLER")}</h2>
+						<h2 className="sec-title-twelev__title">{t("pages.bergere")}</h2>
 					</div>
 					<div className="row clearfix">
 						{Projects.map((project) => (
@@ -118,7 +124,7 @@ const Berjerler = () => {
 												onClick={() => window.scrollTo(0, 0)}
 											>
 												<i className="btn-curve"></i>
-												<span className="btn-title">{t("Detaylar")}</span>
+												<span className="btn-title">{t("common.details")}</span>
 											</Link>
 										</div>
 									</div>

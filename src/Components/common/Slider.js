@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from 'react-i18next';
 
 // Custom hook for detecting screen size
 const useScreenSize = () => {
@@ -21,6 +22,7 @@ const useScreenSize = () => {
 const Slider = () => {
   const [showTitle, setShowTitle] = useState(true);
   const isMobile = useScreenSize();
+  const { t } = useTranslation();
 
   useEffect(() => {
     const timer = setTimeout(() => setShowTitle(false), 4000); // 3 saniye sonra kaybolur
@@ -55,7 +57,7 @@ const Slider = () => {
           src={isMobile ? "/assets/videos/Neva-Mobile.mp4" : "/assets/videos/Neva.mp4"} 
           type="video/mp4" 
         />
-        Tarayıcınız video etiketini desteklemiyor.
+        {t("slider.videoNotSupported")}
       </video>
 
       {/* Overlay (isteğe bağlı koyu katman) */}
@@ -83,11 +85,11 @@ const Slider = () => {
       }}>
         {showTitle && (
           <h1 style={{ fontSize: '3rem', fontWeight: 'bold', marginBottom: '1rem', color:'#231f20'}}>
-            
+            {/* {t("slider.title")} */}
           </h1>
         )}
         <p style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
-         {/*  Sitenize etkileyici bir giriş yapın! */}
+          {/* {t("slider.subtitle")} */}
         </p>
         <Link
           to="/collections"
@@ -147,7 +149,7 @@ const Slider = () => {
             }
           }}
         >
-          <span style={{ position: 'relative', zIndex: 1 }}>Koleksİyonlarımız</span>
+          <span style={{ position: 'relative', zIndex: 1 }}>{t("slider.collections")}</span>
           
         </Link>
         

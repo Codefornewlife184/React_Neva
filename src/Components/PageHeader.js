@@ -17,7 +17,8 @@ function PageHeader({ title, subtitle, backgroundImage, children }) {
         color: '#fff',
         minHeight: '300px',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        textTransform: 'uppercase'
       }}
     >
       <div className="auto-container" style={{ width: '100%' }}>

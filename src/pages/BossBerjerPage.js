@@ -8,7 +8,7 @@ function BossBerjerPage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BOSS BERJER")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("pages.bergere")} backgroundImage="assets/images/banner/19.webp" />  
     <BossBerjer />
     <Footer />
 </>

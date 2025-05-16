@@ -40,7 +40,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("zen.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -58,7 +58,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("zen.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -79,38 +79,31 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Zen Koltuk Takımı
+                {t("zen.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("zen.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Doğallığın sıcaklığı, klasik zarafetle buluşuyor: ZEN Koltuk
-                  Takımı.</strong>
-                <br />Gri tonların asaleti, kapitone detaylarla zenginleşiyor ve salonunuza sofistike bir hava katıyor.
+                <strong style={{color:'#000'}}>{t("zen.descriptionStrong")}</strong>
+                <br />{t("zen.description")}
               </p>
               <p className="product-description__text">
-                Zarif kıvrımlar, şık dikiş işçiliği ve konforu ön planda tutan tasarımıyla ZEN, hem geleneksel
-                dokunuşlara hem de çağdaş bir duruşa sahip. Yüksek ayaklı yapısı sayesinde temizlik kolaylığı sunarken,
-                zengin kumaş dokusu konforu bir üst seviyeye taşıyor.
+                {t("zen.material")}
               </p>
               <p>
-                → Chesterfield tarzı kapitone detaylar
+                → {t("zen.chesterfield")}
+                <br />→ {t("zen.colors")}
+                <br />→ {t("zen.ergonomic")}
+                <br />→ {t("zen.woodenLegs")}
                 <br />
-                → Gri ve füme tonlarında modern renk paleti
-                <br />
-                → Yumuşak dolgulu, ergonomik oturum alanı
-                <br />
-                → Ahşap ayaklarla doğal şıklık
-                <br />
-                <strong style={{color:'#000'}}>ZEN Koltuk Takımı,</strong> zarif yaşam alanları yaratmak isteyenler için
-                stil sahibi bir tercih. Lüksü ve huzuru aynı çizgide buluşturan bu takım, evinizin yıldızı olacak.
+                <strong style={{color:'#000'}}>{t("zen.companyStrong")}</strong> {t("zen.company")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("zen.contact")}</span>
               </a>
             </div>
           </div>
@@ -168,7 +161,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           >←</button>
 
         {/* Görsel */}
-        <img src={process.env.PUBLIC_URL + '/' + productImages[currentImageIndex]} alt="Büyük görüntü" style={{
+        <img src={process.env.PUBLIC_URL + '/' + productImages[currentImageIndex]} alt={t("zen.title")} style={{
                 maxWidth: '100%',
                 maxHeight: isMobile ? '80vh' : '90vh',
                 objectFit: 'contain',

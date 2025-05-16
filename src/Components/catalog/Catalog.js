@@ -1,6 +1,9 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Catalog = () => {
+  const { t } = useTranslation();
+
   return (
     <div style={{
       position: 'fixed',
@@ -29,7 +32,7 @@ const Catalog = () => {
         zIndex: 10000
       }}>
         <a href="assets/images/catalog/katalog.pdf" download className="btn btn-dark">
-          PDF Olarak İndir
+          {t("catalog.download")}
         </a>
       </div>
     </div>

@@ -21,51 +21,57 @@ const Kanepeler = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: "BELLA KANEPE",
+			title: t("bellaKanepe.title"),
 			image: "assets/images/products/kanepe/bella-kanepe-1.webp",
 			url: "/bella-kanepe"
 		},
 		{
 			id: 2,
-			title: "BOSS KANEPE",
+			title: t("bossKanepe.title"),
 			image: "assets/images/products/kanepe/boss-kanepe-1.webp",
 			url: "/boss-kanepe"
 		},
 		{
 			id: 3,
-			title: "BRAHMA KANEPE",
+			title: t("brahmaKanepe.title"),
 			image: "assets/images/products/kanepe/brahma-kanepe-1.webp",
 			url: "/brahma-kanepe"
 		},
 		{
 			id: 4,
-			title: "CASA KANEPE",
+			title: t("casaKanepe.title"),
 			image: "assets/images/products/kanepe/casa-kanepe-1.webp",
 			url: "/casa-kanepe"
 		},
 		{
 			id: 5,
-			title: "GOLF KANEPE",
+			title: t("golfKanepe.title"),
 			image: "assets/images/products/kanepe/golf-kanepe-1.webp",
 			url: "/golf-kanepe"
 		},
 		{
 			id: 6,
-			title: "ODESSA KANEPE",
+			title: t("odessaKanepe.title"),
 			image: "assets/images/products/kanepe/odessa-kanepe-1.webp",
 			url: "/odessa-kanepe"
 		},
 		{
 			id: 7,
-			title: "PİANO KANEPE",
+			title: t("pianoKanepe.title"),
 			image: "assets/images/products/kanepe/piano-kanepe-1.webp",
 			url: "/piano-kanepe"
 		},
 		{
 			id: 8,
-			title: "TURKUAZ KANEPE",
+			title: t("turkuazKanepe.title"),
 			image: "assets/images/products/kanepe/turkuaz-kanepe-1.webp",
 			url: "/turkuaz-kanepe"
+		},
+		{
+			id: 9,
+			title: t("zenKanepe.title"),
+			image: "assets/images/products/kanepe/zen-kanepe-1.webp",
+			url: "/zen-kanepe"
 		}
 	];
 
@@ -76,9 +82,9 @@ const Kanepeler = () => {
 				<div className="auto-container">
 					<div className="sec-title-twelev text-center">
 						<div className="sec-title-twelev__tagline" style={{ color: "#908f91" }}>
-							<span className="sec-title-twelev__tagline__bar"></span>{t("KANEPELER")}
+							<span className="sec-title-twelev__tagline__bar"></span>{t("pages.sofas")}
 						</div>
-						<h2 className="sec-title-twelev__title">{t("KANEPELER")}</h2>
+						<h2 className="sec-title-twelev__title">{t("pages.sofas")}</h2>
 					</div>
 					<div className="row clearfix">
 						{Projects.map((project) => (
@@ -118,7 +124,7 @@ const Kanepeler = () => {
 												onClick={() => window.scrollTo(0, 0)}
 											>
 												<i className="btn-curve"></i>
-												<span className="btn-title">{t("Detaylar")}</span>
+												<span className="btn-title">{t("common.details")}</span>
 											</Link>
 										</div>
 									</div>

@@ -8,7 +8,7 @@ function BossKanepePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BOSS KANEPE")} backgroundImage="assets/images/banner/19.webp" />
+    <PageHeader title={t("pages.sofas")} backgroundImage="assets/images/banner/19.webp" />  
     <BossKanepe />
     <Footer />
 </>

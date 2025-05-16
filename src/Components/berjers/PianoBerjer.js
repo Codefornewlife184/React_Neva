@@ -37,7 +37,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
         <div className="row">
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__image">
-              <img src={mainImage} alt="Milas Koleksiyonu" style={{ 
+              <img src={mainImage} alt={t("pianoBerjer.title")} style={{ 
                     width: '100%',
                     height: 'auto',
                     cursor: 'pointer',
@@ -55,7 +55,7 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
                 padding: '10px 0'
               }}>
               {productImages.map((image, index) => (
-              <img key={index} src={image} alt={`Milas Koleksiyonu ${index + 1}`} style={{
+              <img key={index} src={image} alt={`${t("pianoBerjer.title")} ${index + 1}`} style={{
                       width: '80px',
                       height: '80px',
                       objectFit: 'cover',
@@ -76,37 +76,36 @@ setCurrentImageIndex(prev => (prev < productImages.length - 1 ? prev + 1 : 0)); 
           <div className="col-lg-12 col-xl-6">
             <div className="product-details__top">
               <h3 className="product-details__title">
-                Piano Berjer
+                {t("pianoBerjer.title")}
               </h3>
-              <p className="product-details__price">Özel Fiyat</p>
+              <p className="product-details__price">{t("pianoBerjer.price")}</p>
             </div>
             <div className="product-details__content">
               <p>
-                <strong style={{color:'#000'}}>Zamansız şıklığın modern yorumu: PIANO Kanepe</strong>
-                <br />Minimal çizgiler ve metalik detaylarla zenginleşen bu özel tasarım, yaşam alanlarınıza zarafet
-                katıyor. Gri tonların asaleti ve dikey kapitone işçiliği ile göz alıcı bir duruş sergiliyor.</p>
+                <strong style={{color:'#000'}}>{t("pianoBerjer.intro")}</strong>
+                <br />{t("pianoBerjer.description")}
+              </p>
               <p className="product-description__text">
-                İnce kenar hatları, yüksek metal ayakları ve dokulu kumaşıyla hem modern hem de konforlu bir yaşam alanı
-                yaratmak isteyenler için ideal. Zarif ama güçlü tasarımıyla PIANO, dekorasyonun merkezinde yer alır.
+                {t("pianoBerjer.features.text")}
               </p>
               <p>
-                → Modern çizgilere sahip zarif siluet
+                → {t("pianoBerjer.features.list.fabric")}
                 <br />
-                → Modern çizgilere sahip zarif siluet
+                → {t("pianoBerjer.features.list.comfort")}
                 <br />
-                → Kolay temizlenebilir, yüksek kaliteli kumaş yüzey
+                → {t("pianoBerjer.features.list.design")}
                 <br />
-                → Dikey dikişli sırt bölgesi ile konforu destekleyen yapısı
+                → {t("pianoBerjer.features.list.accessories")}
                 <br />
-                <strong style={{color:'#000'}}>PIANO Kanepe,</strong> stil sahibi yaşam alanları için estetikle konforu
-                kusursuzca birleştiriyor. Modern dekorasyonun en şık tamamlayıcılarından biri olan bu kanepe, evinize
-                değer katar.
+                → {t("pianoBerjer.features.list.structure")}
+                <br />
+                {t("pianoBerjer.conclusion")}
               </p>
             </div>
             <div className="product-details__buttons">
               <a className="theme-btn btn-style-one" href="/contact">
                 <i className="btn-curve"></i>
-                <span className="btn-title">{t("HIZLI İLETİŞİM")}</span>
+                <span className="btn-title">{t("pianoBerjer.contact")}</span>
               </a>
             </div>
           </div>

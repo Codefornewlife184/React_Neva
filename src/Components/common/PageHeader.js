@@ -88,7 +88,7 @@ function PageHeader({ title, subtitle, backgroundImage, children }) {
                         textDecoration: 'none',
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
                       }}>
-                        Anasayfa
+                        {t("pageHeader.home")}
                       </Link>
                     </li>
                     <li style={{ color: '#fff' }}>›</li>
@@ -98,7 +98,7 @@ function PageHeader({ title, subtitle, backgroundImage, children }) {
                         textDecoration: 'none',
                         textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
                       }}>
-                        Koleksiyonlarımız
+                        {t("pageHeader.collections")}
                       </Link>
                     </li>
                   </ul>

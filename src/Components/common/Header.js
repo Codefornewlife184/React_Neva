@@ -163,11 +163,11 @@ function Header() {
 
           <nav className="mobile-nav__container">
             <ul className="navigation clearfix">
-              <li><a onClick={() => handleLinkClick('/')}>{t("Anasayfa")}</a></li>
-              <li><a onClick={() => handleLinkClick('/about')}>{t("Hakkımızda")}</a></li>
+              <li><a onClick={() => handleLinkClick('/')}>{t("header.home")}</a></li>
+              <li><a onClick={() => handleLinkClick('/about')}>{t("header.about")}</a></li>
               <li className="dropdown">
                 <a href="/collections" onClick={handleDropdownClick} style={{ display: 'flex', alignItems: 'center' }}>
-                  {t("KOLEKSİYONLARIMIZ")}
+                  {t("header.collections")}
                   <span className={`dropdown-btn fa fa-angle-right${isDropdownOpen ? ' open' : ''}`} style={{ marginLeft: 8 }}></span>
                 </a>
                 <ul className={`dropdown-menu ${isDropdownOpen ? 'show' : ''}`} style={{ 
@@ -180,7 +180,7 @@ function Header() {
                       e.preventDefault();
                       handleLinkClick('/koltuk');
                     }}>
-                      {t("Koltuk Takımı")}
+                      {t("header.armchairSet")}
                     </a>
                   </li>
                   <li>
@@ -188,7 +188,7 @@ function Header() {
                       e.preventDefault();
                       handleLinkClick('/kose');
                     }}>
-                      {t("Köşe Takımı")}
+                      {t("header.cornerSet")}
                     </a>
                   </li>
                   <li>
@@ -196,7 +196,7 @@ function Header() {
                       e.preventDefault();
                       handleLinkClick('/kanepeler');
                     }}>
-                      {t("Kanepeler")}
+                      {t("header.sofas")}
                     </a>
                   </li>
                   <li>
@@ -204,14 +204,15 @@ function Header() {
                       e.preventDefault();
                       handleLinkClick('/berjerler');
                     }}>
-                      {t("Berjerler")}
+                      {t("header.bergere")}
                     </a>
                   </li>
                 </ul>
               </li>
-              <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
-								</li>
-              <li><a onClick={() => handleLinkClick('/contact')}>{t("İLETİŞİM")}</a></li>
+              <li className="dropdown">
+                <Link to="/catalog" target="_blank">{t("header.catalog")}<div className="dropdown-btn"></div></Link>
+              </li>
+              <li><a onClick={() => handleLinkClick('/contact')}>{t("header.contact")}</a></li>
             </ul>
           </nav>
 
@@ -240,7 +241,7 @@ function Header() {
 			</div>
 			<div class="search-popup__inner">
 				<form action="#" class="search-popup__form">
-					<input type="text" name="search" placeholder="Type here to Search...."/>
+					<input type="text" name="search" placeholder={t("header.search")}/>
 					<button type="submit"><i class="fa fa-search"></i></button>
 				</form>
 			</div>
@@ -255,65 +256,12 @@ function Header() {
 								<img src="assets/images/neva.webp" width="250" alt="Neva Mobilya"/>
 							</a>
 
-              {/* <div style={{
-            display: 'flex',
-            justifyContent: 'center',
-            gap: '10px',
-            margin: '15px 0'
-          }}>
-            <button
-              type="button"
-              className="language-btn"
-              onClick={() => i18n.changeLanguage('tr')}
-              style={{
-                background: '#fff',
-                border: 'none',
-                color: '#000',
-                fontSize: '14px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
-                borderRadius: '50%',
-                transition: 'all 0.3s ease',
-                boxShadow: '0 2px 2px rgba(0,0,0,0.1)'
-              }}
-            >
-              TR
-            </button>
-            <button
-              type="button"
-              className="language-btn"
-              onClick={() => i18n.changeLanguage('en')}
-              style={{
-                background: '#fff',
-                border: 'none',
-                color: '#000',
-                fontSize: '14px',
-                fontWeight: '600',
-                width: '40px',
-                height: '40px',
-                textAlign: 'center',
-                justifyContent: 'center',
-                cursor: 'pointer',
-                borderRadius: '50%',
-                transition: 'all 0.3s ease',
-                boxShadow: '0 2px 2px rgba(0,0,0,0.1)'
-              }}
-            >
-              EN
-            </button>
-          </div> */}
-
 							<div className="mobile-nav-toggler" onClick={toggleMenu}>
 								<span className="bar"></span>
 								<span className="bar"></span>
 								<span className="bar"></span>
-								<span className="txt">Menu</span>
+								<span className="txt">{t("header.menu")}</span>
 							</div>
-              
 
 						</div>
 						<div class="mainmenu-eleven__right">
@@ -321,21 +269,21 @@ function Header() {
 								<div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
 									<ul class="navigation clearfix">
 										<li class="dropdown">
-											<Link to="/about">Hakkımızda</Link>
+											<Link to="/about">{t("header.about")}</Link>
 										</li>
 										<li class="dropdown">
-                      <Link to="/collections">Koleksiyonlarımız</Link>
+                      <Link to="/collections">{t("header.collections")}</Link>
 											<ul>
-												<li><Link to="/koltuk">Koltuk Takımı</Link></li>
-												<li><Link to="/kose-takimi">Köşe Takımı</Link></li>
-												<li><Link to="/kanepeler">Kanepeler</Link></li>
-												<li><Link to="/berjerler">Berjerler</Link></li>
+												<li><Link to="/koltuk">{t("header.armchairSet")}</Link></li>
+												<li><Link to="/kose-takimi">{t("header.cornerSet")}</Link></li>
+												<li><Link to="/kanepeler">{t("header.sofas")}</Link></li>
+												<li><Link to="/berjerler">{t("header.bergere")}</Link></li>
 											</ul>
 										</li>
-                    <li className="dropdown"><Link to="/catalog" target="_blank">Katalog<div className="dropdown-btn"></div></Link>
+                    <li className="dropdown"><Link to="/catalog" target="_blank">{t("header.catalog")}<div className="dropdown-btn"></div></Link>
 								</li>
 										<li class="dropdown">
-											<Link to="/contact">İletişim</Link>
+											<Link to="/contact">{t("header.contact")}</Link>
 										</li>
 									</ul>
 								</div>

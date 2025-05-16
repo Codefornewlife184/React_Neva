@@ -14,32 +14,32 @@ const ScrollToTop = () => {
 	return null;
 };
 
-const Koltuk = () => {
+const Kose = () => {
 	const { t } = useTranslation();
 	
 	// Projeleri bir dizi olarak tanımlayalım
 	const Projects = [
 		{
 			id: 1,
-			title: "BRAHMA KÖŞE TAKIMI",
+			title: t("brahmaKose.title"),
 			image: "assets/images/products/kose/brahma-kose-1.webp",
 			url: "/brahma-kose"
 		},
 		{
 			id: 2,
-			title: "CASA KÖŞE TAKIMI",
+			title: t("casaKose.title"),
 			image: "assets/images/products/kose/casa-kose-1.webp",
 			url: "/casa-kose"
 		},
 		{
 			id: 3,
-			title: "CASA RELAX KÖŞE TAKIMI",
+			title: t("casaRelaxKose.title"),
 			image: "assets/images/products/kose/casa-relax-1.webp",
 			url: "/casa-relax-kose"
 		},
 		{
 			id: 4,
-			title: "GOLF KÖŞE TAKIMI",
+			title: t("golfKose.title"),
 			image: "assets/images/products/kose/golf-kose-1.webp",
 			url: "/golf-kose"
 		}
@@ -52,9 +52,9 @@ const Koltuk = () => {
 				<div className="auto-container">
 					<div className="sec-title-twelev text-center">
 						<div className="sec-title-twelev__tagline" style={{ color: "#908f91" }}>
-							<span className="sec-title-twelev__tagline__bar"></span>{t("KÖŞE TAKIMI")}
+							<span className="sec-title-twelev__tagline__bar"></span>{t("pages.cornerSets")}
 						</div>
-						<h2 className="sec-title-twelev__title">{t("KÖŞE TAKIMI")}</h2>
+						<h2 className="sec-title-twelev__title">{t("pages.cornerSets")}</h2>
 					</div>
 					<div className="row clearfix">
 						{Projects.map((project) => (
@@ -94,7 +94,7 @@ const Koltuk = () => {
 												onClick={() => window.scrollTo(0, 0)}
 											>
 												<i className="btn-curve"></i>
-												<span className="btn-title">{t("Detaylar")}</span>
+												<span className="btn-title">{t("common.details")}</span>
 											</Link>
 										</div>
 									</div>
@@ -108,4 +108,4 @@ const Koltuk = () => {
 	);
 };
 
-export default Koltuk;
+export default Kose;

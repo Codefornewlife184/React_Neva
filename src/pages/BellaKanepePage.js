@@ -8,7 +8,7 @@ function BellaKanepePage() {
 const { t } = useTranslation();
 return (
 <>
-    <PageHeader title={t("BELLA KANEPE")} backgroundImage="assets/images/banner/21.webp" />
+    <PageHeader title={t("pages.sofas")} backgroundImage="assets/images/banner/21.webp" />
     <BellaKanepe />
     <Footer />
 </>
