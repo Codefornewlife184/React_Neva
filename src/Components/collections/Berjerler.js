@@ -21,9 +21,9 @@ const Berjerler = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: t("bellaBerjer.title"),
-			image: "assets/images/products/berjer/bella-berjer-1.webp",
-			url: "/bella-berjer"
+			title: t("casaBerjer.title"),
+			image: "assets/images/products/berjer/casa-berjer-1.webp",
+			url: "/casa-berjer"
 		},
 		{
 			id: 2,
@@ -33,45 +33,52 @@ const Berjerler = () => {
 		},
 		{
 			id: 3,
-			title: t("brahmaBerjer.title"),
-			image: "assets/images/products/berjer/brahma-berjer-1.webp",
-			url: "/brahma-berjer"
-		},
-		{
-			id: 4,
-			title: t("casaBerjer.title"),
-			image: "assets/images/products/berjer/casa-berjer-1.webp",
-			url: "/casa-berjer"
-		},
-		{
-			id: 5,
-			title: t("golfBerjer.title"),
-			image: "assets/images/products/berjer/golf-berjer-1.webp",
-			url: "/golf-berjer"
-		},
-		{
-			id: 6,
 			title: t("odessaBerjer.title"),
 			image: "assets/images/products/berjer/odessa-berjer-1.webp",
 			url: "/odessa-berjer"
 		},
 		{
+			id: 4,
+			title: t("brahmaBerjer.title"),
+			image: "assets/images/products/berjer/brahma-berjer-1.webp",
+			url: "/brahma-berjer"
+		},
+		{
+			id: 5,
+			title: t("woodBerjer.title"),
+			image: "assets/images/products/berjer/wood-berjer-1.webp",
+			url: "/wood-berjer"
+		},
+		{
+			id: 6,
+			title: t("zenBerjer.title"),
+			image: "assets/images/products/berjer/zen-berjer-1.webp",
+			url: "/zen-berjer"
+		},
+		
+		{
 			id: 7,
+			title: t("bellaBerjer.title"),
+			image: "assets/images/products/berjer/bella-berjer-1.webp",
+			url: "/bella-berjer"
+		},
+		{
+			id: 8,
 			title: t("pianoBerjer.title"),
 			image: "assets/images/products/berjer/piano-berjer-1.webp",
 			url: "/piano-berjer"
 		},
 		{
-			id: 8,
+			id: 9,
+			title: t("golfBerjer.title"),
+			image: "assets/images/products/berjer/golf-berjer-1.webp",
+			url: "/golf-berjer"
+		},
+		{
+			id: 10,
 			title: t("turkuazBerjer.title"),
 			image: "assets/images/products/berjer/turkuaz-berjer-1.webp",
 			url: "/turkuaz-berjer"
-		},
-		{
-			id: 9,
-			title: t("zenBerjer.title"),
-			image: "assets/images/products/berjer/zen-berjer-1.webp",
-			url: "/zen-berjer"
 		}
 	];
 

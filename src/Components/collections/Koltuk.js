@@ -21,9 +21,9 @@ const Koltuk = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: t("bellaKoltuk.title"),
-			image: "assets/images/products/koltuk/bella-1.webp",
-			url: "/bella"
+			title: t("casaKoltuk.title"),
+			image: "assets/images/products/koltuk/casa-1.webp",
+			url: "/casa"
 		},
 		{
 			id: 2,
@@ -33,46 +33,53 @@ const Koltuk = () => {
 		},
 		{
 			id: 3,
+			title: t("odessaKoltuk.title"),
+			image: "assets/images/products/koltuk/odessa-1.webp",
+			url: "/odessa"
+		},
+		{
+			id: 4,
 			title: t("brahmaKoltuk.title"),
 			image: "assets/images/products/koltuk/brahma-1.webp",
 			url: "/brahma"
 		},
 		{
 			id: 4,
-			title: t("casaKoltuk.title"),
-			image: "assets/images/products/koltuk/casa-1.webp",
-			url: "/casa"
-		},
-		{
-			id: 5,
-			title: t("golfKoltuk.title"),
-			image: "assets/images/products/koltuk/golf-1.webp",
-			url: "/golf"
+			title: t("wood.title"),
+			image: "assets/images/products/koltuk/wood-1.webp",
+			url: "/wood"
 		},
 		{
 			id: 6,
-			title: t("odessaKoltuk.title"),
-			image: "assets/images/products/koltuk/odessa-1.webp",
-			url: "/odessa"
+			title: t("zenKoltuk.title"),
+			image: "assets/images/products/koltuk/zen-1.webp",
+			url: "/zen"
 		},
 		{
 			id: 7,
+			title: t("bellaKoltuk.title"),
+			image: "assets/images/products/koltuk/bella-1.webp",
+			url: "/bella"
+		},
+		{
+			id: 8,
 			title: t("pianoKoltuk.title"),
 			image: "assets/images/products/koltuk/piano-1.webp",
 			url: "/piano"
 		},
 		{
-			id: 8,
+			id: 9,
+			title: t("golfKoltuk.title"),
+			image: "assets/images/products/koltuk/golf-1.webp",
+			url: "/golf"
+		},
+		{
+			id: 10,
 			title: t("turkuazKoltuk.title"),
 			image: "assets/images/products/koltuk/turkuaz-1.webp",
 			url: "/turkuaz"
-		},
-		{
-			id: 9,
-			title: t("zenKoltuk.title"),
-			image: "assets/images/products/koltuk/zen-1.webp",
-			url: "/zen"
 		}
+		
 	];
 
 	return (

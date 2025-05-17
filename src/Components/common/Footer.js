@@ -69,7 +69,15 @@ big: "assets/images/6.png",
 return (
 <>
   <section className="footer-twelev mt-1">
-    <div className="footer-twelev__bg" style={{ backgroundImage: "url(assets/images/products/koltuk/footer.webp)" }}></div>
+    <div className="footer-twelev__bg" style={{ 
+      backgroundImage: "url(assets/images/products/koltuk/footer.webp)",
+      backgroundSize: "cover",
+      backgroundPosition: "center",
+      backgroundRepeat: "no-repeat",
+      minHeight: "600px",
+      opacity: "3",
+      filter: "brightness(1.7)"
+    }}></div>
     <div className="container">
       <div className="row">
         <div className="col-lg-4 col-md-6">

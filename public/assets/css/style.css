@@ -30788,7 +30788,7 @@ img.lazy-image.loaded {
   background-repeat: no-repeat;
   background-size: cover;
   mix-blend-mode: overlay;
-  opacity: 0.8;
+  opacity: 1.5;
 }
 .footer-twelev__widget {
   position: relative;

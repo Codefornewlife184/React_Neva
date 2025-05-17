@@ -1,7 +1,7 @@
 {
-  "BELLA KOLTUK TAKIMI": "BELLA ARMCHAIR SET",
+  "BELLA": "BELLA",
   "bella": {
-    "title": "BELLA ARMCHAIR SET",
+    "title": "BELLA",
     "description": "The perfect combination of elegance, comfort and style: Bella Armchair Set. With Neva Furniture's unique design and quality craftsmanship, it adds an aesthetic touch to your living spaces.",
     "price": "Special Price",
     "material": "Our own production, the Bella Armchair Set attracts attention with its modern lines while offering a soft and comfortable seating experience with its velvet textured fabric. Its back-supported ergonomic structure combines both aesthetics and comfort to provide enjoyable seating experiences.",
@@ -15,7 +15,7 @@
     "contact": "QUICK CONTACT" 
   },
   "boss": {
-    "title": "BOSS ARMCHAIR SET",
+    "title": "BOSS",
     "description": "The choice of those who want to add elegance and charisma to modern living spaces: BOSS Armchair Set. This set, a unique design by Neva Furniture, offers a sophisticated look with its elegant stitching details and wood-paneled side panels. Its structure, which can adapt to both classic and contemporary decoration styles, will change the atmosphere of your home.",
     "price": "Special Price",
     "material": "With its soft textured upholstery fabric, comfortable seating areas, and back-supported cushions, it offers an ideal space to relieve the fatigue of the day. Moreover, thanks to its large interior volume, you can host your guests in the best way.",
@@ -29,7 +29,7 @@
     "contact": "QUICK CONTACT"
   },
   "brahma": {
-    "title": "BRAHMA ARMCHAIR SET",
+    "title": "BRAHMA",
     "description": "Where simple elegance meets warm textures: BRAHMA Armchair Set. This special set, brought to life with Neva Furniture's elegant design approach, brings a peaceful atmosphere to your living space with its natural tones and modern lines.",
     "price": "Special Price",
     "material": "With its wide seating areas prioritizing comfort, soft back cushions, and quality upholstery, it offers both aesthetics and functionality together. The wooden leg and frame details complete durability with elegance. The harmonious combination of different color tones makes BRAHMA a model that perfectly fits both classic and contemporary styles.",
@@ -43,7 +43,7 @@
     "contact": "QUICK CONTACT"
   },
   "casa": {
-    "title": "CASA ARMCHAIR SET",
+    "title": "CASA",
     "description": "Where naturalness meets elegance: CASA Armchair Set. With its modern lines, soft textured fabric, and natural wood details, CASA is designed to add a simple yet impressive atmosphere to your living space.",
     "price": "Special Price",
     "material": "The stylish harmony of light gray and brown tones adds both warmth and tranquility to the decor. Its soft seating structure, large cushions, and supportive back design provide maximum comfort even during long sittings. CASA adapts to every style of interior with its balanced blend of classic and modern style.",
@@ -57,7 +57,7 @@
     "contact": "QUICK CONTACT"
   },
   "golf": {
-    "title": "GOLF ARMCHAIR SET",
+    "title": "GOLF",
     "description": "The point where elegance meets luxury: GOLF Armchair Set. This set, which reinterprets the classic Chester style with modern lines, brings a sophisticated touch to your living spaces.",
     "price": "Special Price",
     "material": "The fabric structure used in different textures and tones combines with the quilted workmanship on the armrests to offer a rich visuality. Ideal for those seeking both comfort and aesthetics, GOLF also provides ease of cleaning thanks to its high leg design.",
@@ -71,7 +71,7 @@
     "contact": "QUICK CONTACT"
   },
   "odessa": {
-    "title": "ODESSA ARMCHAIR SET",
+    "title": "ODESSA",
     "description": "Modern elegance meets the inspiring colors of nature: ODESSA Armchair Set. Its design with soft lines and the harmony of pastel green and cream tones offers a peaceful living space.",
     "price": "Special Price",
     "material": "Standing out with its minimalist lines and aesthetic details, ODESSA is an ideal option for those who adopt a simple yet stylish decoration approach. The wooden leg structure combines natural texture with modern furniture design.",
@@ -85,7 +85,7 @@
     "contact": "QUICK CONTACT"
   },
   "piano": {
-    "title": "PIANO ARMCHAIR SET",
+    "title": "PIANO",
     "description": "Meet the modern interpretation of timeless elegance: PIANO Armchair Set. The striking harmony of deep navy blue and elegant cream tones adds a sophisticated atmosphere to your living spaces.",
     "price": "Special Price",
     "material": "Its design enriched with simple lines, metal leg details, and quality upholstery offers both aesthetics and comfort. With its vertical stitching details and velvet-textured surface, PIANO interprets luxury in a minimal language and is a candidate to be the indispensable piece of modern home decoration.",
@@ -98,7 +98,7 @@
     "contact": "QUICK CONTACT"
   },
   "turkuaz": {
-    "title": "TURKUAZ ARMCHAIR SET",
+    "title": "TURKUAZ",
     "description": "The warmth of nature meets classic elegance: TURKUAZ Armchair Set. The soothing softness of beige tones, brown pillow details, and elegant stitching patterns combine to add simple elegance to your living space.",
     "price": "Special Price",
     "material": "Curved arm structure, retro-inspired wooden legs, and finely crafted back details promise an experience inspired by traditional style but offering modern comfort. With its wide seating area and soft cushions, it provides both aesthetics and ease of use.",
@@ -111,7 +111,7 @@
     "contact": "QUICK CONTACT"
   },
   "zen": {
-    "title": "ZEN ARMCHAIR SET",
+    "title": "ZEN",
     "descriptionStrong": "The warmth of nature meets classic elegance: ZEN Armchair Set.",
     "description": "The nobility of gray tones is enriched with quilted details, adding a sophisticated atmosphere to your living room.",
     "price": "Special Price",
@@ -124,8 +124,21 @@
     "company": "is a stylish choice for those who want to create elegant living spaces. This set, which brings luxury and tranquility together, will be the star of your home.",
     "contact": "QUICK CONTACT"
   },
+  "wood": {
+    "title": "WOOD",
+    "descriptionStrong": "A perfect harmony of natural elegance and contemporary design: The WOOD Armchair Set.",
+    "description": "Blending warm tones with eye-catching wooden details, the WOOD Armchair Set brings comfort and character to your living space. Its timeless design offers both visual appeal and everyday functionality.",
+    "price": "Special Price",
+    "chesterfield": "Distinctive wooden armrest accents",
+    "colors": "High-comfort foam structure with spacious seating",
+    "ergonomic": "Balanced use of natural and neutral color tones",
+    "woodenLegs": "Soft-touch, easy-to-clean upholstery fabric",
+    "companyStrong": "WOOD Armchair Set...",
+    "company": "Bring a touch of nature and sophistication into your home with the WOOD Armchair Set. Reflect your style with the trusted quality of Neva Furniture.",
+    "contact": "QUICK CONTACT"
+  },
     "bellaBerjer": {
-      "title": "Bella Bergere",
+      "title": "Bella",
       "price": "Special Price",
       "intro": "A special touch where comfort meets aesthetics: BELLA Bergere.",
       "description": "With its soft lines, elegant back curve, and wooden feet supporting the retro style, it perfectly adapts to both classic and modern decorations.",
@@ -142,7 +155,7 @@
       "contact": "QUICK CONTACT"
     },
     "bossBerjer": {
-      "title": "Boss Bergere",
+      "title": "Boss",
       "price": "Special Price",
       "intro": "Style and comfort come to your living spaces with Neva Furniture's elegant touch. Meet the BOSS Bergere.",
       "description": "BOSS Bergere adds prestige to your living rooms with its modern lines and aesthetic details. With its soft-textured fabric and high back support, it offers a space where you can enjoyably relieve the fatigue of the day.",
@@ -159,7 +172,7 @@
       "contact": "QUICK CONTACT"
     },
     "brahmaBerjer": {
-      "title": "Brahma Bergere",
+      "title": "Brahma",
       "price": "Special Price",
       "intro": "A special piece where timeless design meets modern touch: Brahma Bergere.",
       "description": "This Bergere, produced with Neva Furniture quality, offers both comfort and aesthetics with its soft-textured bouclé fabric and curved form. It adapts to every style with its minimalist lines and simple structure.",
@@ -177,7 +190,7 @@
       "contact": "QUICK CONTACT"
     },
     "casaBerjer": {
-      "title": "Casa Bergere",
+      "title": "Casa",
       "price": "Special Price",
       "intro": "An elegant and powerful stance where comfort blends with aesthetics: Casa Bergere.",
       "description": "This special Bergere bearing the Neva Furniture signature adds depth to living spaces with its warm brown tones while elevating comfort to the highest level with its curved form and soft-textured fabric. It adapts to every environment with its timeless design and modern details.",
@@ -195,7 +208,7 @@
       "contact": "QUICK CONTACT"
     },
     "golfBerjer": {
-      "title": "Golf Bergere",
+      "title": "Golf",
       "price": "Special Price",
       "intro": "Golf Bergere, designed to add an elegant touch to your living spaces, combines classic elegance with modern details.",
       "description": "With its elegant quilted arm design, natural wooden feet, and warm beige tones, it brings both comfort and aesthetics to your living space.",
@@ -213,7 +226,7 @@
       "contact": "QUICK CONTACT"
     },
     "odessaBerjer": {
-      "title": "Odessa Bergere",
+      "title": "Odessa",
       "price": "Special Price",
       "intro": "A unique design where elegant simplicity meets contemporary comfort: Odessa Bergere.",
       "description": "Produced with Neva Furniture guarantee, Odessa combines both comfort and elegance with its soft-textured fabric and organic form. It inspires modern living spaces with its flowing lines, simple structure, and innate elegance.",
@@ -231,7 +244,7 @@
       "contact": "QUICK CONTACT"
     },
     "pianoBerjer": {
-      "title": "Piano Bergere",
+      "title": "Piano",
       "price": "Special Price",
       "intro": "A powerful interpretation of elegance: Sophisticated details are brought to your living spaces with Piano Bergere.",
       "description": "Designed with Neva Furniture quality, Piano Bergere offers premium comfort with its velvety texture and high back design, while drawing attention with its vertical stitching details and modern lines. Its wide seating area and elegant curves combine aesthetics with comfort.",
@@ -249,7 +262,7 @@
       "contact": "QUICK CONTACT"
     },
     "turkuazBerjer": {
-      "title": "Turkuaz Bergere",
+      "title": "Turkuaz",
       "price": "Special Price",
       "intro": "Turkuaz Bergere, where modern elegance blends with classic lines, is poised to become the new favorite of stylish living spaces.",
       "description": "With its curved arms featuring fine lines, high back support, and contrasting cushion, it offers an ideal design for those seeking both comfort and aesthetics.",
@@ -267,7 +280,7 @@
       "contact": "QUICK CONTACT"
     },
     "zenBerjer": {
-      "title": "Zen Bergere",
+      "title": "Zen",
       "price": "Special Price",
       "intro": "Where comfort meets timeless elegance: Zen Bergere.",
       "description": "Zen Bergere, bearing the Neva Furniture signature, masterfully blends classic touches with modern lines. It offers both aesthetic and ergonomic experience with its deep seating structure, soft-filled back area, and elegant quilted details.",
@@ -284,8 +297,25 @@
       "conclusion": "Enjoy peace and elegance with Zen Bergere, crafted with Neva Furniture's meticulous workmanship.",
       "contact": "QUICK CONTACT"
     },
+    "woodBerjer": {
+      "title": "Wood",
+      "price": "Special Price",
+      "intro": "Discover timeless elegance with a touch of nature: WOOD Bergere.",
+      "description": "Combining the warmth of wood with a minimalist modern design, the WOOD Armchair adds both comfort and character to your interiors. Whether used alone or as a part of a set, it stands out as a stylish and functional accent piece.",
+      "features": {
+        "list": {
+          "fabric": "Ergonomic seating comfort",
+          "design": "Solid wood armrest details",
+          "structure": "Breathable and easy-to-clean fabric",
+          "comfort": "A subtle blend of retro and modern styles",
+          "style": "Durable structure with refined aesthetics"
+        }
+      },
+      "conclusion": "Bring natural sophistication into your home with the WOOD Bergere, exclusively by Neva Furniture.",
+      "contact": "QUICK CONTACT"
+    },
     "brahmaKose": {
-      "title": "BRAHMA CORNER SET",
+      "title": "BRAHMA",
       "price": "Contact us for price",
       "intro": "The Brahma Corner Set is a special collection that combines modern design and comfort.",
       "description": "This special design will add elegance and comfort to every corner of your home. The Brahma Corner Set, produced with high-quality materials and careful craftsmanship, is designed for long-term use.",
@@ -302,7 +332,7 @@
       "contact": "CONTACT US"
     },
     "casaKose": {
-      "title": "CASA CORNER SET",
+      "title": "CASA",
       "price": "Special Price",
       "intro": "A special design where modern elegance meets simple lines: CASA Corner Set.",
       "description": "Its soft-textured cream-colored fabric, completed with natural wooden details, creates a warm and inviting atmosphere.",
@@ -319,7 +349,7 @@
       "contact": "QUICK CONTACT"
     },
     "casaRelaxKose": {
-      "title": "CASA RELAX CORNER SET",
+      "title": "CASA RELAX",
       "price": "Special Price",
       "intro": "A special design where modern life meets comfort: CASA RELAX Corner Set.",
       "description": "It adapts to the rhythm of urban life with its simple lines, soft-textured gray fabric, and functional structure.",
@@ -336,7 +366,7 @@
       "contact": "QUICK CONTACT"
     },
     "golfKose": {
-      "title": "GOLF CORNER SET",
+      "title": "GOLF",
       "price": "Special Price",
       "intro": "A sophisticated design where elegant details meet modern lines: GOLF Corner Set.",
       "description": "It offers timeless elegance with its classic Chester arm details, upholstery in natural tones, and walnut wooden feet.",
@@ -353,7 +383,7 @@
       "contact": "QUICK CONTACT"
     },
     "bellaKanepe": {
-      "title": "Bella Sofa",
+      "title": "Bella",
       "price": "Special Price",
       "intro": "An elegant design where modern lines meet comfort: BELLA Sofa.",
       "description": "BELLA, which stands out with its vertical stitching details and soft cream tones, adds elegance to your living spaces with its simple elegance.",
@@ -370,7 +400,7 @@
       "contact": "QUICK CONTACT"
     },
     "bossKanepe": {
-      "title": "Boss Sofa",
+      "title": "Boss",
       "price": "Special Price",
       "intro": "Strong stance, noble details: Meet the BOSS Sofa.",
       "description": "This special design, where deep brown tones meet modern forms, adds a sophisticated atmosphere to living spaces. BOSS, offering both comfort and elegance, truly lives up to its name.",
@@ -388,7 +418,7 @@
       "contact": "QUICK CONTACT"
     },
     "brahmaKanepe": {
-      "title": "Brahma Sofa",
+      "title": "Brahma",
       "price": "Special Price",
       "intro": "Where natural simplicity meets elegant beauty: BRAHMA Sofa.",
       "description": "This special sofa, designed with modern lines, brings tranquility to your living space with its simple form and natural textured fabric.",
@@ -406,7 +436,7 @@
       "contact": "QUICK CONTACT"
     },
     "casaKanepe": {
-      "title": "Casa Sofa",
+      "title": "Casa",
       "price": "Special Price",
       "intro": "Modern lines and simple aesthetics together: CASA Sofa.",
       "description": "With its light-colored woven fabric, natural wooden feet, and simple form, it adds spaciousness and elegance to your living space.",
@@ -424,7 +454,7 @@
       "contact": "QUICK CONTACT"
     },
     "golfKanepe": {
-      "title": "Golf Sofa",
+      "title": "Golf",
       "price": "Special Price",
       "intro": "The perfect meeting of classic details and modern lines: GOLF Sofa.",
       "description": "With its elegant quilted arm design, natural wooden feet, and warm beige tones, it brings both comfort and aesthetics to your living space.",
@@ -442,7 +472,7 @@
       "contact": "QUICK CONTACT"
     },
     "odessaKanepe": {
-      "title": "Odessa Sofa",
+      "title": "Odessa",
       "price": "Special Price",
       "intro": "Elegant simplicity and natural beauty: ODESSA Sofa.",
       "description": "Designed to bring tranquility to your living space. Odessa, with its rounded lines and simple stance, represents modern decoration understanding and draws inspiration from nature with its green-toned cushion details.",
@@ -460,7 +490,7 @@
       "contact": "QUICK CONTACT"
     },
     "pianoKanepe": {
-      "title": "Piano Sofa",
+      "title": "Piano",
       "price": "Special Price",
       "intro": "Modern interpretation of timeless elegance: PIANO Sofa",
       "description": "This special design, enriched with minimal lines and metallic details, adds elegance to your living spaces. It exhibits an eye-catching stance with the nobility of gray tones and vertical quilted craftsmanship.",
@@ -478,7 +508,7 @@
       "contact": "QUICK CONTACT"
     },
     "turkuazKanepe": {
-      "title": "Turkuaz Sofa",
+      "title": "Turkuaz",
       "price": "Special Price",
       "intro": "Timeless lines, strong stance. TURKUAZ Sofa.",
       "description": "It brings aesthetics and comfort to modern living spaces with its classic form. While the curved arm structure and decorative stitching details add a sophisticated atmosphere to the seating area, it gains depth with dark-colored cushions.",
@@ -495,7 +525,7 @@
       "contact": "QUICK CONTACT"
     },
     "zenKanepe": {
-      "title": "Zen Sofa",
+      "title": "Zen",
       "price": "Special Price",
       "intro": "Simple lines integrated with elegant details…",
       "description": "Zen Sofa brings elegance and balance to your living spaces with its peaceful design.",
@@ -512,6 +542,23 @@
       "conclusion": "Zen Sofa is an indispensable choice for those who favor simplicity in home decoration... Combine comfort with aesthetics with Neva Furniture.",
       "contact": "QUICK CONTACT"
     },
+    "woodKanepe": {
+      "title": "Wood",
+      "price": "Special Price",
+      "intro": "Experience the warm elegance of nature with the WOOD Sofa.",
+      "description": "Blending natural wood accents with modern design, the WOOD Sofa brings comfort and sophistication into your living space. Its soft-textured upholstery and ergonomic build promise both relaxation and visual appeal.",
+      "features": {
+        "list": {
+          "comfort": "Solid wood armrest accents",
+          "design": "Spacious and comfortable seating",
+          "structure": "Soft, durable upholstery fabric",
+          "fabric": "Retro-modern design aesthetic",
+          "style": "Effortlessly stylish and versatile"
+        }
+      },
+      "conclusion": "Add timeless charm to your home with the WOOD Sofa – exclusively by Neva Furniture.",
+      "contact": "QUICK CONTACT"
+    },
   "pages": {
     "about": "ABOUT US",
     "contact": "CONTACT",
@@ -521,40 +568,40 @@
     "armchairs": "ARMCHAIRS",
     "bergere": "BERGERE",
     "cornerSets": "CORNER SETS",
-    "berjerler": "BERJERLER"
+    "berjerler": "BERGERES"
   },
   "common": {
     "details": "DETAILS"
   },
   "bellaKoltuk": {
-    "title": "BELLA ARMCHAIR SET"
+    "title": "BELLA"
   },
   "bossKoltuk": {
-    "title": "BOSS ARMCHAIR SET"
+    "title": "BOSS"
   },
   "brahmaKoltuk": {
-    "title": "BRAHMA ARMCHAIR SET"
+    "title": "BRAHMA"
   },
   "casaKoltuk": {
-    "title": "CASA ARMCHAIR SET"
+    "title": "CASA"
   },
   "golfKoltuk": {
-    "title": "GOLF ARMCHAIR SET"
+    "title": "GOLF"
   },
   "odessaKoltuk": {
-    "title": "ODESSA ARMCHAIR SET"
+    "title": "ODESSA"
   },
   "pianoKoltuk": {
-    "title": "PIANO ARMCHAIR SET"
+    "title": "PIANO"
   },
   "turkuazKoltuk": {
-    "title": "TURKUAZ ARMCHAIR SET"
+    "title": "TURKUAZ"
   },
   "zenKoltuk": {
-    "title": "ZEN ARMCHAIR SET"
+    "title": "ZEN"
   },
   "casaKose": {
-    "title": "CASA CORNER SET",
+    "title": "CASA",
     "price": "Special Price",
     "intro": "A special design where modern elegance meets simple lines: CASA Corner Set.",
     "description": "Its soft-textured cream-colored fabric, completed with natural wooden details, creates a warm and inviting atmosphere.",
@@ -571,7 +618,7 @@
     "contact": "QUICK CONTACT"
   },
   "golfKose": {
-    "title": "GOLF CORNER SET",
+    "title": "GOLF",
     "price": "Special Price",
     "intro": "A sophisticated design where elegant details meet modern lines: GOLF Corner Set.",
     "description": "It offers timeless elegance with its classic Chester arm details, upholstery in natural tones, and walnut wooden feet.",

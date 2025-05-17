@@ -1,7 +1,7 @@
 {
-  "BELLA KOLTUK TAKIMI": "BELLA KOLTUK TAKIMI",
+  "BELLA": "BELLA",
   "bella": {
-    "title": "BELLA KOLTUK TAKIMI",
+    "title": "BELLA",
     "description": "Zarafet, konfor ve şıklığın kusursuz birleşimi: Bella Koltuk Takımı. Neva Mobilya'nın özgün tasarımı ve kaliteli işçiliğiyle yaşam alanlarınıza estetik bir dokunuş katıyor.",
     "price": "Özel Fiyat",
     "material": "Kendi üretimimiz olan Bella Koltuk Takımı, modern çizgileriyle dikkat çekerken, kadife dokulu kumaşı sayesinde yumuşak ve konforlu bir oturum sunar. Sırt destekli ergonomik yapısı, hem estetik hem de rahatlığı bir araya getirerek keyifli oturma deneyimleri yaşatır.",
@@ -15,7 +15,7 @@
     "contact": "HIZLI İLETİŞİM" 
   },
   "boss": {
-    "title": "BOSS KOLTUK TAKIMI",
+    "title": "BOSS",
     "description": "Modern yaşam alanlarına şıklık ve karizma katmak isteyenlerin tercihi: BOSS Koltuk Takımı. Neva Mobilya'nın özgün tasarımı olan bu takım, zarif dikiş detayları ve ahşap kaplamalı yan panelleriyle sofistike bir görünüm sunuyor. Hem klasik hem de çağdaş dekorasyon stillerine uyum sağlayabilen yapısıyla evinizin havasını değiştirir.",
     "price": "Özel Fiyat",
     "material": "Yumuşak dokulu döşemelik kumaşı, konforlu oturum alanları ve sırt destekli minderleri ile günün yorgunluğunu atmanız için ideal bir alan sunar. Üstelik geniş iç hacmi sayesinde misafirlerinizi en iyi şekilde ağırlayabilirsiniz.",
@@ -29,7 +29,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "brahma": {
-    "title": "BRAHMA KOLTUK TAKIMI",
+    "title": "BRAHMA",
     "description": "Sade şıklığın, sıcak dokularla buluştuğu noktada: BRAHMA Koltuk Takımı. Neva Mobilya'nın zarif tasarım anlayışıyla hayat bulan bu özel takım, doğal tonları ve modern çizgileriyle yaşam alanınıza huzurlu bir atmosfer kazandırıyor.",
     "price": "Özel Fiyat",
     "material": "Konforu ön planda tutan geniş oturum alanları, yumuşak sırt minderleri ve kaliteli döşemesiyle hem estetik hem de işlevselliği bir arada sunar. Ahşap ayak ve çerçeve detayları ise dayanıklılığı şıklıkla tamamlıyor. Farklı renk tonlarının uyumlu birlikteliği, BRAHMA'yı klasik ve çağdaş tarzlara mükemmel uyum sağlayan bir model haline getiriyor.",
@@ -43,7 +43,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "casa": {
-    "title": "CASA KOLTUK TAKIMI",
+    "title": "CASA",
     "description": "Doğallığın zarafetle buluştuğu noktada: CASA Koltuk Takımı. Modern çizgileri, yumuşak dokulu kumaşı ve doğal ahşap detaylarıyla CASA, yaşam alanınıza sade ama etkileyici bir hava katmak için tasarlandı.",
     "price": "Özel Fiyat",
     "material": "Açık gri ve kahverengi tonlarının şık uyumu, dekorasyona hem sıcaklık hem de dinginlik kazandırır. Yumuşak oturum yapısı, geniş minderleri ve destekleyici sırt tasarımı sayesinde uzun oturumlarda bile maksimum konfor sunar. CASA, klasik ve modern stilin dengeli harmanıyla her tarz iç mekâna uyum sağlar.",
@@ -57,7 +57,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "golf": {
-    "title": "GOLF KOLTUK TAKIMI",
+    "title": "GOLF",
     "description": "Zarif detaylarla lüksün birleştiği nokta: GOLF Koltuk Takımı. Klasik Chester tarzını modern çizgilerle yeniden yorumlayan bu takım, yaşam alanlarınıza sofistike bir dokunuş getiriyor.",
     "price": "Özel Fiyat",
     "material": "Farklı doku ve tonlarda kullanılan kumaş yapısı, kolçaklardaki kapitone işçiliğiyle birleşerek zengin bir görsellik sunuyor. Hem rahatlık hem de estetik arayanlar için ideal olan GOLF, yüksek ayak tasarımı sayesinde temizlik kolaylığı da sağlar.",
@@ -71,7 +71,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "odessa": {
-    "title": "ODESSA KOLTUK TAKIMI",
+    "title": "ODESSA",
     "description": "Doğanın ilham veren renkleriyle buluşan modern zarafet: ODESSA Koltuk Takımı. Yumuşak hatlara sahip tasarımı, pastel yeşil ve krem tonlarının uyumuyla huzur dolu bir yaşam alanı sunar.",
     "price": "Özel Fiyat",
     "material": "Minimalist çizgileri ve estetik detaylarıyla öne çıkan ODESSA, sade ama şık dekorasyon anlayışını benimseyenler için ideal bir seçenektir. Ahşap ayak yapısı, doğal dokuyu modern mobilya tasarımıyla bir araya getirir.",
@@ -85,7 +85,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "piano": {
-    "title": "PIANO KOLTUK TAKIMI",
+    "title": "PIANO",
     "description": "Zamansız şıklığın modern yorumuyla tanışın: PIANO Koltuk Takımı. Derin lacivert ve zarif krem tonlarının göz alıcı uyumu, yaşam alanlarınıza sofistike bir hava katıyor.",
     "price": "Özel Fiyat",
     "material": "Yalın çizgilerle zenginleştirilmiş tasarımı, metal ayak detayları ve kaliteli döşemesiyle hem estetik hem de konfor sunar. Dikey dikiş detayları ve kadife dokulu yüzeyiyle lüksü minimal bir dille yorumlayan PİANO, modern ev dekorasyonunun vazgeçilmezi olmaya aday.",
@@ -98,7 +98,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "turkuaz": {
-    "title": "TURKUAZ KOLTUK TAKIMI",
+    "title": "TURKUAZ",
     "description": "Doğallığın sıcaklığı, klasik zarafetle buluşuyor: TURKUAZ Koltuk Takımı. Bej tonlarının huzur veren yumuşaklığı, kahverengi yastık detayları ve zarif dikiş desenleriyle bütünleşerek yaşam alanınıza sade bir şıklık katıyor.",
     "price": "Özel Fiyat",
     "material": "Kavisli kol yapısı, retro esintili ahşap ayaklar ve ince işçilikle şekillenen sırt detayları, geleneksel tarzdan ilham alan ama modern konfor sunan bir deneyim vaat ediyor. Geniş oturum alanı ve yumuşak minderleriyle hem estetik hem de kullanım kolaylığı sağlar.",
@@ -111,7 +111,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "zen": {
-    "title": "ZEN KOLTUK TAKIMI",
+    "title": "ZEN",
     "descriptionStrong": "Doğallığın sıcaklığı, klasik zarafetle buluşuyor: ZEN Koltuk Takımı.",
     "description": "Gri tonların asaleti, kapitone detaylarla zenginleşiyor ve salonunuza sofistike bir hava katıyor.",
     "price": "Özel Fiyat",
@@ -124,8 +124,21 @@
     "company": "zarif yaşam alanları yaratmak isteyenler için stil sahibi bir tercih. Lüksü ve huzuru aynı çizgide buluşturan bu takım, evinizin yıldızı olacak.",
     "contact": "HIZLI İLETİŞİM"
   },
+  "wood": {
+    "title": "WOOD",
+    "descriptionStrong": "Doğallığın zarafetle buluştuğu özel bir tasarım: WOOD Koltuk Takımı.",
+    "description": "Ahşap detayları ve sıcak renk geçişleriyle dikkat çeken WOOD Koltuk Takımı, modern çizgileri geleneksel dokunuşlarla harmanlıyor. Mekâna samimi bir atmosfer kazandıran bu takım, yaşam alanlarınızda estetik ve fonksiyonelliği bir araya getiriyor.",
+    "price": "Özel Fiyat",
+    "chesterfield": "Ahşap görünümlü özel kol detayları",
+    "colors": "Konforlu sünger yapısı ve geniş oturum alanı",
+    "ergonomic": "Farklı renk tonlarının dengeli uyumu",
+    "woodenLegs": "Yumuşak dokulu, kolay temizlenebilir kumaş",
+    "companyStrong": "WOOD Koltuk Takımı,",
+    "company": " ile salonunuza hem doğallık hem şıklık taşıyın. Neva Mobilya kalitesiyle tarzınızı yansıtın.",
+    "contact": "HIZLI İLETİŞİM"
+  },
   "bellaBerjer": {
-    "title": "Bella Berjer",
+    "title": "Bella",
     "price": "Özel Fiyat",
     "intro": "Konforun estetikle buluştuğu özel bir dokunuş: BELLA Berjer.",
     "description": "Yumuşak hatları, zarif sırt kıvrımı ve retro tarzı destekleyen ahşap ayakları ile hem klasik hem de modern dekorasyonlara mükemmel uyum sağlar.",
@@ -142,7 +155,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "bossBerjer": {
-    "title": "Boss Berjer",
+    "title": "Boss",
     "price": "Özel Fiyat",
         "intro": "Neva Mobilya'nın zarif dokunuşuyla yaşam alanlarınıza stil ve konfor geliyor. BOSS Berjer ile tanışın.",
         "description": "BOSS Berjer, modern çizgileri ve estetik detaylarıyla salonlarınıza prestij katıyor. Yumuşak dokulu kumaşı ve yüksek sırt desteği sayesinde günün yorgunluğunu keyifle üzerinizden atabileceğiniz bir alan sunar.",
@@ -159,7 +172,7 @@
         "contact": "HIZLI İLETİŞİM"
           },
           "brahmaBerjer": {
-            "title": "Brahma Berjer",
+            "title": "Brahma",
             "price": "Özel Fiyat",
             "intro": "Zamansız tasarımın modern dokunuşla buluştuğu özel bir parça: Brahma Berjer.",
             "description": "Neva Mobilya kalitesiyle üretilen bu berjer, yumuşak dokulu bouclé kumaşı ve kıvrımlı formu sayesinde hem konfor hem de estetik sunar. Minimalist çizgileri ve sade yapısıyla her tarza uyum sağlar.",
@@ -177,7 +190,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "casaBerjer": {
-            "title": "Casa Berjer",
+            "title": "Casa",
             "price": "Özel Fiyat",
             "intro": "Konforun estetikle harmanlandığı, zarif ve güçlü bir duruş: Casa Berjer.",
             "description": "Neva Mobilya imzası taşıyan bu özel berjer, sıcak kahverengi tonlarıyla yaşam alanlarına derinlik katarken, kıvrımlı formu ve yumuşak dokulu kumaşıyla konforu en üst seviyeye taşır. Zamansız tasarımı ve modern detaylarıyla her ortama uyum sağlar.",
@@ -195,7 +208,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "golfBerjer": {
-            "title": "Golf Berjer",
+            "title": "Golf",
             "price": "Özel Fiyat",
             "intro": "Klasik şıklığı modern detaylarla buluşturan Golf Berjer, yaşam alanlarınıza zarif bir dokunuş katmak için tasarlandı.",
             "description": "Zarif kapitone kol tasarımı, doğal ahşap ayakları ve sıcak bej tonlarıyla hem konforu hem de estetiği yaşam alanınıza taşıyor.",
@@ -213,7 +226,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "odessaBerjer": {
-            "title": "Odessa Berjer",
+            "title": "Odessa",
             "price": "Özel Fiyat",
             "intro": "Zarif sadelik ve çağdaş konforun buluştuğu özgün bir tasarım: Odessa Berjer.",
             "description": "Neva Mobilya güvencesiyle üretilen Odessa, yumuşak dokulu kumaşı ve organik formuyla hem rahatlığı hem de şıklığı bir araya getiriyor. Akıcı hatları, sade yapısı ve içten gelen zarafetiyle modern yaşam alanlarına ilham katıyor.",
@@ -231,7 +244,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "pianoBerjer": {
-            "title": "Piano Berjer",
+            "title": "Piano",
             "price": "Özel Fiyat",
             "intro": "Şıklığın güçlü bir yorumu: Piano Berjer ile sofistike detaylar yaşam alanlarınıza taşınıyor.",
             "description": "Neva Mobilya kalitesiyle tasarlanan Piano Berjer, kadifemsi dokusu ve yüksek sırt tasarımıyla üst düzey konfor sunarken, dikey dikiş detayları ve modern çizgileriyle dikkatleri üzerine çekiyor. Geniş oturum alanı ve zarif kıvrımları, estetikle rahatlığı bir arada sunar.",
@@ -249,7 +262,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "turkuazBerjer": {
-            "title": "Turkuaz Berjer",
+            "title": "Turkuaz",
             "price": "Özel Fiyat",
             "intro": "Modern zarafet ile klasik çizgilerin harmanlandığı Turkuaz Berjer, stil sahibi yaşam alanlarının yeni gözdesi olmaya aday.",
             "description": "İnce hatlara sahip kıvrımlı kolları, yüksek sırt desteği ve kontrast renkte yastığı ile hem konfor hem de estetik arayanlar için ideal bir tasarım sunar.",
@@ -267,7 +280,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "zenBerjer": {
-            "title": "Zen Berjer",
+            "title": "Zen",
             "price": "Özel Fiyat",
             "intro": "Konforun zamansız zarafetle buluştuğu noktada: Zen Berjer.",
             "description": "Neva Mobilya imzası taşıyan Zen Berjer, klasik dokunuşlarla modern çizgileri ustalıkla harmanlıyor. Derin oturum yapısı, yumuşak dolgulu sırt bölgesi ve zarif kapitone detaylarıyla hem estetik hem de ergonomik bir deneyim sunuyor.",
@@ -284,8 +297,25 @@
             "conclusion": "Neva Mobilya'nın özenli işçiliğiyle hazırlanan Zen Berjer ile huzurun ve şıklığın keyfini sürün.",
             "contact": "HIZLI İLETİŞİM"
           },
+          "woodBerjer": {
+            "title": "Wood",
+            "price": "Özel Fiyat",
+            "intro": "Zamansız şıklığın doğal yorumuyla tanışın: WOOD Berjer.",
+            "description": "Ahşabın sıcaklığını modern bir çizgiyle buluşturan WOOD Berjer, sade ve zarif tasarımıyla yaşam alanlarınıza ferahlık katıyor. Minimal yapısı ve konforlu oturum alanı ile ister tek başına, ister takım olarak kusursuz bir tamamlayıcıdır.",
+            "features": {
+              "list": {
+                "fabric": "Ergonomik oturum konforu",
+                "design": "Doğal ahşap kol detayları",
+                "structure": "Nefes alabilir ve kolay temizlenebilir kumaş",
+                "comfort": "Retro-modern tasarım çizgisi",
+                "style": "Yüksek dayanıklılık ve estetik bir bütünlük"
+              }
+            },
+            "conclusion": "Neva Mobilya farkıyla doğal zarafeti evinize taşıyın. WOOD Berjer ile tarzınızı yansıtın.",
+            "contact": "HIZLI İLETİŞİM"
+          },
           "brahmaKose": {
-            "title": "BRAHMA KÖŞE TAKIMI",
+            "title": "BRAHMA",
             "price": "Fiyat için iletişime geçiniz",
             "intro": "Brahma Köşe Takımı, modern tasarımı ve konforu bir araya getiren özel bir koleksiyondur.",
             "description": "Bu özel tasarım, evinizin her köşesine şıklık ve rahatlık katacak. Yüksek kaliteli malzemeler ve özenli işçilik ile üretilen Brahma Köşe Takımı, uzun yıllar kullanım için tasarlanmıştır.",
@@ -302,7 +332,7 @@
             "contact": "İLETİŞİME GEÇİN"
           },
           "casaKose": {
-            "title": "CASA KÖŞE TAKIMI",
+            "title": "CASA",
             "price": "Özel Fiyat",
             "intro": "Modern zarafetin yalın çizgilerle buluştuğu özel tasarım: CASA Köşe Takımı.",
             "description": "Yumuşak dokulu krem rengi kumaşı, doğal ahşap detaylarla tamamlanarak sıcak ve davetkar bir atmosfer yaratıyor.",
@@ -319,7 +349,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "casaRelaxKose": {
-            "title": "CASA RELAX KÖŞE TAKIMI",
+            "title": "CASA RELAX",
             "price": "Özel Fiyat",
             "intro": "Modern yaşamın konforla buluştuğu özel tasarım: CASA RELAX Köşe Takımı.",
             "description": "Sade çizgileri, yumuşak dokulu gri kumaşı ve fonksiyonel yapısıyla şehirli yaşamın ritmine uyum sağlıyor.",
@@ -336,7 +366,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "golfKose": {
-            "title": "GOLF KÖŞE TAKIMI",
+            "title": "GOLF",
             "price": "Özel Fiyat",
             "intro": "Zarif detayların modern çizgilerle buluştuğu sofistike bir tasarım: GOLF Köşe Takımı.",
             "description": "Klasik Chester kol detayları, doğal tonlardaki döşemesi ve ceviz ahşap ayaklarıyla zamansız bir şıklık sunuyor.",
@@ -353,7 +383,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "bellaKanepe": {
-            "title": "Bella Kanepe",
+            "title": "Bella",
             "price": "Özel Fiyat",
             "intro": "Modern çizgilerle konforun buluştuğu zarif bir tasarım: BELLA Kanepe.",
             "description": "Dikey dikiş detayları ve yumuşak krem tonlarıyla dikkat çeken BELLA, sade şıklığıyla yaşam alanlarınıza zarafet katıyor.",
@@ -370,7 +400,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "bossKanepe": {
-            "title": "Boss Kanepe",
+            "title": "Boss",
             "price": "Özel Fiyat",
             "intro": "Güçlü duruş, asil detaylar: BOSS Kanepe ile tanışın.",
             "description": "Derin kahverengi tonların modern formlarla buluştuğu bu özel tasarım, yaşam alanlarına sofistike bir hava katıyor. Konforu ve şıklığı bir arada sunan BOSS, adeta adının hakkını veriyor.",
@@ -388,7 +418,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "brahmaKanepe": {
-            "title": "Brahma Kanepe",
+            "title": "Brahma",
             "price": "Özel Fiyat",
             "intro": "Doğallığın yalın şıklıkla buluştuğu noktada: BRAHMA Kanepe.",
             "description": "Modern çizgilerle tasarlanmış bu özel kanepe, sade formu ve doğal dokulu kumaşıyla yaşam alanınıza huzur katıyor.",
@@ -406,7 +436,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "casaKanepe": {
-            "title": "Casa Kanepe",
+            "title": "Casa",
             "price": "Özel Fiyat",
             "intro": "Modern çizgiler ve yalın estetik bir arada: CASA Kanepe.",
             "description": "Açık renkli dokuma kumaşı, doğal ahşap ayakları ve sade formu ile yaşam alanınıza ferahlık ve zarafet katıyor.",
@@ -424,7 +454,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "golfKanepe": {
-            "title": "Golf Kanepe",
+            "title": "Golf",
             "price": "Özel Fiyat",
             "intro": "Klasik detaylar ve modern çizgilerin mükemmel buluşması: GOLF Kanepe.",
             "description": "Zarif kapitone kol tasarımı, doğal ahşap ayakları ve sıcak bej tonlarıyla hem konforu hem de estetiği yaşam alanınıza taşıyor.",
@@ -442,7 +472,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "odessaKanepe": {
-            "title": "Odessa Kanepe",
+            "title": "Odessa",
             "price": "Özel Fiyat",
             "intro": "Zarif sadelik ve doğal şıklık: ODESSA Kanepe.",
             "description": "Yaşam alanınıza dinginlik getirmek için tasarlandı. Yuvarlatılmış hatları ve sade duruşuyla modern dekorasyon anlayışının temsilcisi olan Odessa, yeşil tonlu kırlent detaylarıyla doğadan ilham alıyor.",
@@ -460,7 +490,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "pianoKanepe": {
-            "title": "Piano Kanepe",
+            "title": "Piano",
             "price": "Özel Fiyat",
             "intro": "Zamansız şıklığın modern yorumu: PIANO Kanepe",
             "description": "Minimal çizgiler ve metalik detaylarla zenginleşen bu özel tasarım, yaşam alanlarınıza zarafet katıyor. Gri tonların asaleti ve dikey kapitone işçiliği ile göz alıcı bir duruş sergiliyor.",
@@ -478,7 +508,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "turkuazKanepe": {
-            "title": "Turkuaz Kanepe",
+            "title": "Turkuaz",
             "price": "Özel Fiyat",
             "intro": "Zamansız çizgiler, güçlü duruş. TURKUAZ Kanepe.",
             "description": "Klasik formuyla modern yaşam alanlarına estetik ve konfor getiriyor. Kavisli kol yapısı ve dekoratif dikiş detayları, oturma alanına sofistike bir hava katarken, koyu renkli kırlentlerle derinlik kazandırıyor.",
@@ -495,7 +525,7 @@
             "contact": "HIZLI İLETİŞİM"
           },
           "zenKanepe": {
-            "title": "Zen Kanepe",
+            "title": "Zen",
             "price": "Özel Fiyat",
             "intro": "Zarif detaylarla bütünleşen yalın çizgiler…",
             "description": "Zen Kanepe, huzur veren tasarımıyla yaşam alanlarınıza şıklık ve denge getiriyor.",
@@ -512,6 +542,23 @@
             "conclusion": "Zen Kanepe ev dekorasyonunda sadelikten yana olanların vazgeçemeyeceği bir seçim... Neva Mobilya ile konforu estetikle buluşturun.",
             "contact": "HIZLI İLETİŞİM"
           },
+          "woodKanepe": {
+            "title": "Wood",
+            "price": "Özel Fiyat",
+            "intro": "Doğallığın sıcak dokunuşu WOOD kanepe ile evinizde.",
+            "description": "Modern tasarımı, ahşap detayları ve rahat oturum yapısıyla WOOD kanepe, hem estetik hem de fonksiyonelliği bir araya getiriyor. Yumuşak dokulu kumaşı ve ergonomik formu sayesinde uzun oturumlar artık daha keyifli.",
+            "features": {
+              "list": {
+                "comfort": "Doğal ahşap kol detayları",
+                "design": "Geniş ve rahat oturum alanı",
+                "structure": "Yumuşak, dayanıklı kumaş dokusu",
+                "fabric": "Modern-retro tasarım çizgisi",
+                "style": "Kolay kombinlenebilir şık görünüm"
+              }
+            },
+            "conclusion": "WOOD kanepe ile yaşam alanınıza zamansız bir şıklık kazandırın. Neva Moobilya güvencesiyle.",
+            "contact": "HIZLI İLETİŞİM"
+          },
           "pages": {
             "about": "HAKKIMIZDA",
             "contact": "İLETİŞİM",
@@ -520,40 +567,41 @@
             "sofas": "KANEPELER",
             "armchairs": "KOLTUK TAKIMI",
     "cornerSets": "KÖŞE TAKIMI",
-    "berjerler": "BERJERLER"
+    "berjerler": "BERJERLER",
+    "bergere": "BERJERLER"
   },
   "common": {
     "details": "DETAYLAR"
   },
   "bellaKoltuk": {
-    "title": "BELLA KOLTUK TAKIMI"
+    "title": "BELLA"
   },
   "bossKoltuk": {
-    "title": "BOSS KOLTUK TAKIMI"
+    "title": "BOSS"
   },
   "brahmaKoltuk": {
-    "title": "BRAHMA KOLTUK TAKIMI"
+    "title": "BRAHMA"
   },
   "casaKoltuk": {
-    "title": "CASA KOLTUK TAKIMI"
+    "title": "CASA"
   },
   "golfKoltuk": {
-    "title": "GOLF KOLTUK TAKIMI"
+    "title": "GOLF"
   },
   "odessaKoltuk": {
-    "title": "ODESSA KOLTUK TAKIMI"
+    "title": "ODESSA"
   },
   "pianoKoltuk": {
-    "title": "PİANO KOLTUK TAKIMI"
+    "title": "PİANO"
   },
   "turkuazKoltuk": {
-    "title": "TURKUAZ KOLTUK TAKIMI"
+    "title": "TURKUAZ"
   },
   "zenKoltuk": {
-    "title": "ZEN KOLTUK TAKIMI"
+    "title": "ZEN"
   },
   "casaKose": {
-    "title": "CASA KÖŞE TAKIMI",
+    "title": "CASA",
     "price": "Özel Fiyat",
     "intro": "Modern zarafetin yalın çizgilerle buluştuğu özel tasarım: CASA Köşe Takımı.",
     "description": "Yumuşak dokulu krem rengi kumaşı, doğal ahşap detaylarla tamamlanarak sıcak ve davetkar bir atmosfer yaratıyor.",
@@ -570,7 +618,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "casaRelaxKose": {
-    "title": "CASA RELAX KÖŞE TAKIMI",
+    "title": "CASA RELAX",
     "price": "Özel Fiyat",
     "intro": "Modern yaşamın konforla buluştuğu özel tasarım: CASA RELAX Köşe Takımı.",
     "description": "Sade çizgileri, yumuşak dokulu gri kumaşı ve fonksiyonel yapısıyla şehirli yaşamın ritmine uyum sağlıyor.",
@@ -587,7 +635,7 @@
     "contact": "HIZLI İLETİŞİM"
   },
   "golfKose": {
-    "title": "GOLF KÖŞE TAKIMI",
+    "title": "GOLF",
     "price": "Özel Fiyat",
     "intro": "Zarif detayların modern çizgilerle buluştuğu sofistike bir tasarım: GOLF Köşe Takımı.",
     "description": "Klasik Chester kol detayları, doğal tonlardaki döşemesi ve ceviz ahşap ayaklarıyla zamansız bir şıklık sunuyor.",
@@ -635,7 +683,7 @@
       "sofas": "KANEPELER",
       "contactTitle": "İLETİŞİM",
       "store": "Mağaza",
-      "storeAddress": "Davutkadı, Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa",
+      "storeAddress": "Davutkadı Mh. Teyyareci Mehmet Ali Cd. No:1 Yıldırım/Bursa",
       "production": "Üretim",
       "productionAddress": "Ankara Yolu Cd. No:801 Yıldırım/Bursa",
       "copyright": "© 2025 NEVA MOBİLYA",

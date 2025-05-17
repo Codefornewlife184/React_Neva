@@ -21,9 +21,9 @@ const Kanepeler = () => {
 	const Projects = [
 		{
 			id: 1,
-			title: t("bellaKanepe.title"),
-			image: "assets/images/products/kanepe/bella-kanepe-1.webp",
-			url: "/bella-kanepe"
+			title: t("casaKanepe.title"),
+			image: "assets/images/products/kanepe/casa-kanepe-1.webp",
+			url: "/casa-kanepe"
 		},
 		{
 			id: 2,
@@ -33,46 +33,53 @@ const Kanepeler = () => {
 		},
 		{
 			id: 3,
-			title: t("brahmaKanepe.title"),
-			image: "assets/images/products/kanepe/brahma-kanepe-1.webp",
-			url: "/brahma-kanepe"
-		},
-		{
-			id: 4,
-			title: t("casaKanepe.title"),
-			image: "assets/images/products/kanepe/casa-kanepe-1.webp",
-			url: "/casa-kanepe"
-		},
-		{
-			id: 5,
-			title: t("golfKanepe.title"),
-			image: "assets/images/products/kanepe/golf-kanepe-1.webp",
-			url: "/golf-kanepe"
-		},
-		{
-			id: 6,
 			title: t("odessaKanepe.title"),
 			image: "assets/images/products/kanepe/odessa-kanepe-1.webp",
 			url: "/odessa-kanepe"
 		},
 		{
+			id: 4,
+			title: t("brahmaKanepe.title"),
+			image: "assets/images/products/kanepe/brahma-kanepe-1.webp",
+			url: "/brahma-kanepe"
+		},
+		{
+			id: 5,
+			title: t("woodKanepe.title"),
+			image: "assets/images/products/kanepe/wood-kanepe-1.webp",
+			url: "/wood-kanepe"
+		},
+		{
+			id: 6,
+			title: t("zenKanepe.title"),
+			image: "assets/images/products/kanepe/zen-kanepe-1.webp",
+			url: "/zen-kanepe"
+		},
+		{
 			id: 7,
+			title: t("bellaKanepe.title"),
+			image: "assets/images/products/kanepe/bella-kanepe-1.webp",
+			url: "/bella-kanepe"
+		},
+		{
+			id: 8,
 			title: t("pianoKanepe.title"),
 			image: "assets/images/products/kanepe/piano-kanepe-1.webp",
 			url: "/piano-kanepe"
 		},
 		{
-			id: 8,
+			id: 9,
+			title: t("golfKanepe.title"),
+			image: "assets/images/products/kanepe/golf-kanepe-1.webp",
+			url: "/golf-kanepe"
+		},
+		{
+			id: 10,
 			title: t("turkuazKanepe.title"),
 			image: "assets/images/products/kanepe/turkuaz-kanepe-1.webp",
 			url: "/turkuaz-kanepe"
 		},
-		{
-			id: 9,
-			title: t("zenKanepe.title"),
-			image: "assets/images/products/kanepe/zen-kanepe-1.webp",
-			url: "/zen-kanepe"
-		}
+		
 	];
 
 	return (

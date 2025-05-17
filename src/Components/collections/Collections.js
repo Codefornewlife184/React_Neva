@@ -39,7 +39,7 @@ const Collections = () => {
 		},
 		{
 			id: 4,
-			title: t("pages.berjerler"),
+			title: t("pages.bergere"),
 			image: "assets/images/products/berjer/berjer.webp",
 			url: "/berjerler"
 		}

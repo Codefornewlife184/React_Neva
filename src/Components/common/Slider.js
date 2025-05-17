@@ -153,7 +153,7 @@ const Slider = () => {
           
         </Link>
         
-        {/* Animasyonlu Aşağı Ok */}
+        {/* Animasyonlu Aşağı Ok 
         <div style={{
           position: 'absolute',
           bottom: '20px',
@@ -167,7 +167,7 @@ const Slider = () => {
             fontSize: '2rem',
             textShadow: '0 2px 4px rgba(0,0,0,0.2)'
           }}></i>
-        </div>
+        </div>*/}
 
         <style>
           {`

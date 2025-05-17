@@ -46,6 +46,9 @@ import TurkuazBerjerPage from "../pages/TurkuazBerjerPage";
 import BellaBerjerPage from "../pages/BellaBerjerPage";
 import ZenBerjerPage from "../pages/ZenBerjerPage";
 import ZenKanepePage from "../pages/ZenKanepePage";
+import WoodPage from "../pages/WoodPage";
+import WoodKanepePage from "../pages/WoodKanepePage";
+import WoodBerjerPage from "../pages/WoodBerjerPage";
 
 const CustomRoutes = () => {
   return (
@@ -60,6 +63,7 @@ const CustomRoutes = () => {
       <Route exact path="/piano-berjer" element={<PianoBerjerPage />} />
       <Route exact path="/turkuaz-berjer" element={<TurkuazBerjerPage />} />
       <Route exact path="/zen-berjer" element={<ZenBerjerPage />} />
+      <Route exact path="/wood-berjer" element={<WoodBerjerPage />} />
       <Route exact path="/casa-kanepe" element={<CasaKanepePage />} />
       <Route exact path="/boss-kanepe" element={<BossKanepePage />} />
       <Route exact path="/brahma-kanepe" element={<BrahmaKanepePage />} />
@@ -69,6 +73,7 @@ const CustomRoutes = () => {
       <Route exact path="/piano-kanepe" element={<PianoKanepePage />} />
       <Route exact path="/turkuaz-kanepe" element={<TurkuazKanepePage />} />
       <Route exact path="/zen-kanepe" element={<ZenKanepePage />} />
+      <Route exact path="/wood-kanepe" element={<WoodKanepePage />} />
       <Route exact path="/casa-relax-kose" element={<CasaRelaxKosePage />} />
       <Route exact path="/brahma-kose" element={<BrahmaKosePage />} />
       <Route exact path="/golf-kose" element={<GolfKosePage />} />
@@ -82,6 +87,7 @@ const CustomRoutes = () => {
       <Route exact path="/piano" element={<PianoPage />} />
       <Route exact path="/turkuaz" element={<TurkuazPage />} />
       <Route exact path="/zen" element={<ZenPage />} />
+      <Route exact path="/wood" element={<WoodPage />} />
       <Route exact path="/berjerler" element={<BerjerlerPage />} />
       <Route exact path="/koltuk" element={<KoltukPage />} />
       <Route exact path="/kanepeler" element={<KanepelerPage />} />
