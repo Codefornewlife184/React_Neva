@@ -1,0 +1,26 @@
+{
+  "BELLA KOLTUK TAKIMI": "BELLA KOLTUK TAKIMI",
+  "bella": {
+    "title": "BELLA KOLTUK TAKIMI",
+    "description": "Zarafet, konfor ve şıklığın kusursuz birleşimi: Bella Koltuk Takımı. Neva Mobilya'nın özgün tasarımı ve kaliteli işçiliğiyle yaşam alanlarınıza estetik bir dokunuş katıyor.",
+    "price": "Özel Fiyat",
+    "features": {
+      "title": "Özellikler",
+      "material": "Kendi üretimimiz olan Bella Koltuk Takımı, modern çizgileriyle dikkat çekerken, kadife dokulu kumaşı sayesinde yumuşak ve konforlu bir oturum sunar. Sırt destekli ergonomik yapısı, hem estetik hem de rahatlığı bir araya getirerek keyifli oturma deneyimleri yaşatır.",
+      "comfort": "Ahşap ayak detayları ve zarif dikiş işçiliğiyle zamansız bir stil vadeden bu takım, salonlarınıza sıcak ve sofistike bir atmosfer kazandırmak için tasarlandı.",
+      "design": "Modern çizgilerle klasik uyum",
+      "durability": "Yüksek kaliteli yerli üretim",
+      "fabric": "Kadife dokulu silinebilir kumaş",
+      "accessories": "Renk uyumlu berjer ve dekoratif yastıklar",
+      "company": "Neva Mobilya",
+      "production": "Neva Mobilya olarak tüm ürünlerimizi kendi tesislerimizde titizlikle üretiyor, sizlere uzun ömürlü ve şık çözümler sunuyoruz."
+    },
+    "contact": "HIZLI İLETİŞİM",
+    "imageAlt": "Büyük görüntü",
+    "dimensions": {
+      "title": "Ölçüler",
+      "sofa": "Kanepe: 220x90x85 cm",
+      "armchair": "Berjer: 90x90x85 cm"
+    }
+  }
+} 

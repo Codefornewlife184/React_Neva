@@ -1,0 +1,26 @@
+{
+  "BELLA KOLTUK TAKIMI": "BELLA SOFA SET",
+  "bella": {
+    "title": "BELLA SOFA SET",
+    "description": "The perfect combination of elegance, comfort and style: Bella Sofa Set. With Neva Furniture's unique design and quality craftsmanship, it adds an aesthetic touch to your living spaces.",
+    "price": "Special Price",
+    "features": {
+      "title": "Features",
+      "material": "Our own production, the Bella Sofa Set attracts attention with its modern lines while offering a soft and comfortable seating experience with its velvet textured fabric. Its back-supported ergonomic structure combines both aesthetics and comfort to provide enjoyable seating experiences.",
+      "comfort": "With its wooden leg details and elegant stitching, this set is designed to add a warm and sophisticated atmosphere to your living rooms with its timeless style.",
+      "design": "Modern lines with classic harmony",
+      "durability": "High quality local production",
+      "fabric": "Velvet textured washable fabric",
+      "accessories": "Color coordinated armchair and decorative pillows",
+      "company": "Neva Furniture",
+      "production": "As Neva Furniture, we meticulously produce all our products in our own facilities, offering you long-lasting and stylish solutions."
+    },
+    "contact": "QUICK CONTACT",
+    "imageAlt": "Large image view",
+    "dimensions": {
+      "title": "Dimensions",
+      "sofa": "Sofa: 220x90x85 cm",
+      "armchair": "Armchair: 90x90x85 cm"
+    }
+  }
+} 
