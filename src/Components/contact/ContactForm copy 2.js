@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import emailjs from "emailjs-com";
 
 const ContactForm = () => {
     const { t } = useTranslation();
@@ -19,68 +20,33 @@ const ContactForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const formData = new FormData(e.target);
         
         try {
-            setFormStatus({
-                success: null,
-                message: t('contactForm.sending')
-            });
-
-            const response = await fetch('https://neva.com.tr/api/contact_handler.php', {
-                method: 'POST',
-                body: formData,
-                headers: {
-                    'Accept': 'application/json',
-                    'Origin': window.location.origin
-                },
-                mode: 'cors',
-                credentials: 'same-origin',
-                cache: 'no-cache'
-            });
+            const result = await emailjs.sendForm(
+                "service_vzhem5v",
+                "template_q6tt0ps",
+                e.target,
+                "vHITrMwYs-OEE439x"
+            );
             
-            if (!response.ok) {
-                const errorData = await response.json().catch(() => ({ message: 'Sunucu hatası' }));
-                throw new Error(errorData.message || `HTTP error! status: ${response.status}`);
-            }
-            
-            const contentType = response.headers.get('content-type');
-            if (!contentType || !contentType.includes('application/json')) {
-                throw new TypeError("Sunucudan JSON yanıtı alınamadı!");
-            }
-            
-            const result = await response.json();
-            
-            if (result.status === 'success') {
+            if (result.text === 'OK') {
                 setFormStatus({
                     success: true,
-                    message: 'Mesajınız başarıyla gönderildi. Teşekkür Ederiz.'
+                    message: t('contactForm.success')
                 });
                 e.target.reset();
             } else {
                 setFormStatus({
                     success: false,
-                    message: result.message || t('contactForm.error')
+                    message: t('contactForm.error')
                 });
             }
         } catch (error) {
             console.error('Submission error:', error);
-            if (error.message.includes('Mail gönderilemedi')) {
-                setFormStatus({
-                    success: false,
-                    message: 'E-posta gönderimi sırasında bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.'
-                });
-            } else if (error.message.includes('Failed to fetch')) {
-                setFormStatus({
-                    success: false,
-                    message: 'Sunucuya bağlanılamadı. Lütfen internet bağlantınızı kontrol edip tekrar deneyiniz.'
-                });
-            } else {
-                setFormStatus({
-                    success: false,
-                    message: error.message || t('contactForm.errorTryAgain')
-                });
-            }
+            setFormStatus({
+                success: false,
+                message: t('contactForm.errorTryAgain')
+            });
         }
     };
 

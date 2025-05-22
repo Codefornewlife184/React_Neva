@@ -91,6 +91,7 @@ const Slider = () => {
         <p style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
           {/* {t("slider.subtitle")} */}
         </p>
+        
         <Link
           to="/collections"
           style={{

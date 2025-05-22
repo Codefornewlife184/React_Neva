@@ -124,6 +124,7 @@
     "subject": "Konu",
     "message": "Mesajınız",
     "send": "GÖNDER",
+    "sending": "Mesajınız gönderiliyor...",
     "success": "Mesajınız başarıyla gönderildi",
     "error": "Bir hata oluştu",
     "errorTryAgain": "Bir hata oluştu. Lütfen daha sonra tekrar deneyiniz.",

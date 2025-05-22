@@ -116,6 +116,9 @@ return (
                 <Link to="/collections" onClick={()=> handleLinkClick('/collections')}>{t("footer.collections")}</Link>
               </li>
               <li>
+                <Link to="/catalog" target="_blank">{t("header.catalog")}<div className="dropdown-btn"></div></Link>
+              </li>
+              <li>
                 <Link to="/contact" onClick={()=> handleLinkClick('/contact')}>{t("footer.contact")}</Link>
               </li>
             </ul>

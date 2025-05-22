@@ -124,6 +124,7 @@
     "subject": "Subject",
     "message": "Your Message",
     "send": "SEND",
+    "sending": "Sending your message...",
     "success": "Your message has been sent successfully",
     "error": "An error occurred",
     "errorTryAgain": "An error occurred. Please try again later.",

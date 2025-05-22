@@ -1,0 +1,2 @@
+   cd C:\Github Web Siteleri--22.05.2025\React_Neva\public\api
+    composer require phpmailer/phpmailer
